@@ -1,4 +1,4 @@
-[debug] [projet_data_engineering-build] Classpath dependencies List()
-[debug] [projet_data_engineering-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'projet_data_engineering-build' to '/Users/jules/Desktop/Ecole/Data_engineer/Projet_Data_Engineering/project/.bloop/projet_data_engineering-build.json'
-[success] Generated .bloop/projet_data_engineering-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[projet_data_engineering_m1-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[projet_data_engineering_m1-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'projet_data_engineering_m1-build' to '/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/.bloop/projet_data_engineering_m1-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/projet_data_engineering_m1-build.json[0m

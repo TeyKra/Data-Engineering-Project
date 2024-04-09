@@ -98,7 +98,7 @@ InfluxDB comme base de données de séries temporelles distribuée pour stocker 
 - Dashboard et Reporting, offrant une visualisation en temps réel et historique des données via un tableau de bord interactif et la génération de rapports périodiques.
 
 
-## Un simulateur de votre IOT affichant des rapport de votre IoT:
+## Un simulateur de votre IoT affichant des rapport de votre IoT:
 
 ### Simulateur IoT
 
@@ -136,7 +136,7 @@ object SimulateurIoT {
 }
 ```
 
-## La case class du rapport IOT:
+## La case class du rapport IoT:
 
 ```scala
 // class : IoTDataModels.scala

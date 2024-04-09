@@ -205,7 +205,6 @@ object IoTDataCsv {
     }
   }
 }
-
 ```
 ```scala
 // class: IoTDataJson.scala

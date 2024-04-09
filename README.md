@@ -166,7 +166,7 @@ case class IoTData(
 
 La `case class IoTData` encapsule les données rapportées par un dispositif IoT, structurant les informations environnementales critiques en un seul objet. Elle inclut le moment précis du rapport (`timestamp`), l'identifiant unique du dispositif (`deviceId`), et la localisation géographique (`Location`) où les données ont été recueillies. En outre, `IoTData` détaille les mesures environnementales spécifiques comme la qualité de l'air (`AirQuality`, incluant CO2 et particules fines), les niveaux sonores, la température et l'humidité, fournissant une vue complète des conditions environnementales au moment du rapport.
 
-## Le compagnon object pouvant serialiser/deserialiser en json et csv:
+## Le compagnon object pouvant serialiser/deserialiser en csv et json:
 
 ```scala
 // class: IotDataCsv.scala

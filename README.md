@@ -71,21 +71,6 @@ Création d'un service innovant de surveillance environnementale. L'objectif est
 
 ## Les question du projet
 
-- Distributed Storage : Utilisation d'une base de données de séries temporelles distribuée (par exemple, InfluxDB) pour stocker efficacement les données émises par les capteurs en temps réel.
-
-- Distributed Stream : Apache Kafka pour gérer les flux de données en temps réel, permettant une ingestion efficace des données des capteurs et leur distribution aux différents services de consommation.
-
-- Stream Consumers :
-
-    - Service d'Alerte : Un microservice dédié à la surveillance des seuils critiques. En cas de dépassement (par exemple, qualité de l'air mauvaise, niveau sonore élevé), le service génère une alerte envoyée aux autorités compétentes ou aux responsables de la zone surveillée.
-
-    - Dashboard et Reporting : Offrir un accès en temps réel et historique aux données collectées par les capteurs IoT à travers un tableau de bord interactif. Ce service fournira des visualisations claires (graphiques, cartes de chaleur, indicateurs clés) pour surveiller l'état de l'environnement surveillé. Il permettra la génération automatique de rapports périodiques qui résument les tendances, les anomalies et les insights environnementaux sur une période donnée (quotidien, hebdomadaire, mensuel).
-
-- Preliminary question
-    - Contraintes Techniques et Commerciales pour le Stockage de Données : Le composant de stockage doit gérer efficacement les écritures en temps réel à grande échelle et permettre des requêtes rapides pour les alertes et les analyses. Il doit être hautement disponible, scalable, et offrir une intégrité des données optimale.
-
-    - Contrainte Commerciale pour l'Alerte : Le système doit garantir une latence très faible entre la détection d'un seuil critique et l'émission de l'alerte pour une réaction rapide. Le service d'alerte doit être hautement disponible et fiable.
-
 ## Le diagramme d’architecture
 
 - Capteurs IoT déployés dans différents environnements, collectant des données variées comme la qualité de l'air, les niveaux sonores, la température, et l'humidité.

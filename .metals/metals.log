@@ -2340,3 +2340,285 @@ avr. 09, 2024 9:02:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 AVERTISSEMENT: Unmatched cancel notification for request id 251
 2024.04.09 21:02:03 WARN  Could not find semantic tokens for: file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet_Data_Engineering_M1/src/main/scala/Main.scala
 2024.04.09 21:02:03 INFO  time: code lens generation in 3.16s
+2024.04.09 22:42:11 INFO  Started: Metals version 1.2.2 in folders '/Users/jules/Desktop/Ecole/Data_engineer/Data_Engineering_M1_Project' for client Visual Studio Code 1.87.2.
+22:42:15.653 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+22:42:15.656 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+22:42:15.656 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+22:42:15.657 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+22:42:15.658 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@63c12fb0 ...
+22:42:15.658 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+22:42:15.658 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+22:42:15.658 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@63c12fb0 ...
+22:42:15.658 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+22:42:15.661 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+22:42:15.661 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+22:42:15.661 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+22:42:15.661 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+22:42:15.661 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+22:42:15.661 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+22:42:15.663 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:42:15.663 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+22:42:15.664 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+22:42:15.664 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+22:42:15.664 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+22:42:15.736 [pool-1-thread-4] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/Users/jules/Desktop/Ecole/Data_engineer/Data_Engineering_M1_Project/.metals/metals (H2 2.2)
+22:42:15.737 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+22:42:15.737 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+22:42:15.738 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+22:42:15.738 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+22:42:15.741 [pool-1-thread-4] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+22:42:15.742 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+22:42:15.742 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:42:15.749 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+22:42:15.752 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:42:15.758 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+22:42:15.759 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+22:42:15.759 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+22:42:15.759 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:42:15.759 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+22:42:15.759 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+22:42:15.759 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+22:42:15.759 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+22:42:15.759 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:42:15.759 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+22:42:15.770 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.020s)
+22:42:15.772 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+22:42:15.777 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+22:42:15.780 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+22:42:15.805 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 84 of 120M
+2024.04.09 22:42:15 INFO  Attempting to connect to the build server...
+2024.04.09 22:42:15 INFO  Bloop uses /Users/jules/Library/Java/JavaVirtualMachines/openjdk-17.0.2-1/Contents/Home defined at /Users/jules/.bloop/bloop.json
+2024.04.09 22:42:16 ERROR Starting the bsp launcher for bloop...
+2024.04.09 22:42:16 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/35/225rtbd16z73ctsw8bfcmg7m0000gn/T/bsp-launcher16483638421258611424/bsp.socket'...
+2024.04.09 22:42:16 ERROR Waiting for the bsp connection to come up...
+2024.04.09 22:42:16 ERROR error: The command bsp --protocol local --socket /var/folders/35/225rtbd16z73ctsw8bfcmg7m0000gn/T/bsp-launcher16483638421258611424/bsp.socket returned with an error
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.0/scala3-library_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.0/scala3-library_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.4.0/scala3-compiler_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.4.0/scala3-compiler_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.4.0/scala3-interfaces-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.4.0/scala3-interfaces-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.4.0/tasty-core_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.4.0/tasty-core_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.6.0-scala-1/scala-asm-9.6.0-scala-1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.6.0-scala-1/scala-asm-9.6.0-scala-1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.3/compiler-interface-1.9.3.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.3/compiler-interface-1.9.3.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.2/util-interface-1.9.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.2/util-interface-1.9.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.4.0/scaladoc_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.4.0/scala3-tasty-inspector_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.4.0/scaladoc_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.62.2/flexmark-ext-anchorlink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.62.2/flexmark-ext-emoji-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.4.0/scala3-tasty-inspector_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.62.2/flexmark-ext-gfm-tasklist-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.62.2/flexmark-ext-anchorlink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.1/jackson-dataformat-yaml-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.62.2/flexmark-ext-emoji-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.62.2/flexmark-ext-gfm-tasklist-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.1/jackson-dataformat-yaml-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.62.2/flexmark-jira-converter-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.1/jackson-annotations-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.1/jackson-core-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.1/jackson-databind-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.62.2/flexmark-ext-ins-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.62.2/flexmark-jira-converter-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.62.2/flexmark-ext-superscript-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.1/jackson-annotations-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.1/jackson-core-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.1/jackson-databind-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.62.2/flexmark-ext-ins-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.62.2/flexmark-ext-superscript-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[31m[E][0m Failed to load project from /Users/jules/Desktop/Ecole/Data_engineer/Data_Engineering_M1_Project/.bloop/root.json
+2024.04.09 22:42:16 ERROR error: Trying a tcp-based connection to the server instead...
+2024.04.09 22:42:16 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 31398'...
+2024.04.09 22:42:16 ERROR Waiting for the bsp connection to come up...
+2024.04.09 22:42:16 ERROR error: The command bsp --protocol tcp --port 31398 returned with an error
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.0/scala3-library_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.0/scala3-library_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.4.0/scala3-compiler_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.4.0/scala3-compiler_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.4.0/scala3-interfaces-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.4.0/scala3-interfaces-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.4.0/tasty-core_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.4.0/tasty-core_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.6.0-scala-1/scala-asm-9.6.0-scala-1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.6.0-scala-1/scala-asm-9.6.0-scala-1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.3/compiler-interface-1.9.3.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.3/compiler-interface-1.9.3.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.2/util-interface-1.9.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.2/util-interface-1.9.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.4.0/scaladoc_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.4.0/scaladoc_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.4.0/scala3-tasty-inspector_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.4.0/scala3-tasty-inspector_3-3.4.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.62.2/flexmark-ext-anchorlink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.62.2/flexmark-ext-anchorlink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.62.2/flexmark-ext-emoji-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.62.2/flexmark-ext-emoji-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.62.2/flexmark-ext-gfm-tasklist-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.62.2/flexmark-ext-gfm-tasklist-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.1/jackson-dataformat-yaml-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.1/jackson-dataformat-yaml-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.62.2/flexmark-jira-converter-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.1/jackson-annotations-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.62.2/flexmark-jira-converter-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.1/jackson-core-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.1/jackson-databind-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.1/jackson-annotations-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.1/jackson-core-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.62.2/flexmark-ext-ins-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.1/jackson-databind-2.15.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.62.2/flexmark-ext-superscript-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.62.2/flexmark-ext-ins-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[33m[W][0m Scala instance jar /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.62.2/flexmark-ext-superscript-0.62.2.jar doesn't exist!
+2024.04.09 22:42:16 ERROR > [0m[31m[E][0m Failed to load project from /Users/jules/Desktop/Ecole/Data_engineer/Data_Engineering_M1_Project/.bloop/root-test.json
+2024.04.09 22:42:16 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2024.04.09 22:42:15 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:502)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.04.09 22:42:44 INFO  no build target found for /Users/jules/Desktop/Ecole/Data_engineer/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.04.09 22:42:46 WARN  Could not find semantic tokens for: file:///Users/jules/Desktop/Ecole/Data_engineer/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.04.09 22:42:46 INFO  time: code lens generation in 10s
+2024.04.09 22:42:46 INFO  time: code lens generation in 11s
+2024.04.09 22:42:46 INFO  time: code lens generation in 7.17s
+2024.04.09 22:42:46 INFO  time: code lens generation in 2.08s
+2024.04.09 22:42:46 INFO  time: code lens generation in 8.92s
+2024.04.09 22:42:47 WARN  Could not find semantic tokens for: file:///Users/jules/Desktop/Ecole/Data_engineer/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.04.09 22:43:15 WARN  no build target for: /Users/jules/Desktop/Ecole/Data_engineer/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.04.09 22:43:26 WARN  no build target for: /Users/jules/Desktop/Ecole/Data_engineer/Data_Engineering_M1_Project/src/main/scala/Main.scala
+avr. 09, 2024 10:43:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace

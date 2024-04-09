@@ -162,16 +162,41 @@ La `case class IoTData` encapsule les données rapportées par un dispositif IoT
 ```scala
 // class: IotDataCsv.scala
 
+// Définition de l'objet singleton IoTDataCsv pour la sérialisation et la désérialisation des données IoT en CSV
 object IoTDataCsv {
+  // Définition de l'en-tête du fichier CSV, listant les champs des objets IoTData
+  val header = "timestamp,deviceId,latitude,longitude,CO2,particulesFines,niveauxSonores,temperature,humidite"
+
+  // Méthode pour sérialiser une séquence d'objets IoTData en une chaîne de caractères formatée en CSV
   def serializeToCsv(data: Seq[IoTData]): String = {
-    val header = "timestamp,deviceId,latitude,longitude,CO2,particulesFines,niveauxSonores,temperature,humidite\n"
     val rows = data.map { d =>
       s"${d.timestamp},${d.deviceId},${d.location.latitude},${d.location.longitude},${d.qualiteAir.CO2},${d.qualiteAir.particulesFines},${d.niveauxSonores},${d.temperature},${d.humidite}"
     }.mkString("\n")
 
-    header + rows
+    header + "\n" + rows
+  }
+
+  // Méthode pour désérialiser une chaîne de caractères formatée en CSV en une séquence d'objets IoTData
+  def deserializeFromCsv(csv: String): Seq[IoTData] = {
+    // Sépare les lignes du CSV et supprime la ligne d'en-tête
+    val rows = csv.split("\n").tail
+
+    // Transforme chaque ligne en un objet IoTData
+    rows.map { row =>
+      val cols = row.split(",")
+      IoTData(
+        timestamp = cols(0),
+        deviceId = cols(1),
+        location = Location(cols(2).toDouble, cols(3).toDouble),
+        qualiteAir = AirQuality(cols(4).toDouble, cols(5).toDouble),
+        niveauxSonores = cols(6).toDouble,
+        temperature = cols(7).toDouble,
+        humidite = cols(8).toDouble
+      )
+    }
   }
 }
+
 ```
 ```scala
 // class: IoTDataJson.scala
@@ -196,9 +221,31 @@ object IoTDataJson {
 
 Les compagnons `IoTDataCsv` et `IoTDataJson` fournissent des fonctionnalités pour sérialiser et désérialiser les données des dispositifs IoT en formats CSV et JSON, respectivement, facilitant l'exportation, le stockage et le partage des données collectées.
 
-**`IoTDataCsv`** permet la conversion d'une séquence d'objets `IoTData` en une chaîne formatée CSV, où chaque ligne représente un rapport IoT, comprenant le timestamp, l'identifiant du dispositif, les mesures environnementales, et les localisations. La première ligne est un en-tête décrivant chaque colonne pour clarifier le contenu du CSV, rendant le fichier immédiatement utilisable dans des applications de feuilles de calcul ou des systèmes de base de données.
+### `IoTDataCsv`
 
-**`IoTDataJson`**, en utilisant la bibliothèque `circe`, fournit des encodeurs et des décodeurs implicites pour convertir les objets `IoTData` (ainsi que les `Location` et `AirQuality` imbriqués) en JSON et vice-versa. La sérialisation en JSON transforme un objet `IoTData` en une chaîne JSON compacte, sans espaces inutiles, idéale pour le stockage ou l'envoi via des API web. La désérialisation permet de reconstruire un objet `IoTData` à partir d'une chaîne JSON, facilitant l'intégration et l'analyse des données collectées.
+Cette classe gère la sérialisation et la désérialisation des données IoT au format CSV.
+
+- **Sérialisation**:
+  - Convertit une séquence d'objets `IoTData` en une chaîne de caractères formatée en CSV.
+  - Chaque objet `IoTData` est transformé en une ligne CSV, contenant des informations comme le timestamp, l'identifiant du dispositif, la localisation, la qualité de l'air, les niveaux sonores, la température et l'humidité.
+  - L'en-tête du fichier CSV, défini par la variable `header`, décrit les colonnes pour faciliter l'interprétation des données.
+
+- **Désérialisation**:
+  - Transforme une chaîne de caractères CSV en une séquence d'objets `IoTData`.
+  - Chaque ligne du CSV est convertie en un nouvel objet `IoTData`, en reconstruisant chaque attribut à partir des valeurs séparées par des virgules.
+
+### `IoTDataJson`
+
+Cette classe utilise la bibliothèque Circe pour sérialiser et désérialiser les objets `IoTData` en JSON.
+
+- **Sérialisation**:
+  - Convertit un objet `IoTData` en une chaîne JSON compacte, en utilisant des encodeurs dérivés automatiquement pour les classes `IoTData`, `Location` et `AirQuality`.
+  - La chaîne JSON est formatée sans espaces superflus, rendant le résultat idéal pour le stockage ou la transmission via des API web.
+
+- **Désérialisation**:
+  - Convertit une chaîne JSON en un objet `IoTData`.
+  - Utilise des décodeurs pour analyser la chaîne JSON et reconstruire un objet `IoTData`, traitant les erreurs potentielles de formatage ou de typage des données.
+  - Renvoie un résultat sous forme de `Either`, qui peut être une erreur ou un objet validement désérialisé, offrant ainsi un moyen robuste de gérer les erreurs de désérialisation.
 
 Ensemble, ces objets facilitent la manipulation des données IoT dans des formats largement adoptés et interopérables, permettant une grande flexibilité dans le traitement des données, leur visualisation, et leur analyse au sein de divers outils et plateformes.
 
@@ -207,100 +254,166 @@ Ensemble, ces objets facilitent la manipulation des données IoT dans des format
 ```
 Rapports des données IoT :
 ===========================================================================
-Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 20:37:40
-Localisation : Latitude -3.1108942057630884°, Longitude -100.26535833284794°
-Qualité de l'Air : CO2 2208.498492161242 ppm, Particules fines 345.4976806665362 µg/m³
-Niveaux Sonores : 86.75971361475887 dB
-Température : 20.756255107320555°C
-Humidité : 54.5442845336363%
-
-Optionnel : Affichage en JSON et CSV
-
+------------Serialisation JSON------------
 JSON:
-{"timestamp":"2024-04-09 20:37:40","deviceId":"device123","location":{"latitude":-3.1108942057630884,"longitude":-100.26535833284794},"qualiteAir":{"CO2":2208.498492161242,"particulesFines":345.4976806665362},"niveauxSonores":86.75971361475887,"temperature":20.756255107320555,"humidite":54.5442845336363}
+{"timestamp":"2024-04-09 21:51:12","deviceId":"device123","location":{"latitude":-30.24373774820088,"longitude":-69.3052791436667},"qualiteAir":{"CO2":1411.8596912703529,"particulesFines":434.47448633401206},"niveauxSonores":46.67654284218111,"temperature":27.425595555548725,"humidite":62.33179053793582}
+
+
+------------Désérialisation JSON------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:51:12
+Localisation : Latitude -30.24373774820088°, Longitude -69.3052791436667°
+Qualité de l'Air : CO2 1411.8596912703529 ppm, Particules fines 434.47448633401206 µg/m³
+Niveaux Sonores : 46.67654284218111 dB
+Température : 27.425595555548725°C
+Humidité : 62.33179053793582%
+
+------------Serialisation CSV------------
 
 CSV:
 timestamp,deviceId,latitude,longitude,CO2,particulesFines,niveauxSonores,temperature,humidite
-2024-04-09 20:37:40,device123,-3.1108942057630884,-100.26535833284794,2208.498492161242,345.4976806665362,86.75971361475887,20.756255107320555,54.5442845336363
----------------------------------------------------------------------------
-Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 20:38:40
-Localisation : Latitude 51.6876160430441°, Longitude -64.79049986857629°
-Qualité de l'Air : CO2 925.0088252610932 ppm, Particules fines 278.40013453429117 µg/m³
-Niveaux Sonores : 97.93805952755898 dB
-Température : -9.011162234080285°C
-Humidité : 70.78904259888942%
+2024-04-09 21:51:12,device123,-30.24373774820088,-69.3052791436667,1411.8596912703529,434.47448633401206,46.67654284218111,27.425595555548725,62.33179053793582
 
-Optionnel : Affichage en JSON et CSV
-
+------------Désérialisation CSV------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:51:12
+Localisation : Latitude -30.24373774820088°, Longitude -69.3052791436667°
+Qualité de l'Air : CO2 1411.8596912703529 ppm, Particules fines 434.47448633401206 µg/m³
+Niveaux Sonores : 46.67654284218111 dB
+Température : 27.425595555548725°C
+Humidité : 62.33179053793582%
+----------------------------------------------------------------------------------------------------
+------------Serialisation JSON------------
 JSON:
-{"timestamp":"2024-04-09 20:38:40","deviceId":"device123","location":{"latitude":51.6876160430441,"longitude":-64.79049986857629},"qualiteAir":{"CO2":925.0088252610932,"particulesFines":278.40013453429117},"niveauxSonores":97.93805952755898,"temperature":-9.011162234080285,"humidite":70.78904259888942}
+{"timestamp":"2024-04-09 21:52:12","deviceId":"device123","location":{"latitude":53.42567154860336,"longitude":82.28134489430875},"qualiteAir":{"CO2":2423.781036744339,"particulesFines":356.5142666758581},"niveauxSonores":47.438945343780134,"temperature":3.5590271871250447,"humidite":44.925740320538566}
+
+
+------------Désérialisation JSON------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:52:12
+Localisation : Latitude 53.42567154860336°, Longitude 82.28134489430875°
+Qualité de l'Air : CO2 2423.781036744339 ppm, Particules fines 356.5142666758581 µg/m³
+Niveaux Sonores : 47.438945343780134 dB
+Température : 3.5590271871250447°C
+Humidité : 44.925740320538566%
+
+------------Serialisation CSV------------
 
 CSV:
 timestamp,deviceId,latitude,longitude,CO2,particulesFines,niveauxSonores,temperature,humidite
-2024-04-09 20:38:40,device123,51.6876160430441,-64.79049986857629,925.0088252610932,278.40013453429117,97.93805952755898,-9.011162234080285,70.78904259888942
----------------------------------------------------------------------------
-Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 20:39:40
-Localisation : Latitude 64.04257125631892°, Longitude 167.15760736713145°
-Qualité de l'Air : CO2 4218.064856404491 ppm, Particules fines 29.39782240730637 µg/m³
-Niveaux Sonores : 66.2072441486125 dB
-Température : 27.74751615841827°C
-Humidité : 88.27562300584732%
+2024-04-09 21:52:12,device123,53.42567154860336,82.28134489430875,2423.781036744339,356.5142666758581,47.438945343780134,3.5590271871250447,44.925740320538566
 
-Optionnel : Affichage en JSON et CSV
-
+------------Désérialisation CSV------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:52:12
+Localisation : Latitude 53.42567154860336°, Longitude 82.28134489430875°
+Qualité de l'Air : CO2 2423.781036744339 ppm, Particules fines 356.5142666758581 µg/m³
+Niveaux Sonores : 47.438945343780134 dB
+Température : 3.5590271871250447°C
+Humidité : 44.925740320538566%
+----------------------------------------------------------------------------------------------------
+------------Serialisation JSON------------
 JSON:
-{"timestamp":"2024-04-09 20:39:40","deviceId":"device123","location":{"latitude":64.04257125631892,"longitude":167.15760736713145},"qualiteAir":{"CO2":4218.064856404491,"particulesFines":29.39782240730637},"niveauxSonores":66.2072441486125,"temperature":27.74751615841827,"humidite":88.27562300584732}
+{"timestamp":"2024-04-09 21:53:12","deviceId":"device123","location":{"latitude":-55.62579624802514,"longitude":8.18444778902176},"qualiteAir":{"CO2":4032.583967405325,"particulesFines":436.1887101343062},"niveauxSonores":61.08112433076664,"temperature":34.65571828595021,"humidite":2.1134751362920645}
+
+
+------------Désérialisation JSON------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:53:12
+Localisation : Latitude -55.62579624802514°, Longitude 8.18444778902176°
+Qualité de l'Air : CO2 4032.583967405325 ppm, Particules fines 436.1887101343062 µg/m³
+Niveaux Sonores : 61.08112433076664 dB
+Température : 34.65571828595021°C
+Humidité : 2.1134751362920645%
+
+------------Serialisation CSV------------
 
 CSV:
 timestamp,deviceId,latitude,longitude,CO2,particulesFines,niveauxSonores,temperature,humidite
-2024-04-09 20:39:40,device123,64.04257125631892,167.15760736713145,4218.064856404491,29.39782240730637,66.2072441486125,27.74751615841827,88.27562300584732
----------------------------------------------------------------------------
-Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 20:40:40
-Localisation : Latitude -11.721902166266887°, Longitude 39.444283825547274°
-Qualité de l'Air : CO2 1125.946858851783 ppm, Particules fines 479.6626103230859 µg/m³
-Niveaux Sonores : 60.288649769163946 dB
-Température : -9.90489854056594°C
-Humidité : 17.331140850532112%
+2024-04-09 21:53:12,device123,-55.62579624802514,8.18444778902176,4032.583967405325,436.1887101343062,61.08112433076664,34.65571828595021,2.1134751362920645
 
-Optionnel : Affichage en JSON et CSV
-
+------------Désérialisation CSV------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:53:12
+Localisation : Latitude -55.62579624802514°, Longitude 8.18444778902176°
+Qualité de l'Air : CO2 4032.583967405325 ppm, Particules fines 436.1887101343062 µg/m³
+Niveaux Sonores : 61.08112433076664 dB
+Température : 34.65571828595021°C
+Humidité : 2.1134751362920645%
+----------------------------------------------------------------------------------------------------
+------------Serialisation JSON------------
 JSON:
-{"timestamp":"2024-04-09 20:40:40","deviceId":"device123","location":{"latitude":-11.721902166266887,"longitude":39.444283825547274},"qualiteAir":{"CO2":1125.946858851783,"particulesFines":479.6626103230859},"niveauxSonores":60.288649769163946,"temperature":-9.90489854056594,"humidite":17.331140850532112}
+{"timestamp":"2024-04-09 21:54:12","deviceId":"device123","location":{"latitude":86.0993330233982,"longitude":120.9875603758303},"qualiteAir":{"CO2":1378.7593557040614,"particulesFines":278.687885723685},"niveauxSonores":43.999005349954984,"temperature":4.431583022072235,"humidite":74.62698920264702}
+
+
+------------Désérialisation JSON------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:54:12
+Localisation : Latitude 86.0993330233982°, Longitude 120.9875603758303°
+Qualité de l'Air : CO2 1378.7593557040614 ppm, Particules fines 278.687885723685 µg/m³
+Niveaux Sonores : 43.999005349954984 dB
+Température : 4.431583022072235°C
+Humidité : 74.62698920264702%
+
+------------Serialisation CSV------------
 
 CSV:
 timestamp,deviceId,latitude,longitude,CO2,particulesFines,niveauxSonores,temperature,humidite
-2024-04-09 20:40:40,device123,-11.721902166266887,39.444283825547274,1125.946858851783,479.6626103230859,60.288649769163946,-9.90489854056594,17.331140850532112
----------------------------------------------------------------------------
-Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 20:41:40
-Localisation : Latitude -40.30580780073398°, Longitude -3.6643243197236472°
-Qualité de l'Air : CO2 4963.617416945673 ppm, Particules fines 379.6621254626115 µg/m³
-Niveaux Sonores : 113.19943083735743 dB
-Température : 24.063285251928647°C
-Humidité : 81.54294528353924%
+2024-04-09 21:54:12,device123,86.0993330233982,120.9875603758303,1378.7593557040614,278.687885723685,43.999005349954984,4.431583022072235,74.62698920264702
 
-Optionnel : Affichage en JSON et CSV
-
+------------Désérialisation CSV------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:54:12
+Localisation : Latitude 86.0993330233982°, Longitude 120.9875603758303°
+Qualité de l'Air : CO2 1378.7593557040614 ppm, Particules fines 278.687885723685 µg/m³
+Niveaux Sonores : 43.999005349954984 dB
+Température : 4.431583022072235°C
+Humidité : 74.62698920264702%
+----------------------------------------------------------------------------------------------------
+------------Serialisation JSON------------
 JSON:
-{"timestamp":"2024-04-09 20:41:40","deviceId":"device123","location":{"latitude":-40.30580780073398,"longitude":-3.6643243197236472},"qualiteAir":{"CO2":4963.617416945673,"particulesFines":379.6621254626115},"niveauxSonores":113.19943083735743,"temperature":24.063285251928647,"humidite":81.54294528353924}
+{"timestamp":"2024-04-09 21:55:12","deviceId":"device123","location":{"latitude":89.17149769743324,"longitude":13.752722566164664},"qualiteAir":{"CO2":792.6761832554516,"particulesFines":253.8152936918205},"niveauxSonores":32.788419919282795,"temperature":28.3946839513031,"humidite":52.886460611724104}
+
+
+------------Désérialisation JSON------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:55:12
+Localisation : Latitude 89.17149769743324°, Longitude 13.752722566164664°
+Qualité de l'Air : CO2 792.6761832554516 ppm, Particules fines 253.8152936918205 µg/m³
+Niveaux Sonores : 32.788419919282795 dB
+Température : 28.3946839513031°C
+Humidité : 52.886460611724104%
+
+------------Serialisation CSV------------
 
 CSV:
 timestamp,deviceId,latitude,longitude,CO2,particulesFines,niveauxSonores,temperature,humidite
-2024-04-09 20:41:40,device123,-40.30580780073398,-3.6643243197236472,4963.617416945673,379.6621254626115,113.19943083735743,24.063285251928647,81.54294528353924
----------------------------------------------------------------------------
-Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 20:42:40
-Localisation : Latitude -58.53359094338687°, Longitude 90.79814637138668°
-Qualité de l'Air : CO2 1165.6619676727291 ppm, Particules fines 386.3442240904387 µg/m³
-Niveaux Sonores : 117.70376012209913 dB
-Température : -6.476184376465662°C
-Humidité : 16.28371124412028%
+2024-04-09 21:55:12,device123,89.17149769743324,13.752722566164664,792.6761832554516,253.8152936918205,32.788419919282795,28.3946839513031,52.886460611724104
 
-Optionnel : Affichage en JSON et CSV
-
+------------Désérialisation CSV------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:55:12
+Localisation : Latitude 89.17149769743324°, Longitude 13.752722566164664°
+Qualité de l'Air : CO2 792.6761832554516 ppm, Particules fines 253.8152936918205 µg/m³
+Niveaux Sonores : 32.788419919282795 dB
+Température : 28.3946839513031°C
+Humidité : 52.886460611724104%
+----------------------------------------------------------------------------------------------------
+------------Serialisation JSON------------
 JSON:
-{"timestamp":"2024-04-09 20:42:40","deviceId":"device123","location":{"latitude":-58.53359094338687,"longitude":90.79814637138668},"qualiteAir":{"CO2":1165.6619676727291,"particulesFines":386.3442240904387},"niveauxSonores":117.70376012209913,"temperature":-6.476184376465662,"humidite":16.28371124412028}
+{"timestamp":"2024-04-09 21:56:12","deviceId":"device123","location":{"latitude":20.843545866189686,"longitude":-41.124178350240726},"qualiteAir":{"CO2":4529.644314049281,"particulesFines":258.6918564139046},"niveauxSonores":82.42913014338637,"temperature":19.220059629322044,"humidite":23.90762112715723}
+
+
+------------Désérialisation JSON------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:56:12
+Localisation : Latitude 20.843545866189686°, Longitude -41.124178350240726°
+Qualité de l'Air : CO2 4529.644314049281 ppm, Particules fines 258.6918564139046 µg/m³
+Niveaux Sonores : 82.42913014338637 dB
+Température : 19.220059629322044°C
+Humidité : 23.90762112715723%
+
+------------Serialisation CSV------------
 
 CSV:
 timestamp,deviceId,latitude,longitude,CO2,particulesFines,niveauxSonores,temperature,humidite
-2024-04-09 20:42:40,device123,-58.53359094338687,90.79814637138668,1165.6619676727291,386.3442240904387,117.70376012209913,-6.476184376465662,16.28371124412028
----------------------------------------------------------------------------
+2024-04-09 21:56:12,device123,20.843545866189686,-41.124178350240726,4529.644314049281,258.6918564139046,82.42913014338637,19.220059629322044,23.90762112715723
+
+------------Désérialisation CSV------------
+Rapport IoT pour le dispositif device123 à l'instant 2024-04-09 21:56:12
+Localisation : Latitude 20.843545866189686°, Longitude -41.124178350240726°
+Qualité de l'Air : CO2 4529.644314049281 ppm, Particules fines 258.6918564139046 µg/m³
+Niveaux Sonores : 82.42913014338637 dB
+Température : 19.220059629322044°C
+Humidité : 23.90762112715723%
+----------------------------------------------------------------------------------------------------
 ```

@@ -138,20 +138,26 @@ object SimulateurIoT {
 ```scala
 // class : IoTDataModels.scala
 
+// Import des bibliothèques nécessaires pour l'utilisation de fonctions aléatoires et la manipulation de dates
 import scala.util.Random
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
+// Définition d'une classe case pour représenter une localisation avec latitude et longitude
 case class Location(latitude: Double, longitude: Double)
+
+// Définition d'une classe case pour représenter la qualité de l'air avec des mesures de CO2 et de particules fines
 case class AirQuality(CO2: Double, particulesFines: Double)
+
+// Définition d'une classe case pour les données IoT, contenant toutes les informations nécessaires d'un rapport
 case class IoTData(
-    timestamp: String,
-    deviceId: String,
-    location: Location,
-    qualiteAir: AirQuality,
-    niveauxSonores: Double,
-    temperature: Double,
-    humidite: Double
+    timestamp: String,       // Horodatage de la mesure
+    deviceId: String,        // Identifiant du dispositif IoT
+    location: Location,      // Localisation du dispositif
+    qualiteAir: AirQuality,  // Qualité de l'air mesurée
+    niveauxSonores: Double,  // Niveaux sonores en décibels
+    temperature: Double,     // Température en degrés Celsius
+    humidite: Double         // Humidité en pourcentage
 )
 ```
 

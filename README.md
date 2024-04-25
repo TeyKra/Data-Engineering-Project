@@ -28,6 +28,16 @@ Based on the preliminary questions, your solution is very likely to include:
 - At least one distributed stream.
 - At least two stream consumers.
 
+## Programming constraint
+
+- No dependency is allowed to parse CSV.
+
+- You must not use «catch», «var», «for», «return», «.get from Option type», «null», «throw», «head» keywords (unless you're writing a optional part, in that case it may be allowed if you ask first).
+
+- You must not use a foreach in another foreach.
+
+- If you don't want to use a database, you're allowed to use mutable(s) collections(s) instead. The sole purpose of the mutable(s) collection(s) must be to replaces a database.
+
 ## Preliminary Questions
 
 - What technical/business constraints should the data storage component of the program architecture meet to fulfill the requirement described in the "Statistics" paragraph? So what kind of component(s) (listed in the lecture) will the architecture need?

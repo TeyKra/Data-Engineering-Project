@@ -1,25 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/src/main/scala/IoTDataCsv.scala:12:10: value asCsvWriter is not a member of Seq[IoTData][0m
-[0m[[0m[31merror[0m] [0m[0m    data.asCsvWriter[IoTData](csvString)(rfc.withHeader("timestamp", "deviceId", "latitude", "longitude", "CO2", "particulesFines", "niveauxSonores", "temperature", "humidite")).close()[0m
-[0m[[0m[31merror[0m] [0m[0m         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/src/main/scala/IoTDataModels.scala:22:57: value between is not a member of java.util.Random[0m
-[0m[[0m[31merror[0m] [0m[0m  def genererLocalisation(): Location = Location(random.between(-90.0, 90.0), random.between(-180.0, 180.0))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/src/main/scala/IoTDataModels.scala:22:86: value between is not a member of java.util.Random[0m
-[0m[[0m[31merror[0m] [0m[0m  def genererLocalisation(): Location = Location(random.between(-90.0, 90.0), random.between(-180.0, 180.0))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                     ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/src/main/scala/IoTDataModels.scala:32:42: value between is not a member of java.util.Random[0m
-[0m[[0m[31merror[0m] [0m[0m          qualiteAir = AirQuality(random.between(400.0, 5000.0), random.between(0.0, 500.0)),[0m
-[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/src/main/scala/IoTDataModels.scala:32:73: value between is not a member of java.util.Random[0m
-[0m[[0m[31merror[0m] [0m[0m          qualiteAir = AirQuality(random.between(400.0, 5000.0), random.between(0.0, 500.0)),[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/src/main/scala/IoTDataModels.scala:33:35: value between is not a member of java.util.Random[0m
-[0m[[0m[31merror[0m] [0m[0m          niveauxSonores = random.between(30.0, 130.0),[0m
-[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/src/main/scala/IoTDataModels.scala:34:32: value between is not a member of java.util.Random[0m
-[0m[[0m[31merror[0m] [0m[0m          temperature = random.between(-10.0, 40.0),[0m
-[0m[[0m[31merror[0m] [0m[0m                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/src/main/scala/IoTDataModels.scala:35:29: value between is not a member of java.util.Random[0m
-[0m[[0m[31merror[0m] [0m[0m          humidite = random.between(0.0, 100.0)[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
-[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala:27:51 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m          println([31ms"Localisation : Capitals [0m${data.Capitales}[31m, Latitude [0m${data.location.latitude}[31m°, Longitude [0m${data.location.longitude}[31m°"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                              ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                              value Capitales is not a member of IoTData[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

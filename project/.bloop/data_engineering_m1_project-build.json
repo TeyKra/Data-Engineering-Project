@@ -1,16 +1,16 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "projet_data_engineering_m1-build",
-        "directory": "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project",
-        "workspaceDir": "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project",
+        "name": "data_engineering_m1_project-build",
+        "directory": "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project",
+        "workspaceDir": "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project",
         "sources": [
-            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/src/main/scala",
-            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/src/main/scala-2.12",
-            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/src/main/scala-2",
-            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/src/main/java",
-            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/src/main/scala-sbt-1.0",
-            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/src/main/scala",
+            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/src/main/scala-2.12",
+            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/src/main/scala-2",
+            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/src/main/java",
+            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/src/main/scala-sbt-1.0",
+            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -104,11 +104,11 @@
             "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
             "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
         ],
-        "out": "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/.bloop/projet_data_engineering_m1-build",
-        "classesDir": "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/.bloop/projet_data_engineering_m1-build/scala-2.12/sbt-1.0/classes",
+        "out": "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.bloop/data_engineering_m1_project-build",
+        "classesDir": "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.bloop/data_engineering_m1_project-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/src/main/resources",
-            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/src/main/resources",
+            "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -215,7 +215,7 @@
             "config": {
                 "home": "/opt/homebrew/Cellar/openjdk@11/11.0.22/libexec/openjdk.jdk/Contents/Home",
                 "options": [
-                    "-Duser.dir=/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project"
+                    "-Duser.dir=/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project"
                 ]
             },
             "mainClass": [
@@ -224,11 +224,11 @@
             "runtimeConfig": {
                 "home": "/opt/homebrew/Cellar/openjdk@11/11.0.22/libexec/openjdk.jdk/Contents/Home",
                 "options": [
-                    "-Duser.dir=/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project"
+                    "-Duser.dir=/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project"
                 ]
             },
             "classpath": [
-                "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet_Data_Engineering_M1/project/.bloop/projet_data_engineering_m1-build/scala-2.12/sbt-1.0/classes",
+                "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.bloop/data_engineering_m1_project-build/scala-2.12/sbt-1.0/classes",
                 "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.15/sbt-bloop_2.12_1.0-1.5.15.jar",
                 "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5.jar",
                 "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.jar",

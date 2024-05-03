@@ -17,7 +17,8 @@ case class IoTData(
     qualiteAir: AirQuality,  // Qualité de l'air mesurée
     niveauxSonores: Double,  // Niveaux sonores en décibels
     temperature: Double,     // Température en degrés Celsius
-    humidite: Double         // Humidité en pourcentage
+    humidite: Double,        // Humidité en pourcentage
+    alerte: String           // Alerte : Yes Or No
 )
 
 object Capitales {
@@ -42,16 +43,18 @@ object SimulateurIoT {
 
   def genererLocalisation(): Location = Capitales.localisations(random.nextInt(Capitales.localisations.length))
 
-  def simulerRapportIoT(deviceId: String, currentTime: LocalDateTime, location: Location): IoTData = {
-    IoTData(
-      timestamp = currentTime.format(dateTimeFormatter),
-      deviceId = deviceId,
-      location = location,
-      qualiteAir = AirQuality(random.between(400.0, 5000.0), random.between(0.0, 500.0)),
-      niveauxSonores = random.between(30.0, 130.0),
-      temperature = random.between(-10.0, 40.0),
-      humidite = random.between(0.0, 100.0)
-    )
-  }
+  def simulerRapportIoT(deviceId: String, currentTime: LocalDateTime, location: Location, alerte: String): IoTData = {
+  IoTData(
+    timestamp = currentTime.format(dateTimeFormatter),
+    deviceId = deviceId,
+    location = location,
+    qualiteAir = AirQuality(Random.nextDouble() * (5000.0 - 400.0) + 400.0, Random.nextDouble() * 500.0),
+    niveauxSonores = Random.nextDouble() * (130.0 - 30.0) + 30.0,
+    temperature = Random.nextDouble() * (40.0 + 10.0) - 10.0,
+    humidite = Random.nextDouble() * 100.0,
+    alerte = alerte
+  )
+}
+
 } // Fin de l'objet SimulateurIoT
 

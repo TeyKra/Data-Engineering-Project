@@ -1,5 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala:27:51 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m          println([31ms"Localisation : Capitals [0m${data.Capitales}[31m, Latitude [0m${data.location.latitude}[31m°, Longitude [0m${data.location.longitude}[31m°"[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                              ^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                              value Capitales is not a member of IoTData[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala:1:43: imported `KafkaProducer` is permanently hidden by definition of object KafkaProducer[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord, ProducerConfig}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

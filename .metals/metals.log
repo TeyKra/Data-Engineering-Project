@@ -2622,3 +2622,1429 @@ java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnect
 2024.04.09 22:43:26 WARN  no build target for: /Users/jules/Desktop/Ecole/Data_engineer/Data_Engineering_M1_Project/src/main/scala/Main.scala
 avr. 09, 2024 10:43:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFOS: Unsupported notification method: $/setTrace
+2024.04.26 13:33:19 INFO  Started: Metals version 1.3.0 in folders '/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project' for client Visual Studio Code 1.88.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@24cde73d]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@123cc0de]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@24cde73d]
+2024.04.26 13:33:22 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.04.26 13:33:23 INFO  Attempting to connect to the build server...
+2024.04.26 13:33:23 INFO  Replacing bloop java home /Users/morgan/.jabba/jdk/adopt@1.11.0-11/Contents/Home with java home at /Users/morgan/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%252B7/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.10_7.tar.gz/jdk-17.0.10+7/Contents/Home.
+2024.04.26 13:33:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.04.26 13:33:36 ERROR /opt/homebrew/Cellar/openjdk@11/11.0.22/libexec/openjdk.jdk/Contents/Home release file missing JAVA_VERSION property - using Bloop's JVM version 17.0.10
+2024.04.26 13:33:36 ERROR /opt/homebrew/Cellar/openjdk@11/11.0.22/libexec/openjdk.jdk/Contents/Home release file missing JAVA_VERSION property - using Bloop's JVM version 17.0.10
+2024.04.26 13:33:36 INFO  Attempting to connect to the build server...
+2024.04.26 13:33:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.04.26 13:33:40 INFO  no build target found for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.04.26 13:33:46 INFO  time: Connected to build server in 22s
+2024.04.26 13:33:46 INFO  Connected to Build server: Bloop v1.5.17
+2024.04.26 13:33:57 INFO  time: indexed workspace in 11s
+2024.04.26 13:34:03 INFO  time: code lens generation in 1.07s
+2024.04.26 13:34:03 INFO  time: code lens generation in 1.07s
+2024.04.26 13:35:38 INFO  Shutting down server
+2024.04.26 13:35:38 INFO  shutting down Metals
+2024.04.26 13:35:38 INFO  Shut down connection with build server.
+2024.04.26 13:35:38 INFO  Shut down connection with build server.
+2024.04.26 13:35:38 INFO  Exiting server
+2024.04.26 19:18:20 INFO  Started: Metals version 1.3.0 in folders '/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project' for client Visual Studio Code 1.88.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@7e01a098]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@7ff63fb2]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7e01a098]
+2024.04.26 19:18:20 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.04.26 19:18:21 INFO  Attempting to connect to the build server...
+avr. 26, 2024 7:18:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+2024.04.26 19:18:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.04.26 19:18:25 INFO  Attempting to connect to the build server...
+2024.04.26 19:18:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.04.26 19:18:25 INFO  time: Connected to build server in 4.03s
+2024.04.26 19:18:25 INFO  Connected to Build server: Bloop v1.5.17
+2024.04.26 19:18:25 INFO  time: Imported build in 0.1s
+2024.04.26 19:18:27 INFO  no build target found for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala. Using presentation compiler with project's scala-library version: 3.3.3
+avr. 26, 2024 7:18:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 7
+2024.04.26 19:18:30 INFO  time: indexed workspace in 2.12s
+2024.04.26 19:18:33 INFO  no build target found for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala. Using presentation compiler with project's scala-library version: 3.3.3
+avr. 26, 2024 7:18:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 12
+avr. 26, 2024 7:18:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 11
+2024.04.26 19:18:35 INFO  time: code lens generation in 1.04s
+2024.04.26 19:18:35 INFO  time: code lens generation in 1.45s
+2024.04.26 20:05:53 INFO  Shutting down server
+2024.04.26 20:05:53 INFO  shutting down Metals
+2024.04.26 20:05:53 INFO  Shut down connection with build server.
+2024.04.26 20:05:53 INFO  Shut down connection with build server.
+2024.04.26 20:05:53 INFO  Exiting server
+2024.04.27 15:15:33 INFO  Started: Metals version 1.3.0 in folders '/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project' for client Visual Studio Code 1.88.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@64b7095e]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1bdbda7f]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@64b7095e]
+2024.04.27 15:15:33 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.04.27 15:15:33 INFO  Attempting to connect to the build server...
+2024.04.27 15:15:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.04.27 15:15:35 INFO  Attempting to connect to the build server...
+2024.04.27 15:15:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.04.27 15:15:35 INFO  time: Connected to build server in 2.05s
+2024.04.27 15:15:35 INFO  Connected to Build server: Bloop v1.5.17
+2024.04.27 15:15:37 INFO  Shutting down server
+2024.04.27 15:15:37 INFO  shutting down Metals
+2024.04.27 15:15:37 INFO  Shut down connection with build server.
+2024.04.27 15:15:37 INFO  Shut down connection with build server.
+2024.04.27 15:15:40 INFO  no build target found for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@1c8527bb[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 259]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024.05.03 11:37:45 INFO  Started: Metals version 1.3.0 in folders '/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project' for client Visual Studio Code 1.88.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@714de145]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@42f1afbc]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@714de145]
+2024.05.03 11:37:45 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.03 11:37:46 INFO  Attempting to connect to the build server...
+2024.05.03 11:37:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 11:37:47 INFO  Attempting to connect to the build server...
+2024.05.03 11:37:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 11:37:47 INFO  time: Connected to build server in 2s
+2024.05.03 11:37:47 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 11:37:48 INFO  time: Imported build in 0.11s
+2024.05.03 11:37:53 INFO  no build target found for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.03 11:37:54 INFO  restarted 1 presentation compiler
+2024.05.03 11:37:56 INFO  time: indexed workspace in 2.68s
+2024.05.03 11:38:02 INFO  time: code lens generation in 5.79s
+2024.05.03 12:00:25 INFO  Shutting down server
+2024.05.03 12:00:25 INFO  shutting down Metals
+2024.05.03 12:00:25 INFO  Shut down connection with build server.
+2024.05.03 12:00:25 INFO  Shut down connection with build server.
+2024.05.03 12:00:25 INFO  Exiting server
+2024.05.03 15:34:41 INFO  Started: Metals version 1.3.0 in folders '/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project' for client Visual Studio Code 1.89.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@714de145]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@42f1afbc]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@714de145]
+2024.05.03 15:34:41 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.03 15:34:41 INFO  Attempting to connect to the build server...
+2024.05.03 15:34:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 15:34:43 INFO  Attempting to connect to the build server...
+2024.05.03 15:34:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 15:34:43 INFO  time: Connected to build server in 1.67s
+2024.05.03 15:34:43 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 15:34:45 INFO  time: indexed workspace in 2.19s
+2024.05.03 15:34:45 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 15:35:15 INFO  Shutting down server
+2024.05.03 15:35:15 INFO  shutting down Metals
+2024.05.03 15:35:15 INFO  Shut down connection with build server.
+2024.05.03 15:35:15 INFO  Shut down connection with build server.
+2024.05.03 15:35:15 INFO  Exiting server
+2024.05.03 18:01:30 INFO  Started: Metals version 1.3.0 in folders '/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project' for client Visual Studio Code 1.89.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@6d234c4b]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1123f1e2]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6d234c4b]
+2024.05.03 18:01:30 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.03 18:01:30 INFO  Attempting to connect to the build server...
+2024.05.03 18:01:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 18:01:32 INFO  Attempting to connect to the build server...
+2024.05.03 18:01:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 18:01:32 INFO  time: Connected to build server in 2.03s
+2024.05.03 18:01:32 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 18:01:37 INFO  no build target found for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala. Using presentation compiler with project's scala-library version: 3.3.3
+mai 03, 2024 6:01:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 14
+mai 03, 2024 6:01:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 12
+2024.05.03 18:01:39 INFO  time: indexed workspace in 2.13s
+2024.05.03 18:01:42 INFO  no build target found for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.03 18:05:37 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaDataProcessor.scala.scala
+2024.05.03 18:06:00 WARN  Could not find semantic tokens for: file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaDataProcessor.scala
+2024.05.03 18:12:49 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+mai 03, 2024 6:12:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 103
+2024.05.03 18:13:49 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:15:56 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:18:40 WARN  Using indexes to guess the definition of Decoder
+2024.05.03 18:19:49 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataJson.scala
+2024.05.03 18:19:52 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala
+2024.05.03 18:20:01 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala
+2024.05.03 18:22:29 WARN  Could not find semantic tokens for: file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala
+2024.05.03 18:22:33 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala
+2024.05.03 18:22:33 WARN  Could not find semantic tokens for: file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala
+2024.05.03 18:22:37 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala
+2024.05.03 18:22:42 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:22:45 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:22:46 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:22:49 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:22:51 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:22:58 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:22:58 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:22:58 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:22:58 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:23:02 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataJson.scala
+2024.05.03 18:28:16 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:28:30 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala
+2024.05.03 18:30:21 ERROR Running process '/opt/homebrew/Cellar/openjdk@11/11.0.22/libexec/openjdk.jdk/Contents/Home/bin/java -version' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/openjdk@11/11.0.22/libexec/openjdk.jdk/Contents/Home/bin/java" (in directory "/opt/homebrew/Cellar/openjdk@11/11.0.22/libexec/openjdk.jdk/Contents/Home"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:46)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:188)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:215)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:206)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$1(JavaInteractiveSemanticdb.scala:206)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:204)
+	at scala.meta.internal.metals.Compilers.$anonfun$enrichWithReleaseOption$3(Compilers.scala:129)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.Compilers.optBuildTargetJvmVersion$1(Compilers.scala:118)
+	at scala.meta.internal.metals.Compilers.enrichWithReleaseOption(Compilers.scala:134)
+	at scala.meta.internal.metals.Compilers.newCompiler(Compilers.scala:1301)
+	at scala.meta.internal.metals.Compilers.newCompiler(Compilers.scala:1290)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadCompilerForTarget$2(Compilers.scala:1086)
+	at scala.meta.internal.metals.StatusBar.trackBlockingTask(StatusBar.scala:56)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadCompilerForTarget$1(Compilers.scala:1086)
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+	at java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760)
+	at scala.meta.internal.metals.Compilers.loadCompilerForTarget(Compilers.scala:1082)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadCompiler$3(Compilers.scala:1062)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:1062)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$scalaCompile$1(InteractiveSemanticdbs.scala:154)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.fromTarget$1(InteractiveSemanticdbs.scala:153)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$scalaCompile$3(InteractiveSemanticdbs.scala:158)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.scalaCompile(InteractiveSemanticdbs.scala:158)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:142)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$5(InteractiveSemanticdbs.scala:101)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$3(InteractiveSemanticdbs.scala:101)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:91)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:54)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$didOpen$6(MetalsLspService.scala:1134)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:46)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:188)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:215)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:206)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$1(JavaInteractiveSemanticdb.scala:206)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:204)
+	at scala.meta.internal.metals.Compilers.$anonfun$enrichWithReleaseOption$3(Compilers.scala:129)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.Compilers.optBuildTargetJvmVersion$1(Compilers.scala:118)
+	at scala.meta.internal.metals.Compilers.enrichWithReleaseOption(Compilers.scala:134)
+	at scala.meta.internal.metals.Compilers.newCompiler(Compilers.scala:1301)
+	at scala.meta.internal.metals.Compilers.newCompiler(Compilers.scala:1290)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadCompilerForTarget$2(Compilers.scala:1086)
+	at scala.meta.internal.metals.StatusBar.trackBlockingTask(StatusBar.scala:56)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadCompilerForTarget$1(Compilers.scala:1086)
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+	at java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760)
+	at scala.meta.internal.metals.Compilers.loadCompilerForTarget(Compilers.scala:1082)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadCompiler$3(Compilers.scala:1062)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:1062)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$scalaCompile$1(InteractiveSemanticdbs.scala:154)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.fromTarget$1(InteractiveSemanticdbs.scala:153)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$scalaCompile$3(InteractiveSemanticdbs.scala:158)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.scalaCompile(InteractiveSemanticdbs.scala:158)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:142)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$5(InteractiveSemanticdbs.scala:101)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$3(InteractiveSemanticdbs.scala:101)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:91)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:54)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$didOpen$6(MetalsLspService.scala:1134)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:31:36 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:32:37 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:32:38 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:33:54 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:33:54 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:33:55 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:35:15 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.03 18:35:15 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+mai 03, 2024 6:36:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1424
+2024.05.03 18:36:50 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string interpolation
+    alerte: String = "    // Alerte par défaut "No"
+                                                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+mai 03, 2024 6:36:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1448
+mai 03, 2024 6:37:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1568
+2024.05.03 18:37:47 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.03 18:41:43 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.03 18:41:43 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.03 18:41:43 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.03 18:41:43 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.03 18:41:44 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.03 18:42:53 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.03 18:43:16 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"Humidité : ${data.alerte}%)
+                                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:17 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"Humidité : ${data.alerte}%'')
+                                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:18 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"Humidité : ${data.alerte}'')
+                                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:18 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"Humidité : ${data.alerte}')
+                                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:22 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"Humidité : ${data.alerte})
+                                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:32 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s" : ${data.alerte})
+                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:33 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"alez : ${data.alerte})
+                                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:33 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"ale : ${data.alerte})
+                                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:33 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s" : ${data.alerte})
+                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:34 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"A : ${data.alerte})
+                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:34 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"Aler : ${data.alerte})
+                                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:35 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"Alerte : ${data.alerte})
+                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:35 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"Alert : ${data.alerte})
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:35 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+          println(s"Alerte : ${data.alerte})
+                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:39 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string literal
+          println(s"Alerte : ${data.alerte}"")
+                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:560)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.03 18:43:48 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.03 18:58:08 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+2024.05.03 18:58:16 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:06:33 INFO  time: code lens generation in 1.26s
+2024.05.03 19:10:56 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+mai 03, 2024 7:12:57 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/.reports/metals-full/2024-05-03/r_compiler-error_(data_engineering_m1_project-build)_19-12-57-546.md
+mai 03, 2024 7:13:00 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/.reports/metals-full/2024-05-03/r_compiler-error_(data_engineering_m1_project-build)_19-13-00-234.md
+2024.05.03 19:13:18 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.03 19:13:19 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/metals.sbt
+2024.05.03 19:13:19 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/project/metals.sbt
+2024.05.03 19:13:20 INFO  copying runtime jar...
+2024.05.03 19:13:27 INFO  [info] welcome to sbt 1.9.9 (AdoptOpenJDK Java 11.0.11)
+2024.05.03 19:13:30 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.03 19:13:32 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/project
+2024.05.03 19:13:36 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.03 19:13:36 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project
+2024.05.03 19:13:40 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.03 19:13:40 INFO  [success] Total time: 3 s, completed 3 mai 2024 à 19:13:40
+2024.05.03 19:13:42 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.03 19:13:42 INFO  [info] set current project to projet_data-engineer (in build file:/Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/)
+2024.05.03 19:13:43 INFO  [warn] 
+2024.05.03 19:13:43 INFO  [warn] 	Note: Unresolved dependencies path:
+2024.05.03 19:13:43 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.
+2024.05.03 19:13:43 INFO  [warn] Removed stale /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.bloop/root-test.json
+2024.05.03 19:13:43 INFO  [warn] Removed stale /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.bloop/root.json
+2024.05.03 19:13:43 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.apache.kafka:kafka-streams-scala_3:2.8.0
+2024.05.03 19:13:43 INFO  [error]   Not found
+2024.05.03 19:13:43 INFO  [error]   Not found
+2024.05.03 19:13:43 INFO  [error]   not found: /Users/morgan/.ivy2/localorg.apache.kafka/kafka-streams-scala_3/2.8.0/ivys/ivy.xml
+2024.05.03 19:13:43 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/kafka/kafka-streams-scala_3/2.8.0/kafka-streams-scala_3-2.8.0.pom
+2024.05.03 19:13:43 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2024.05.03 19:13:43 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2024.05.03 19:13:43 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2024.05.03 19:13:43 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)
+2024.05.03 19:13:43 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3801)
+2024.05.03 19:13:43 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2024.05.03 19:13:43 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2024.05.03 19:13:43 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2024.05.03 19:13:43 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+2024.05.03 19:13:43 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2024.05.03 19:13:43 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2024.05.03 19:13:43 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2024.05.03 19:13:43 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2024.05.03 19:13:43 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.apache.kafka:kafka-streams-scala_3:2.8.0
+2024.05.03 19:13:43 INFO  [error]   Not found
+2024.05.03 19:13:43 INFO  [error]   Not found
+2024.05.03 19:13:43 INFO  [error]   not found: /Users/morgan/.ivy2/localorg.apache.kafka/kafka-streams-scala_3/2.8.0/ivys/ivy.xml
+2024.05.03 19:13:43 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/kafka/kafka-streams-scala_3/2.8.0/kafka-streams-scala_3-2.8.0.pom
+2024.05.03 19:13:43 INFO  [error] Total time: 1 s, completed 3 mai 2024 à 19:13:43
+2024.05.03 19:13:43 INFO  time: ran 'sbt bloopInstall' in 25s
+2024.05.03 19:13:43 ERROR sbt command failed: /opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall
+2024.05.03 19:13:43 INFO  Disconnecting from Bloop session...
+2024.05.03 19:13:43 INFO  Shut down connection with build server.
+2024.05.03 19:13:43 INFO  Shut down connection with build server.
+2024.05.03 19:13:43 INFO  Attempting to connect to the build server...
+2024.05.03 19:13:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:13:43 INFO  Attempting to connect to the build server...
+2024.05.03 19:13:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:13:43 INFO  time: Connected to build server in 42ms
+2024.05.03 19:13:43 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 19:13:45 INFO  time: indexed workspace in 1.28s
+2024.05.03 19:13:45 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:13:50 INFO  skipping build import with status 'Installed'
+2024.05.03 19:13:50 INFO  Disconnecting from Bloop session...
+2024.05.03 19:13:50 INFO  Shut down connection with build server.
+2024.05.03 19:13:50 INFO  Shut down connection with build server.
+2024.05.03 19:13:50 INFO  Attempting to connect to the build server...
+mai 03, 2024 7:13:50 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/.reports/metals-full/2024-05-03/r_compiler-error_(data_engineering_m1_project-build)_19-13-50-957.md
+2024.05.03 19:13:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:13:50 INFO  Attempting to connect to the build server...
+2024.05.03 19:13:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:13:50 INFO  time: Connected to build server in 60ms
+2024.05.03 19:13:50 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 19:13:51 INFO  time: code lens generation in 5.57s
+2024.05.03 19:13:52 INFO  time: indexed workspace in 1.22s
+2024.05.03 19:13:52 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:16:17 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.03 19:16:20 INFO  [info] welcome to sbt 1.9.9 (AdoptOpenJDK Java 11.0.11)
+2024.05.03 19:16:20 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.03 19:16:22 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/project
+2024.05.03 19:16:23 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.03 19:16:23 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project
+2024.05.03 19:16:27 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.03 19:16:27 INFO  [success] Total time: 3 s, completed 3 mai 2024 à 19:16:27
+2024.05.03 19:16:30 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.03 19:16:30 INFO  [info] set current project to projet_data-engineer (in build file:/Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/)
+2024.05.03 19:17:08 INFO  [success] Generated .bloop/root.json
+2024.05.03 19:17:08 INFO  [success] Generated .bloop/root-test.json
+2024.05.03 19:17:08 INFO  [success] Total time: 38 s, completed 3 mai 2024 à 19:17:08
+2024.05.03 19:17:08 INFO  time: ran 'sbt bloopInstall' in 51s
+2024.05.03 19:17:08 INFO  Disconnecting from Bloop session...
+2024.05.03 19:17:08 INFO  Shut down connection with build server.
+2024.05.03 19:17:08 INFO  Shut down connection with build server.
+2024.05.03 19:17:08 INFO  Attempting to connect to the build server...
+2024.05.03 19:17:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:17:08 INFO  Attempting to connect to the build server...
+2024.05.03 19:17:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:17:08 INFO  time: Connected to build server in 38ms
+2024.05.03 19:17:08 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 19:17:10 INFO  time: indexed workspace in 2.22s
+2024.05.03 19:17:11 INFO  compiling root (5 scala sources)
+2024.05.03 19:17:17 INFO  time: compiled root in 6.53s
+2024.05.03 19:17:17 INFO  time: code lens generation in 6.05s
+2024.05.03 19:17:17 INFO  time: code lens generation in 6.51s
+2024.05.03 19:17:34 INFO  compiling root (5 scala sources)
+2024.05.03 19:17:35 INFO  time: compiled root in 1.07s
+mai 03, 2024 7:17:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2256
+2024.05.03 19:17:41 INFO  compiling root (5 scala sources)
+2024.05.03 19:17:41 INFO  time: compiled root in 0.84s
+mai 03, 2024 7:17:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2276
+2024.05.03 19:22:49 INFO  compiling root (5 scala sources)
+2024.05.03 19:22:49 INFO  time: compiled root in 0.97s
+2024.05.03 19:25:03 INFO  compiling root (5 scala sources)
+2024.05.03 19:25:03 INFO  time: compiled root in 0.81s
+2024.05.03 19:25:23 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.03 19:25:26 INFO  [info] welcome to sbt 1.9.9 (AdoptOpenJDK Java 11.0.11)
+2024.05.03 19:25:26 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.03 19:25:29 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/project
+2024.05.03 19:25:30 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.03 19:25:30 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project
+2024.05.03 19:25:33 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.03 19:25:33 INFO  [success] Total time: 3 s, completed 3 mai 2024 à 19:25:33
+2024.05.03 19:25:35 ERROR /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/build.sbt:7: error: value := is not a member of String
+2024.05.03 19:25:35 ERROR   Expression does not convert to assignment because receiver is not assignable.
+2024.05.03 19:25:35 ERROR     scalaVersion := scalaVersion,
+2024.05.03 19:25:35 ERROR                  ^
+2024.05.03 19:25:35 ERROR sbt.compiler.EvalException: Type error in expression
+2024.05.03 19:25:35 INFO  [error] sbt.compiler.EvalException: Type error in expression
+2024.05.03 19:25:35 INFO  [error] Use 'last' for the full log.
+2024.05.03 19:25:35 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2024.05.03 19:25:35 INFO  time: ran 'sbt bloopInstall' in 12s
+2024.05.03 19:25:35 ERROR sbt command failed: /opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall
+2024.05.03 19:25:35 INFO  Disconnecting from Bloop session...
+2024.05.03 19:25:35 INFO  Shut down connection with build server.
+2024.05.03 19:25:35 INFO  Shut down connection with build server.
+2024.05.03 19:25:35 INFO  Attempting to connect to the build server...
+2024.05.03 19:25:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:25:35 INFO  Attempting to connect to the build server...
+2024.05.03 19:25:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:25:35 INFO  time: Connected to build server in 40ms
+2024.05.03 19:25:35 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 19:25:37 INFO  time: indexed workspace in 1.57s
+2024.05.03 19:25:42 INFO  compiling root (5 scala sources)
+2024.05.03 19:25:43 INFO  time: compiled root in 1.39s
+2024.05.03 19:25:43 INFO  time: code lens generation in 5.76s
+mai 03, 2024 7:27:17 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/.reports/metals-full/2024-05-03/r_compiler-error_(data_engineering_m1_project-build)_19-27-17-633.md
+2024.05.03 19:27:18 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/build.sbt
+scala.meta.tokenizers.TokenizeException: <input>:16: error: unclosed string literal
+      "ilibraryDependencies ++= Seq(
+      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:560)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+mai 03, 2024 7:27:19 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/.reports/metals-full/2024-05-03/r_compiler-error_(data_engineering_m1_project-build)_19-27-19-333.md
+2024.05.03 19:27:19 ERROR Failed to tokenize input for semantic tokens for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/build.sbt
+scala.meta.tokenizers.TokenizeException: <input>:16: error: unclosed string literal
+      "ilibraryDependencies ++= Seq(
+      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:560)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+mai 03, 2024 7:27:21 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/.reports/metals-full/2024-05-03/r_compiler-error_(data_engineering_m1_project-build)_19-27-21-981.md
+mai 03, 2024 7:27:22 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/.reports/metals-full/2024-05-03/r_compiler-error_(data_engineering_m1_project-build)_19-27-22-384.md
+2024.05.03 19:27:47 INFO  skipping build import with status 'Installed'
+2024.05.03 19:27:47 INFO  Disconnecting from Bloop session...
+2024.05.03 19:27:47 INFO  Cancelling compilation on Bloop server
+2024.05.03 19:27:47 INFO  Shut down connection with build server.
+2024.05.03 19:27:47 INFO  Shut down connection with build server.
+mai 03, 2024 7:27:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFOS: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:411)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:175)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:167)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2024.05.03 19:27:47 INFO  Scala test classes not supported by server
+2024.05.03 19:27:47 INFO  Attempting to connect to the build server...
+2024.05.03 19:27:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:27:47 INFO  Attempting to connect to the build server...
+2024.05.03 19:27:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:27:47 INFO  time: Connected to build server in 40ms
+2024.05.03 19:27:47 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 19:27:49 INFO  time: indexed workspace in 1.6s
+2024.05.03 19:27:49 INFO  compiling root (5 scala sources)
+2024.05.03 19:27:55 INFO  time: compiled root in 5.74s
+2024.05.03 19:27:55 INFO  time: code lens generation in 5.52s
+2024.05.03 19:30:41 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.03 19:30:44 INFO  [info] welcome to sbt 1.9.9 (AdoptOpenJDK Java 11.0.11)
+2024.05.03 19:30:44 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.03 19:30:47 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/project
+2024.05.03 19:30:48 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.03 19:30:48 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project
+2024.05.03 19:30:51 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.03 19:30:51 INFO  [success] Total time: 3 s, completed 3 mai 2024 à 19:30:51
+2024.05.03 19:30:55 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.03 19:30:55 INFO  [info] set current project to projet_data-engineer (in build file:/Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/)
+2024.05.03 19:31:07 INFO  [success] Generated .bloop/root.json
+2024.05.03 19:31:07 INFO  [success] Generated .bloop/root-test.json
+2024.05.03 19:31:07 INFO  [success] Total time: 12 s, completed 3 mai 2024 à 19:31:07
+2024.05.03 19:31:07 INFO  time: ran 'sbt bloopInstall' in 26s
+2024.05.03 19:31:07 INFO  Disconnecting from Bloop session...
+2024.05.03 19:31:07 INFO  Shut down connection with build server.
+2024.05.03 19:31:07 INFO  Shut down connection with build server.
+2024.05.03 19:31:07 INFO  Attempting to connect to the build server...
+2024.05.03 19:31:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:31:17 INFO  Attempting to connect to the build server...
+2024.05.03 19:31:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:31:17 INFO  time: Connected to build server in 9.67s
+2024.05.03 19:31:17 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 19:31:21 INFO  time: indexed workspace in 3.46s
+2024.05.03 19:32:42 INFO  compiling root (5 scala sources)
+2024.05.03 19:32:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2024.05.03 19:32:49 INFO  time: compiled root in 7.16s
+2024.05.03 19:37:14 INFO  compiling root (1 scala source)
+2024.05.03 19:37:14 INFO  time: compiled root in 0.41s
+2024.05.03 19:37:17 INFO  compiling root (1 scala source)
+2024.05.03 19:37:17 INFO  time: compiled root in 0.19s
+2024.05.03 19:37:17 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:37:30 INFO  compiling root (1 scala source)
+2024.05.03 19:37:30 INFO  time: compiled root in 0.12s
+2024.05.03 19:37:30 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:37:49 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:37:58 INFO  compiling root (1 scala source)
+2024.05.03 19:37:58 INFO  time: compiled root in 0.14s
+2024.05.03 19:37:59 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:37:59 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:37:59 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:37:59 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:39:01 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:25 INFO  compiling root (1 scala source)
+2024.05.03 19:40:26 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:25 INFO  time: compiled root in 0.18s
+2024.05.03 19:40:26 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:40 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:41 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:42 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:44 INFO  compiling root (1 scala source)
+2024.05.03 19:40:44 INFO  time: compiled root in 0.16s
+2024.05.03 19:40:44 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:48 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:48 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:14:61: stale bloop error: value String is not a member of object org.apache.kafka.streams.scala.serialization.Serdes
+did you mean toString?
+    props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName)
+                                                            ^^^^^^^^^^^^^
+2024.05.03 19:40:48 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:15:63: stale bloop error: value String is not a member of object org.apache.kafka.streams.scala.serialization.Serdes
+did you mean toString?
+    props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName)
+                                                              ^^^^^^^^^^^^^
+2024.05.03 19:40:48 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:18:43: stale bloop error: could not find implicit value for parameter consumed: org.apache.kafka.streams.scala.kstream.Consumed[String,String]
+    val stream: KStream[String, String] = builder.stream[String, String]("iot-input-topic")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.03 19:40:48 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:29:5: stale bloop error: could not find implicit value for parameter produced: org.apache.kafka.streams.scala.kstream.Produced[String,String]
+    updatedStream.to("iot-output-topic")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.03 19:40:48 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:50 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:51 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:14:61: stale bloop error: value String is not a member of object org.apache.kafka.streams.scala.serialization.Serdes
+did you mean toString?
+    props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName)
+                                                            ^^^^^^^^^^^^^
+2024.05.03 19:40:51 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:15:63: stale bloop error: value String is not a member of object org.apache.kafka.streams.scala.serialization.Serdes
+did you mean toString?
+    props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName)
+                                                              ^^^^^^^^^^^^^
+2024.05.03 19:40:51 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:18:43: stale bloop error: could not find implicit value for parameter consumed: org.apache.kafka.streams.scala.kstream.Consumed[String,String]
+    val stream: KStream[String, String] = builder.stream[String, String]("iot-input-topic")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.03 19:40:51 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:29:5: stale bloop error: could not find implicit value for parameter produced: org.apache.kafka.streams.scala.kstream.Produced[String,String]
+    updatedStream.to("iot-output-topic")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.03 19:40:51 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:14:61: stale bloop error: value String is not a member of object org.apache.kafka.streams.scala.serialization.Serdes
+did you mean toString?
+    props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName)
+                                                            ^^^^^^^^^^^^^
+2024.05.03 19:40:51 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:15:63: stale bloop error: value String is not a member of object org.apache.kafka.streams.scala.serialization.Serdes
+did you mean toString?
+    props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName)
+                                                              ^^^^^^^^^^^^^
+2024.05.03 19:40:51 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:18:43: stale bloop error: could not find implicit value for parameter consumed: org.apache.kafka.streams.scala.kstream.Consumed[String,String]
+    val stream: KStream[String, String] = builder.stream[String, String]("iot-input-topic")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.03 19:40:51 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:29:5: stale bloop error: could not find implicit value for parameter produced: org.apache.kafka.streams.scala.kstream.Produced[String,String]
+    updatedStream.to("iot-output-topic")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.03 19:40:51 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:58 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:40:59 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:01 INFO  compiling root (1 scala source)
+2024.05.03 19:41:01 INFO  time: compiled root in 0.14s
+2024.05.03 19:41:02 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:03 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:14:61: stale bloop error: value String is not a member of object org.apache.kafka.streams.scala.serialization.Serdes
+did you mean toString?
+    props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass.getName)
+                                                            ^^^^^^^^^^^^^
+2024.05.03 19:41:03 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:15:63: stale bloop error: value String is not a member of object org.apache.kafka.streams.scala.serialization.Serdes
+did you mean toString?
+    props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass.getName)
+                                                              ^^^^^^^^^^^^^
+2024.05.03 19:41:03 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:18:43: stale bloop error: could not find implicit value for parameter consumed: org.apache.kafka.streams.scala.kstream.Consumed[String,String]
+    val stream: KStream[String, String] = builder.stream[String, String]("iot-input-topic")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.03 19:41:03 INFO  file:///Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala:29:5: stale bloop error: could not find implicit value for parameter produced: org.apache.kafka.streams.scala.kstream.Produced[String,String]
+    updatedStream.to("iot-output-topic")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.03 19:41:03 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:12 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:12 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:13 INFO  compiling root (1 scala source)
+2024.05.03 19:41:13 INFO  time: compiled root in 0.1s
+2024.05.03 19:41:14 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:23 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:25 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:27 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:27 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:28 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:28 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:29 INFO  compiling root (1 scala source)
+2024.05.03 19:41:29 INFO  time: compiled root in 0.12s
+2024.05.03 19:41:29 INFO  compiling root (1 scala source)
+2024.05.03 19:41:29 INFO  time: compiled root in 56ms
+2024.05.03 19:41:30 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:36 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:38 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:41 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:42 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:43 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:41:49 INFO  compiling root (1 scala source)
+2024.05.03 19:41:49 INFO  time: compiled root in 0.12s
+2024.05.03 19:41:50 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:43:06 INFO  compiling root (1 scala source)
+2024.05.03 19:43:06 INFO  time: compiled root in 0.13s
+2024.05.03 19:43:22 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:43:29 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:43:31 INFO  compiling root (1 scala source)
+2024.05.03 19:43:31 INFO  time: compiled root in 0.18s
+2024.05.03 19:43:31 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:43:57 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:51:54 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:53:35 INFO  compiling root (1 scala source)
+2024.05.03 19:53:35 INFO  time: compiled root in 0.17s
+2024.05.03 19:53:36 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:53:51 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:53:52 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:53:53 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:53:54 INFO  compiling root (1 scala source)
+2024.05.03 19:53:54 INFO  time: compiled root in 0.1s
+2024.05.03 19:53:55 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:02 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:03 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:04 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:04 INFO  compiling root (1 scala source)
+2024.05.03 19:54:04 INFO  time: compiled root in 0.12s
+2024.05.03 19:54:05 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:39 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:39 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:40 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:41 INFO  compiling root (1 scala source)
+2024.05.03 19:54:41 INFO  time: compiled root in 0.17s
+2024.05.03 19:54:42 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:44 INFO  compiling root (1 scala source)
+2024.05.03 19:54:44 INFO  time: compiled root in 86ms
+2024.05.03 19:54:44 INFO  compiling root (1 scala source)
+2024.05.03 19:54:44 INFO  time: compiled root in 51ms
+2024.05.03 19:54:44 INFO  compiling root (1 scala source)
+2024.05.03 19:54:44 INFO  time: compiled root in 48ms
+2024.05.03 19:54:44 INFO  compiling root (1 scala source)
+2024.05.03 19:54:44 INFO  time: compiled root in 55ms
+2024.05.03 19:54:45 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:46 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:46 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:46 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:47 INFO  compiling root (1 scala source)
+2024.05.03 19:54:47 INFO  time: compiled root in 95ms
+2024.05.03 19:54:47 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:47 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:54:48 INFO  compiling root (1 scala source)
+2024.05.03 19:54:48 INFO  time: compiled root in 89ms
+2024.05.03 19:54:48 INFO  compiling root (1 scala source)
+2024.05.03 19:54:48 INFO  time: compiled root in 48ms
+2024.05.03 19:54:49 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:55:56 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:55:57 WARN  Could not load snapshot text for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProcessing.scala
+2024.05.03 19:55:58 INFO  compiling root (1 scala source)
+2024.05.03 19:55:58 INFO  time: compiled root in 0.55s
+2024.05.03 19:59:33 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/metals.sbt
+2024.05.03 19:59:40 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.03 19:59:40 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/metals.sbt
+2024.05.03 19:59:43 INFO  [info] welcome to sbt 1.9.9 (AdoptOpenJDK Java 11.0.11)
+2024.05.03 19:59:43 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.03 19:59:46 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/project
+2024.05.03 19:59:48 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.03 19:59:48 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project
+2024.05.03 19:59:51 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.03 19:59:51 INFO  [success] Total time: 3 s, completed 3 mai 2024 à 19:59:51
+2024.05.03 19:59:51 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.03 19:59:52 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/metals.sbt
+2024.05.03 19:59:51 INFO  [info] set current project to projet_data-engineer (in build file:/Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/)
+2024.05.03 19:59:52 INFO  [success] Generated .bloop/root.json
+2024.05.03 19:59:52 INFO  [success] Generated .bloop/root-test.json
+2024.05.03 19:59:52 INFO  [success] Total time: 0 s, completed 3 mai 2024 à 19:59:52
+2024.05.03 19:59:52 INFO  time: ran 'sbt bloopInstall' in 12s
+2024.05.03 19:59:52 INFO  Disconnecting from Bloop session...
+2024.05.03 19:59:52 INFO  Shut down connection with build server.
+2024.05.03 19:59:52 INFO  Shut down connection with build server.
+2024.05.03 19:59:52 INFO  Attempting to connect to the build server...
+2024.05.03 19:59:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:59:52 INFO  Attempting to connect to the build server...
+2024.05.03 19:59:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:59:52 INFO  time: Connected to build server in 36ms
+2024.05.03 19:59:52 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 19:59:54 INFO  time: indexed workspace in 1.7s
+2024.05.03 19:59:54 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/metals.sbt
+2024.05.03 19:59:54 INFO  skipping build import with status 'Installed'
+2024.05.03 19:59:54 INFO  Disconnecting from Bloop session...
+2024.05.03 19:59:54 INFO  Shut down connection with build server.
+2024.05.03 19:59:54 INFO  Shut down connection with build server.
+2024.05.03 19:59:54 INFO  Attempting to connect to the build server...
+2024.05.03 19:59:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:59:54 INFO  Attempting to connect to the build server...
+2024.05.03 19:59:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 19:59:54 INFO  time: Connected to build server in 33ms
+2024.05.03 19:59:54 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 20:00:02 INFO  time: indexed workspace in 1.76s
+2024.05.03 20:00:06 INFO  no build target found for /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.03 20:00:06 INFO  time: code lens generation in 11s
+error: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/.tmp/.metals/.tmp/Main1653291669301354345.scala is not a file
+2024.05.03 20:00:17 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/metals.sbt
+2024.05.03 20:00:19 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.03 20:00:22 INFO  [info] welcome to sbt 1.9.9 (AdoptOpenJDK Java 11.0.11)
+2024.05.03 20:00:22 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.03 20:00:24 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/project
+2024.05.03 20:00:25 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.03 20:00:25 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project
+2024.05.03 20:00:29 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.03 20:00:29 INFO  [success] Total time: 3 s, completed 3 mai 2024 à 20:00:29
+2024.05.03 20:00:29 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.03 20:00:29 INFO  [info] set current project to projet_data-engineer (in build file:/Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/)
+2024.05.03 20:00:30 INFO  [success] Generated .bloop/root.json
+2024.05.03 20:00:30 INFO  [success] Generated .bloop/root-test.json
+2024.05.03 20:00:30 INFO  [success] Total time: 0 s, completed 3 mai 2024 à 20:00:30
+2024.05.03 20:00:30 INFO  time: ran 'sbt bloopInstall' in 11s
+2024.05.03 20:00:30 INFO  Disconnecting from Bloop session...
+2024.05.03 20:00:30 INFO  Shut down connection with build server.
+2024.05.03 20:00:30 INFO  Shut down connection with build server.
+2024.05.03 20:00:30 INFO  Attempting to connect to the build server...
+2024.05.03 20:00:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 20:00:30 INFO  Attempting to connect to the build server...
+2024.05.03 20:00:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 20:00:30 INFO  time: Connected to build server in 42ms
+2024.05.03 20:00:30 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 20:00:32 INFO  time: indexed workspace in 1.63s
+2024.05.03 20:00:32 WARN  no build target for: /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/metals.sbt
+2024.05.03 20:00:38 INFO  time: code lens generation in 5.4s
+2024.05.03 20:10:23 INFO  compiling root (1 scala source)
+2024.05.03 20:10:23 INFO  time: compiled root in 0.61s
+2024.05.03 20:10:36 INFO  compiling root (1 scala source)
+2024.05.03 20:10:36 INFO  time: compiled root in 0.38s
+2024.05.03 20:19:57 INFO  compiling root (1 scala source)
+2024.05.03 20:19:57 INFO  time: compiled root in 0.38s
+mai 03, 2024 8:20:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3718
+2024.05.03 20:21:33 INFO  compiling root (1 scala source)
+2024.05.03 20:21:33 INFO  time: compiled root in 0.5s
+2024.05.03 20:22:32 INFO  compiling root (1 scala source)
+2024.05.03 20:22:32 INFO  time: compiled root in 0.47s
+2024.05.03 20:26:23 INFO  compiling root (1 scala source)
+2024.05.03 20:26:23 INFO  time: compiled root in 0.38s
+2024.05.03 20:26:23 INFO  compiling root (1 scala source)
+2024.05.03 20:26:23 INFO  time: compiled root in 32ms
+mai 03, 2024 8:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4197
+2024.05.03 20:26:36 INFO  compiling root (2 scala sources)
+2024.05.03 20:26:36 INFO  time: compiled root in 0.46s
+2024.05.03 20:32:59 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.03 20:33:03 INFO  [info] welcome to sbt 1.9.9 (AdoptOpenJDK Java 11.0.11)
+2024.05.03 20:33:03 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.03 20:33:06 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/project
+2024.05.03 20:33:07 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.03 20:33:07 INFO  [info] loading project definition from /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project
+2024.05.03 20:33:10 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.03 20:33:10 INFO  [success] Total time: 3 s, completed 3 mai 2024 à 20:33:10
+2024.05.03 20:33:14 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.03 20:33:14 INFO  [info] set current project to projet_data-engineer (in build file:/Users/morgan/Desktop/EFREI/M1/SM8/DATA%20ENGINEERING/Projet/Projet%20V2/Data_Engineering_M1_Project/)
+2024.05.03 20:33:44 INFO  [success] Generated .bloop/root-test.json
+2024.05.03 20:33:44 INFO  [success] Generated .bloop/root.json
+2024.05.03 20:33:44 INFO  [success] Total time: 29 s, completed 3 mai 2024 à 20:33:44
+2024.05.03 20:33:44 INFO  time: ran 'sbt bloopInstall' in 44s
+2024.05.03 20:33:44 INFO  Disconnecting from Bloop session...
+2024.05.03 20:33:44 INFO  Shut down connection with build server.
+2024.05.03 20:33:44 INFO  Shut down connection with build server.
+2024.05.03 20:33:44 INFO  Attempting to connect to the build server...
+2024.05.03 20:33:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 20:33:44 INFO  Attempting to connect to the build server...
+2024.05.03 20:33:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/morgan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.03 20:33:44 INFO  time: Connected to build server in 0.4s
+2024.05.03 20:33:44 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.03 20:33:46 INFO  time: indexed workspace in 1.82s
+2024.05.03 20:33:53 INFO  time: code lens generation in 6.15s
+2024.05.03 20:34:26 INFO  compiling root (6 scala sources)
+2024.05.03 20:34:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2024.05.03 20:34:27 INFO  time: compiled root in 1.31s
+mai 03, 2024 8:36:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4435
+2024.05.03 20:44:11 INFO  compiling root (1 scala source)
+2024.05.03 20:44:11 INFO  time: compiled root in 0.47s
+2024.05.03 20:49:36 INFO  compiling root (1 scala source)
+2024.05.03 20:49:36 INFO  time: compiled root in 0.15s
+2024.05.03 20:49:51 INFO  compiling root (1 scala source)
+2024.05.03 20:49:51 INFO  time: compiled root in 0.38s
+mai 03, 2024 8:50:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4839
+2024.05.03 20:51:19 INFO  compiling root (1 scala source)
+2024.05.03 20:51:19 INFO  time: compiled root in 0.42s
+2024.05.03 20:59:46 INFO  compiling root (1 scala source)
+2024.05.03 20:59:46 INFO  time: compiled root in 0.43s
+2024.05.03 21:03:32 INFO  compiling root (1 scala source)
+2024.05.03 21:03:32 INFO  time: compiled root in 0.77s
+mai 03, 2024 9:07:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5131
+2024.05.03 21:12:52 INFO  compiling root (1 scala source)
+2024.05.03 21:12:52 INFO  time: compiled root in 0.51s
+2024.05.03 22:32:37 INFO  compiling root (1 scala source)
+2024.05.03 22:32:37 INFO  time: compiled root in 0.33s
+2024.05.03 22:32:42 INFO  compiling root (1 scala source)
+2024.05.03 22:32:42 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2024.05.03 22:32:42 INFO  time: compiled root in 0.39s
+2024.05.03 22:33:19 INFO  compiling root (1 scala source)
+2024.05.03 22:33:19 INFO  time: compiled root in 0.46s
+2024.05.03 22:33:24 INFO  compiling root (1 scala source)
+2024.05.03 22:33:24 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details
+2024.05.03 22:33:24 INFO  time: compiled root in 0.32s

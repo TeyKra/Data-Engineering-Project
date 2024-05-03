@@ -18,7 +18,7 @@
         "classpath": [
             "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.9.9/sbt-1.9.9.jar",
             "/Users/morgan/.sbt/boot/scala-2.12.18/lib/scala-library.jar",
-            "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.15/sbt-bloop_2.12_1.0-1.5.15.jar",
+            "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.17/sbt-bloop_2.12_1.0-1.5.17.jar",
             "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.9.9/main_2.12-1.9.9.jar",
             "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.9/io_2.12-1.9.9.jar",
             "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5.jar",
@@ -213,7 +213,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/opt/homebrew/Cellar/openjdk@11/11.0.22/libexec/openjdk.jdk/Contents/Home",
+                "home": "/opt/homebrew/Cellar/openjdk@11/11.0.23/libexec/openjdk.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project"
                 ]
@@ -222,14 +222,14 @@
                 
             ],
             "runtimeConfig": {
-                "home": "/opt/homebrew/Cellar/openjdk@11/11.0.22/libexec/openjdk.jdk/Contents/Home",
+                "home": "/opt/homebrew/Cellar/openjdk@11/11.0.23/libexec/openjdk.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project"
                 ]
             },
             "classpath": [
                 "/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/project/.bloop/data_engineering_m1_project-build/scala-2.12/sbt-1.0/classes",
-                "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.15/sbt-bloop_2.12_1.0-1.5.15.jar",
+                "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.17/sbt-bloop_2.12_1.0-1.5.17.jar",
                 "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5.jar",
                 "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.jar",
                 "/Users/morgan/.sbt/boot/scala-2.12.18/lib/scala-library.jar"
@@ -240,17 +240,17 @@
                 {
                     "organization": "ch.epfl.scala",
                     "name": "sbt-bloop",
-                    "version": "1.5.15",
+                    "version": "1.5.17",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "sbt-bloop",
-                            "path": "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.15/sbt-bloop_2.12_1.0-1.5.15.jar"
+                            "path": "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.17/sbt-bloop_2.12_1.0-1.5.17.jar"
                         },
                         {
                             "name": "sbt-bloop",
                             "classifier": "sources",
-                            "path": "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.15/sbt-bloop_2.12_1.0-1.5.15-sources.jar"
+                            "path": "/Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.17/sbt-bloop_2.12_1.0-1.5.17-sources.jar"
                         }
                     ]
                 },

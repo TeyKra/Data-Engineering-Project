@@ -7,6 +7,12 @@ object Main extends App {
   println("Rapports des données IoT :")
   println("=" * 75)  // Affiche une ligne de séparation
 
+  // Ajout du shutdown hook ici pour s'assurer qu'il est enregistré une seule fois
+  sys.addShutdownHook {
+    MyKafkaProducer.close()
+    println("Fermeture du producteur Kafka.")
+  }
+
   // Lancement de la simulation en continue
   val start = LocalDateTime.now() // Heure de début
 
@@ -14,12 +20,20 @@ object Main extends App {
     val currentTime = LocalDateTime.now()
     Capitales.localisations.zipWithIndex.foreach { case (loc, index) =>
       val deviceId = s"device${100 + index}" // ID unique pour chaque dispositif
-      val rapport = SimulateurIoT.simulerRapportIoT(deviceId, currentTime, loc)
+      val alerte = "No"
+      val rapport = SimulateurIoT.simulerRapportIoT(deviceId, currentTime, loc, alerte)
 
       // Affichage et traitement du rapport
       print("------------Serialisation JSON------------")
       val json = IoTDataJson.serialize(rapport)
       println(s"\nJSON:\n$json")
+
+      // Envoyer le rapport sérialisé à Kafka
+      try {
+        MyKafkaProducer.sendIoTData("iot-data-topic", rapport.deviceId, json) // iot-data-topic = nom du topic 
+      } catch {
+        case e: Exception => println(s"Erreur lors de l'envoi à Kafka: ${e.getMessage}")
+      }
 
       val deserializedData = IoTDataJson.deserialize(json)
       deserializedData match {
@@ -32,6 +46,7 @@ object Main extends App {
           println(s"Niveaux Sonores : ${data.niveauxSonores} dB")
           println(s"Température : ${data.temperature}°C")
           println(s"Humidité : ${data.humidite}%")
+          println(s"Alerte : ${data.alerte}")
         case Left(error) =>
           println(s"Échec de la désérialisation: ${error.getMessage}")
       }
@@ -49,6 +64,7 @@ object Main extends App {
         println(s"Niveaux Sonores : ${data.niveauxSonores} dB")
         println(s"Température : ${data.temperature}°C")
         println(s"Humidité : ${data.humidite}%")
+        println(s"Alerte : ${data.alerte}")
       }
 
       println("-" * 100) // Ligne de séparation entre les rapports

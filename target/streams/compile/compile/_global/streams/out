@@ -1,5 +1,2 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/morgan/Desktop/EFREI/M1/SM8/DATA ENGINEERING/Projet/Projet V2/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala:1:43: imported `KafkaProducer` is permanently hidden by definition of object KafkaProducer[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord, ProducerConfig}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

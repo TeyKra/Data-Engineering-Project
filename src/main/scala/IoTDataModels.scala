@@ -1,24 +1,18 @@
-// Import des bibliothèques nécessaires pour l'utilisation de fonctions aléatoires et la manipulation de dates
 import scala.util.Random
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
-// Définition d'une classe case pour représenter une localisation avec latitude et longitude
 case class Location(capital: String, latitude: Double, longitude: Double)
-
-// Définition d'une classe case pour représenter la qualité de l'air avec des mesures de CO2 et de particules fines
 case class AirQuality(CO2: Double, particulesFines: Double)
-
-// Définition d'une classe case pour les données IoT, contenant toutes les informations nécessaires d'un rapport
 case class IoTData(
-    timestamp: String,       // Horodatage de la mesure
-    deviceId: String,        // Identifiant du dispositif IoT
-    location: Location,      // Localisation du dispositif
-    qualiteAir: AirQuality,  // Qualité de l'air mesurée
-    niveauxSonores: Double,  // Niveaux sonores en décibels
-    temperature: Double,     // Température en degrés Celsius
-    humidite: Double,        // Humidité en pourcentage
-    alerte: String           // Alerte : Yes Or No
+    timestamp: String,
+    deviceId: String,
+    location: Location,
+    qualiteAir: AirQuality,
+    niveauxSonores: Double,
+    temperature: Double,
+    humidite: Double,
+    alerte: String
 )
 
 object Capitales {
@@ -36,25 +30,36 @@ object Capitales {
   )
 }
 
-  
 object SimulateurIoT {
-  val random = new Random()  // Générateur de nombres aléatoires
-  val dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")  // Formatteur de date pour l'horodatage
+  val random = new Random()
+  val dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
 
   def genererLocalisation(): Location = Capitales.localisations(random.nextInt(Capitales.localisations.length))
 
   def simulerRapportIoT(deviceId: String, currentTime: LocalDateTime, location: Location, alerte: String): IoTData = {
-  IoTData(
-    timestamp = currentTime.format(dateTimeFormatter),
-    deviceId = deviceId,
-    location = location,
-    qualiteAir = AirQuality(Random.nextDouble() * (5000.0 - 400.0) + 400.0, Random.nextDouble() * 500.0),
-    niveauxSonores = Random.nextDouble() * (130.0 - 30.0) + 30.0,
-    temperature = Random.nextDouble() * (40.0 + 10.0) - 10.0,
-    humidite = Random.nextDouble() * 100.0,
-    alerte = alerte
-  )
+    val qualiteAir = if (random.nextDouble() < 0.2) {
+      // 20% de probabilité d'alerte
+      AirQuality(
+        CO2 = 300000000 + random.nextDouble() * 1000,  // Générer des valeurs de CO2 au-dessus du seuil
+        particulesFines = 100 + random.nextDouble() * 50 // Générer des valeurs de particules fines au-dessus du seuil
+      )
+    } else {
+      // 80% de probabilité de non-alerte
+      AirQuality(
+        CO2 = 0 + random.nextDouble() * 299999999, // Générer des valeurs de CO2 en dessous du seuil
+        particulesFines = 0 + random.nextDouble() * 99 // Générer des valeurs de particules fines en dessous du seuil
+      )
+    }
+
+    IoTData(
+      timestamp = currentTime.format(dateTimeFormatter),
+      deviceId = deviceId,
+      location = location,
+      qualiteAir = qualiteAir,
+      niveauxSonores = random.nextDouble() * (130.0 - 30.0) + 30.0,
+      temperature = random.nextDouble() * (40.0 + 10.0) - 10.0,
+      humidite = random.nextDouble() * 100.0,
+      alerte = alerte // Utiliser la valeur d'alerte fournie
+    )
+  }
 }
-
-} // Fin de l'objet SimulateurIoT
-

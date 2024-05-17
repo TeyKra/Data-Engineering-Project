@@ -8,7 +8,9 @@ object Main extends App {
   println("=" * 75)  // Affiche une ligne de séparation
 
   KafkaStreamProcessing.startStream() // Démarrer le traitement du stream Kafka
-
+  KafkaAlertEmailer.startAlertStream() // Démarrer le stream des alertes
+  KafkaSmsSender.startSmsSenderStream()
+  
   sys.addShutdownHook {
     MyKafkaProducer.close()
     println("Fermeture du producteur Kafka.")
@@ -29,7 +31,7 @@ object Main extends App {
       println(s"\nJSON:\n$json")
 
       try {
-        MyKafkaProducer.sendIoTData("iot-data-topic", rapport.deviceId, json) 
+        MyKafkaProducer.sendIoTData("the_stream", rapport.deviceId, json) 
       } catch {
         case e: Exception => println(s"Erreur lors de l'envoi à Kafka: ${e.getMessage}")
       }

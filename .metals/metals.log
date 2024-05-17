@@ -4176,3 +4176,617 @@ AVERTISSEMENT: Unmatched cancel notification for request id 11
 2024.05.17 14:42:09 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.05.17 14:42:09 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.05.17 14:42:18 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 14:51:56 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 14:52:37 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:12:06 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala
+2024.05.17 15:12:06 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:12:08 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:12:10 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:12:16 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:12:16 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:12:17 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:12:18 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.17 15:12:18 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:16:58 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:20:49 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:20:50 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:20:58 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:20:58 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:00 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:00 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:00 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:04 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:04 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:05 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:05 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:06 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:06 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:07 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:07 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:07 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:07 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:09 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:09 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:09 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:10 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:10 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:13 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.17 15:21:13 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:15 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:21:23 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.17 15:21:23 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:37:30 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:37:32 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:39:39 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:39:42 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:39:42 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:39:43 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:39:45 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:40:52 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:40:53 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataCsv.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:40:53 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataJson.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:40:53 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataJson.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:41:22 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataJson.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:41:22 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:41:22 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:41:26 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:41:29 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:44:04 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:44:08 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:44:08 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:44:08 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:44:08 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:44:19 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:44:45 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:44:46 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:45:01 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:45:01 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:45:01 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:45:02 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:45:26 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:45:27 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:45:27 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:45:27 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:46:41 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:46:41 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:46:42 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:46:42 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:46:45 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:46:47 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:46:50 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:46:50 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:46:50 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:48:51 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:54:38 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:55:09 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:55:10 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:55:10 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:55:10 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:55:10 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:55:58 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:55:58 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:56:42 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:56:42 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:56:46 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:56:46 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:56:46 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:58:14 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:58:14 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 15:58:14 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:04:29 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:07:43 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:07:44 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:08:24 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:08:24 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:08:25 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:08:35 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:08:36 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:08:35 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:09:08 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:09:09 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:09:10 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:09:10 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:11:17 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:11:21 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/KafkaStreamProducer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:11:21 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:11:21 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:11:22 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:11:36 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamAlerte.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:11:36 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:11:36 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:12:12 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala.scala
+2024.05.17 16:12:12 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:12:12 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaStreamProcessing.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:12:13 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:12:13 WARN  Could not find semantic tokens for: file:///Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala.scala
+2024.05.17 16:12:29 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:12:29 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:12:29 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:12:29 WARN  Could not find semantic tokens for: file:///Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala
+2024.05.17 16:12:53 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:12:53 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:12:59 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:13:13 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:17:42 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:17:50 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:17:51 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:17:55 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:17:56 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.17 16:17:56 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:18:00 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+mai 17, 2024 4:18:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 681
+2024.05.17 16:18:00 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:18:04 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:18:04 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:18:09 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:18:09 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:18:09 WARN  Could not find semantic tokens for: file:///Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala
+2024.05.17 16:19:55 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertConsumer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:19:55 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:19:55 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:19:55 WARN  Could not find semantic tokens for: file:///Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala
+2024.05.17 16:20:50 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:20:50 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:20:53 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala
+2024.05.17 16:20:53 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:20:55 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:20:59 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:01 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:01 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:01 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:02 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala
+2024.05.17 16:21:02 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:04 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala
+2024.05.17 16:21:04 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:05 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:06 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:07 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:06 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:21 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:22 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:22 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:23 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:23 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:23 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:23 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:24 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:24 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:27 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.17 16:21:27 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:30 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:32 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala
+2024.05.17 16:21:32 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:33 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:21:35 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala
+2024.05.17 16:21:35 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:29:06 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:29:22 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:29:25 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:29:25 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:29:30 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:29:33 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:29:36 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:29:38 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:30:00 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala
+2024.05.17 16:30:00 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:30:19 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala
+2024.05.17 16:30:19 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:30:19 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:30:20 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:30:20 WARN  Could not find semantic tokens for: file:///Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala
+2024.05.17 16:31:57 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:31:57 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:32:02 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala
+2024.05.17 16:32:02 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:27 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:32 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:44 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:45 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:45 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:45 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:48 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:48 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:49 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:51 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:51 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:52 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:52 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:53 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:53 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:54 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:55 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:57 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:35:57 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:01 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+mai 17, 2024 4:36:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 877
+2024.05.17 16:36:01 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:03 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:03 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:04 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+mai 17, 2024 4:36:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 892
+2024.05.17 16:36:12 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:17 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:18 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:19 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaEmailSender.scala.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:32 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:33 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:33 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:33 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:33 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:45 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:36:45 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:37:53 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:37:53 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:37:56 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:37:56 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:37:57 WARN  no build target for: /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt
+2024.05.17 16:37:57 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:37:58 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:38:03 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaAlertEmailer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.17 16:38:07 INFO  running '/Users/jules/.sdkman/candidates/sbt/current/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.17 16:38:09 INFO  [info] welcome to sbt 1.9.9 (Homebrew Java 11.0.23)
+2024.05.17 16:38:09 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.17 16:38:11 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project/project
+2024.05.17 16:38:11 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.17 16:38:12 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project
+2024.05.17 16:38:14 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.17 16:38:14 INFO  [success] Total time: 2 s, completed 17 mai 2024 à 16:38:14
+2024.05.17 16:38:15 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.17 16:38:15 INFO  [info] set current project to projet_data-engineer (in build file:/Users/jules/Desktop/Data_Engineering_M1_Project/)
+2024.05.17 16:38:15 INFO  [warn] scala-library-2.13.8-sources.jar no longer exists at /Users/morgan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar
+2024.05.17 16:38:15 INFO  [success] Generated .bloop/root.json
+2024.05.17 16:38:15 INFO  [success] Generated .bloop/root-test.json
+2024.05.17 16:38:15 INFO  [success] Total time: 0 s, completed 17 mai 2024 à 16:38:16
+2024.05.17 16:38:16 INFO  time: ran 'sbt bloopInstall' in 8.91s
+2024.05.17 16:38:16 INFO  Attempting to connect to the build server...
+2024.05.17 16:38:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 16:38:16 INFO  Attempting to connect to the build server...
+2024.05.17 16:38:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 16:38:16 INFO  time: Connected to build server in 0.81s
+2024.05.17 16:38:16 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.17 16:38:24 INFO  compiling root (8 scala sources)
+2024.05.17 16:38:24 INFO  time: compiled root in 0.13s
+2024.05.17 16:38:27 INFO  time: indexed workspace in 10s
+2024.05.17 16:38:27 INFO  compiling root (8 scala sources)
+2024.05.17 16:38:27 INFO  time: compiled root in 53ms
+2024.05.17 16:38:29 INFO  time: code lens generation in 1.43s
+2024.05.17 16:38:29 INFO  time: code lens generation in 2.93s
+2024.05.17 16:38:36 INFO  skipping build import with status 'Installed'
+2024.05.17 16:38:36 INFO  Disconnecting from Bloop session...
+2024.05.17 16:38:36 INFO  Shut down connection with build server.
+2024.05.17 16:38:36 INFO  Shut down connection with build server.
+2024.05.17 16:38:36 INFO  Attempting to connect to the build server...
+2024.05.17 16:38:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 16:38:36 INFO  Attempting to connect to the build server...
+2024.05.17 16:38:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 16:38:36 INFO  time: Connected to build server in 51ms
+2024.05.17 16:38:36 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.17 16:38:38 INFO  compiling root (8 scala sources)
+2024.05.17 16:38:38 INFO  time: compiled root in 0.13s
+2024.05.17 16:38:42 INFO  time: indexed workspace in 5.94s
+2024.05.17 16:38:42 INFO  compiling root (8 scala sources)
+2024.05.17 16:38:42 INFO  time: compiled root in 46ms
+2024.05.17 16:38:43 INFO  compiling root (8 scala sources)
+2024.05.17 16:38:43 INFO  time: compiled root in 45ms
+2024.05.17 16:39:03 INFO  compiling root (8 scala sources)
+2024.05.17 16:39:03 INFO  time: compiled root in 46ms
+mai 17, 2024 4:39:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1018
+2024.05.17 16:39:38 INFO  compiling root (8 scala sources)
+2024.05.17 16:39:38 INFO  time: compiled root in 40ms
+2024.05.17 16:39:59 WARN  Using indexes to guess the definition of String
+2024.05.17 16:40:04 INFO  compiling root (8 scala sources)
+2024.05.17 16:40:04 INFO  time: compiled root in 35ms
+2024.05.17 16:40:22 INFO  compiling root (8 scala sources)
+2024.05.17 16:40:22 INFO  time: compiled root in 36ms
+2024.05.17 16:40:28 INFO  compiling root (8 scala sources)
+2024.05.17 16:40:28 INFO  time: compiled root in 38ms
+2024.05.17 16:41:04 INFO  compiling root (8 scala sources)
+2024.05.17 16:41:04 INFO  time: compiled root in 42ms
+2024.05.17 16:41:23 WARN  Using indexes to guess the definition of String
+2024.05.17 16:41:28 INFO  compiling root (8 scala sources)
+2024.05.17 16:41:28 INFO  time: compiled root in 37ms
+2024.05.17 16:42:40 INFO  compiling root (8 scala sources)
+2024.05.17 16:42:40 INFO  time: compiled root in 34ms
+2024.05.17 16:42:46 INFO  compiling root (8 scala sources)
+2024.05.17 16:42:46 INFO  time: compiled root in 34ms
+2024.05.17 16:43:08 INFO  compiling root (8 scala sources)
+2024.05.17 16:43:08 INFO  time: compiled root in 38ms
+2024.05.17 16:43:21 INFO  compiling root (8 scala sources)
+2024.05.17 16:43:21 INFO  time: compiled root in 36ms
+2024.05.17 16:47:15 INFO  running '/Users/jules/.sdkman/candidates/sbt/current/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.17 16:47:17 INFO  [info] welcome to sbt 1.9.9 (Homebrew Java 11.0.23)
+2024.05.17 16:47:17 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.17 16:47:19 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project/project
+2024.05.17 16:47:19 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.17 16:47:20 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project
+2024.05.17 16:47:21 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.17 16:47:21 INFO  [success] Total time: 2 s, completed 17 mai 2024 à 16:47:21
+2024.05.17 16:47:23 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.17 16:47:23 INFO  [info] set current project to projet_data-engineer (in build file:/Users/jules/Desktop/Data_Engineering_M1_Project/)
+2024.05.17 16:47:25 INFO  [success] Generated .bloop/root-test.json
+2024.05.17 16:47:25 INFO  [success] Generated .bloop/root.json
+2024.05.17 16:47:25 INFO  [success] Total time: 1 s, completed 17 mai 2024 à 16:47:25
+2024.05.17 16:47:25 INFO  time: ran 'sbt bloopInstall' in 10s
+2024.05.17 16:47:25 INFO  Disconnecting from Bloop session...
+2024.05.17 16:47:25 INFO  Shut down connection with build server.
+2024.05.17 16:47:25 INFO  Shut down connection with build server.
+2024.05.17 16:47:25 INFO  Attempting to connect to the build server...
+2024.05.17 16:47:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 16:47:25 INFO  Attempting to connect to the build server...
+2024.05.17 16:47:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 16:47:25 INFO  time: Connected to build server in 0.3s
+2024.05.17 16:47:25 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.17 16:47:31 INFO  time: indexed workspace in 5.41s
+2024.05.17 16:47:31 INFO  compiling root (8 scala sources)
+2024.05.17 16:47:31 INFO  time: compiled root in 60ms
+2024.05.17 16:47:49 INFO  compiling root (8 scala sources)
+2024.05.17 16:47:49 INFO  time: compiled root in 88ms
+2024.05.17 16:50:09 INFO  compiling root (8 scala sources)
+2024.05.17 16:50:09 INFO  time: compiled root in 40ms
+2024.05.17 16:50:56 INFO  compiling root (7 scala sources)
+2024.05.17 16:50:56 INFO  time: compiled root in 42ms
+2024.05.17 16:51:00 INFO  compiling root (7 scala sources)
+2024.05.17 16:51:00 INFO  time: compiled root in 33ms
+2024.05.17 16:51:17 INFO  compiling root (7 scala sources)
+2024.05.17 16:51:17 INFO  time: compiled root in 38ms
+2024.05.17 16:57:37 INFO  compiling root (7 scala sources)
+2024.05.17 16:57:37 INFO  time: compiled root in 41ms
+2024.05.17 16:58:31 INFO  compiling root (7 scala sources)
+2024.05.17 16:58:31 INFO  time: compiled root in 33ms
+2024.05.17 16:59:44 ERROR Failed to tokenize input for semantic tokens for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+scala.meta.tokenizers.TokenizeException: <input>:63: error: unclosed string literal
+      alerte = " // L'alerte sera mise à jour dans KafkaStreamProcessing
+               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:560)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+mai 17, 2024 4:59:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1491
+2024.05.17 17:00:01 ERROR Failed to tokenize input for semantic tokens for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/IoTDataModels.scala
+scala.meta.tokenizers.TokenizeException: <input>:63: error: unclosed string literal
+      alerte = " // L'alerte sera mise à jour dans KafkaStreamProcessing
+               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:560)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.17 17:00:13 INFO  compiling root (7 scala sources)
+2024.05.17 17:00:13 INFO  time: compiled root in 34ms
+2024.05.17 17:00:49 INFO  compiling root (7 scala sources)
+2024.05.17 17:00:49 INFO  time: compiled root in 32ms
+2024.05.17 17:01:00 INFO  compiling root (7 scala sources)
+2024.05.17 17:01:00 INFO  time: compiled root in 34ms
+2024.05.17 17:03:20 INFO  compiling root (7 scala sources)
+2024.05.17 17:03:20 INFO  time: compiled root in 38ms
+2024.05.17 17:03:27 INFO  compiling root (7 scala sources)
+2024.05.17 17:03:27 INFO  time: compiled root in 33ms
+2024.05.17 17:10:18 INFO  compiling root (8 scala sources)
+2024.05.17 17:10:18 INFO  time: compiled root in 77ms
+2024.05.17 17:10:52 INFO  compiling root (8 scala sources)
+2024.05.17 17:10:52 INFO  time: compiled root in 39ms
+2024.05.17 17:10:57 INFO  compiling root (8 scala sources)
+2024.05.17 17:10:57 INFO  time: compiled root in 32ms
+2024.05.17 17:12:13 INFO  compiling root (8 scala sources)
+2024.05.17 17:12:13 INFO  time: compiled root in 40ms
+2024.05.17 17:12:16 INFO  compiling root (8 scala sources)
+2024.05.17 17:12:16 INFO  time: compiled root in 34ms
+mai 17, 2024 5:12:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1739
+2024.05.17 17:12:19 INFO  compiling root (8 scala sources)
+2024.05.17 17:12:19 INFO  time: compiled root in 40ms
+2024.05.17 17:14:45 INFO  compiling root (8 scala sources)
+2024.05.17 17:14:45 INFO  time: compiled root in 41ms
+2024.05.17 17:18:04 INFO  compiling root (8 scala sources)
+2024.05.17 17:18:04 INFO  time: compiled root in 36ms
+2024.05.17 17:18:13 INFO  compiling root (8 scala sources)
+2024.05.17 17:18:13 INFO  time: compiled root in 36ms
+2024.05.17 17:18:31 INFO  compiling root (8 scala sources)
+2024.05.17 17:18:31 INFO  time: compiled root in 32ms
+2024.05.17 17:18:34 INFO  compiling root (8 scala sources)
+2024.05.17 17:18:34 INFO  time: compiled root in 31ms
+2024.05.17 17:21:52 INFO  compiling root (8 scala sources)
+2024.05.17 17:21:52 INFO  time: compiled root in 38ms
+2024.05.17 17:21:54 INFO  compiling root (8 scala sources)
+2024.05.17 17:21:54 INFO  time: compiled root in 33ms
+2024.05.17 17:21:57 INFO  compiling root (8 scala sources)
+2024.05.17 17:21:57 INFO  time: compiled root in 31ms
+2024.05.17 17:23:08 INFO  compiling root (8 scala sources)
+2024.05.17 17:23:08 INFO  time: compiled root in 37ms
+2024.05.17 17:23:11 INFO  compiling root (8 scala sources)
+2024.05.17 17:23:11 INFO  time: compiled root in 32ms
+2024.05.17 17:24:44 INFO  compiling root (8 scala sources)
+2024.05.17 17:24:44 INFO  time: compiled root in 39ms
+2024.05.17 17:24:49 INFO  compiling root (8 scala sources)
+2024.05.17 17:24:49 INFO  time: compiled root in 32ms
+2024.05.17 17:26:33 INFO  compiling root (8 scala sources)
+2024.05.17 17:26:33 INFO  time: compiled root in 40ms
+2024.05.17 17:26:38 INFO  compiling root (8 scala sources)
+2024.05.17 17:26:38 INFO  time: compiled root in 31ms
+2024.05.17 18:01:55 INFO  running '/Users/jules/.sdkman/candidates/sbt/current/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.17 18:01:57 INFO  [info] welcome to sbt 1.9.9 (Homebrew Java 11.0.23)
+2024.05.17 18:01:57 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.17 18:01:58 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project/project
+2024.05.17 18:01:58 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.17 18:01:58 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project
+2024.05.17 18:02:01 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.17 18:02:01 INFO  [success] Total time: 2 s, completed 17 mai 2024 à 18:02:01
+2024.05.17 18:02:03 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.17 18:02:03 INFO  [info] set current project to projet_data-engineer (in build file:/Users/jules/Desktop/Data_Engineering_M1_Project/)
+2024.05.17 18:02:06 INFO  [success] Generated .bloop/root-test.json
+2024.05.17 18:02:06 INFO  [success] Generated .bloop/root.json
+2024.05.17 18:02:06 INFO  [success] Total time: 3 s, completed 17 mai 2024 à 18:02:06
+2024.05.17 18:02:06 INFO  time: ran 'sbt bloopInstall' in 11s
+2024.05.17 18:02:06 INFO  Disconnecting from Bloop session...
+2024.05.17 18:02:06 INFO  Shut down connection with build server.
+2024.05.17 18:02:06 INFO  Shut down connection with build server.
+2024.05.17 18:02:06 INFO  Attempting to connect to the build server...
+2024.05.17 18:02:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 18:02:06 INFO  Attempting to connect to the build server...
+2024.05.17 18:02:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 18:02:06 INFO  time: Connected to build server in 0.45s
+2024.05.17 18:02:06 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.17 18:02:14 INFO  time: indexed workspace in 7.62s
+2024.05.17 18:02:14 INFO  compiling root (8 scala sources)
+2024.05.17 18:02:14 INFO  time: compiled root in 0.1s
+2024.05.17 18:02:56 INFO  compiling root (8 scala sources)
+2024.05.17 18:02:56 INFO  time: compiled root in 93ms
+2024.05.17 18:03:47 INFO  compiling root (8 scala sources)
+2024.05.17 18:03:47 INFO  time: compiled root in 47ms
+2024.05.17 18:04:10 INFO  compiling root (8 scala sources)
+2024.05.17 18:04:10 INFO  time: compiled root in 47ms
+2024.05.17 18:04:10 INFO  compiling root (8 scala sources)
+2024.05.17 18:04:10 INFO  time: compiled root in 77ms
+2024.05.17 18:04:15 INFO  compiling root (8 scala sources)
+2024.05.17 18:04:15 INFO  time: compiled root in 40ms
+2024.05.17 18:04:22 INFO  compiling root (8 scala sources)
+2024.05.17 18:04:22 INFO  time: compiled root in 35ms
+2024.05.17 18:04:26 INFO  compiling root (8 scala sources)
+2024.05.17 18:04:26 INFO  time: compiled root in 37ms
+2024.05.17 18:05:20 INFO  skipping build import with status 'Installed'
+2024.05.17 18:05:20 INFO  Disconnecting from Bloop session...
+2024.05.17 18:05:20 INFO  Shut down connection with build server.
+2024.05.17 18:05:20 INFO  Shut down connection with build server.
+2024.05.17 18:05:20 INFO  Attempting to connect to the build server...
+2024.05.17 18:05:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 18:05:20 INFO  Attempting to connect to the build server...
+2024.05.17 18:05:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 18:05:20 INFO  time: Connected to build server in 62ms
+2024.05.17 18:05:20 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.17 18:05:22 INFO  compiling root (8 scala sources)
+2024.05.17 18:05:22 INFO  time: compiled root in 57ms
+2024.05.17 18:05:26 INFO  compiling root (8 scala sources)
+2024.05.17 18:05:26 INFO  time: compiled root in 34ms
+2024.05.17 18:05:27 INFO  time: indexed workspace in 6.67s
+2024.05.17 18:05:26 INFO  compiling root (8 scala sources)
+2024.05.17 18:05:26 INFO  time: compiled root in 37ms
+2024.05.17 18:07:11 INFO  compiling root (8 scala sources)
+2024.05.17 18:07:11 INFO  time: compiled root in 71ms
+2024.05.17 18:07:29 INFO  compiling root (8 scala sources)
+2024.05.17 18:07:29 INFO  time: compiled root in 34ms
+2024.05.17 18:09:46 INFO  compiling root (8 scala sources)
+2024.05.17 18:09:46 INFO  time: compiled root in 91ms
+2024.05.17 18:09:51 INFO  compiling root (8 scala sources)
+2024.05.17 18:09:51 INFO  time: compiled root in 38ms
+2024.05.17 18:10:09 INFO  skipping build import with status 'Installed'
+2024.05.17 18:10:09 INFO  Disconnecting from Bloop session...
+2024.05.17 18:10:09 INFO  Shut down connection with build server.
+2024.05.17 18:10:09 INFO  Shut down connection with build server.
+2024.05.17 18:10:09 INFO  Attempting to connect to the build server...
+2024.05.17 18:10:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 18:10:09 INFO  Attempting to connect to the build server...
+2024.05.17 18:10:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.17 18:10:09 INFO  time: Connected to build server in 47ms
+2024.05.17 18:10:09 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.17 18:10:15 INFO  time: indexed workspace in 6.19s
+2024.05.17 18:10:15 INFO  compiling root (8 scala sources)
+2024.05.17 18:10:15 INFO  time: compiled root in 45ms
+2024.05.17 18:11:38 INFO  compiling root (8 scala sources)
+2024.05.17 18:11:38 INFO  time: compiled root in 59ms
+2024.05.17 18:12:13 INFO  compiling root (8 scala sources)
+2024.05.17 18:12:13 INFO  time: compiled root in 37ms
+mai 17, 2024 6:13:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2478
+2024.05.17 18:13:22 INFO  compiling root (8 scala sources)
+2024.05.17 18:13:22 INFO  time: compiled root in 36ms
+2024.05.17 18:13:28 INFO  compiling root (8 scala sources)
+2024.05.17 18:13:28 INFO  time: compiled root in 32ms
+2024.05.17 18:14:17 INFO  compiling root (8 scala sources)
+2024.05.17 18:14:17 INFO  time: compiled root in 37ms
+2024.05.17 18:16:25 INFO  compiling root (8 scala sources)
+2024.05.17 18:16:25 INFO  time: compiled root in 77ms
+2024.05.17 18:16:34 INFO  compiling root (8 scala sources)
+2024.05.17 18:16:34 INFO  time: compiled root in 36ms
+2024.05.17 18:16:41 ERROR Failed to tokenize input for semantic tokens for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/kafka/KafkaSmsSender.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed quoted identifier
+import com.twilio.`type.PhoneNumber
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:496)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:344)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.17 18:16:48 INFO  compiling root (8 scala sources)
+2024.05.17 18:16:48 INFO  time: compiled root in 36ms
+2024.05.17 18:16:58 INFO  compiling root (8 scala sources)
+2024.05.17 18:16:58 INFO  time: compiled root in 30ms
+mai 17, 2024 6:16:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2636
+2024.05.17 18:17:02 INFO  compiling root (8 scala sources)
+2024.05.17 18:17:02 INFO  time: compiled root in 31ms
+2024.05.17 18:22:11 INFO  compiling root (8 scala sources)
+2024.05.17 18:22:11 INFO  time: compiled root in 39ms
+2024.05.17 18:22:23 INFO  compiling root (8 scala sources)
+2024.05.17 18:22:23 INFO  time: compiled root in 31ms
+2024.05.17 18:25:30 INFO  compiling root (8 scala sources)
+2024.05.17 18:25:30 INFO  time: compiled root in 38ms
+2024.05.17 18:34:08 INFO  compiling root (8 scala sources)
+2024.05.17 18:34:08 INFO  time: compiled root in 36ms

@@ -5,7 +5,7 @@ import org.apache.kafka.common.serialization.Serdes
 import org.apache.kafka.streams.{KafkaStreams, StreamsConfig}
 import java.util.Properties
 
-object KafkaAlertEmailer {
+object KafkaAlert {
   def startAlertStream(): KafkaStreams = {
     val props = new Properties()
     props.put(StreamsConfig.APPLICATION_ID_CONFIG, "iot-alert-emailer")

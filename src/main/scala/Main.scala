@@ -8,11 +8,13 @@ object Main extends App {
   println("=" * 75)  // Affiche une ligne de séparation
 
   KafkaStreamProcessing.startStream() // Démarrer le traitement du stream Kafka
-  KafkaAlertEmailer.startAlertStream() // Démarrer le stream des alertes
+  KafkaAlert.startAlertStream() // Démarrer le stream des alertes
   KafkaSmsSender.startSmsSenderStream()
-  
+  DataToS3.startStream()
+
   sys.addShutdownHook {
     MyKafkaProducer.close()
+    DataToS3.s3Client.close()
     println("Fermeture du producteur Kafka.")
   }
 

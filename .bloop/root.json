@@ -30,6 +30,10 @@
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/s3/2.17.182/s3-2.17.182.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.2.0/spark-core_2.13-3.2.0.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.2.0/spark-sql_2.13-3.2.0.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.2.0/hadoop-aws-3.2.0.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.903/aws-java-sdk-bundle-1.11.903.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.14.1/circe-numbers_2.13-0.14.1.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.7/shapeless_2.13-2.3.7.jar",
@@ -128,12 +132,23 @@
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hive/hive-storage-api/2.7.2/hive-storage-api-2.7.2.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.12.1/parquet-column-1.12.1.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.12.1/parquet-hadoop-1.12.1.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/barcodes/7.1.15/barcodes-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/font-asian/7.1.15/font-asian-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/forms/7.1.15/forms-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/hyph/7.1.15/hyph-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/io/7.1.15/io-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/kernel/7.1.15/kernel-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/layout/7.1.15/layout-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/pdfa/7.1.15/pdfa-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/sign/7.1.15/sign-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/styled-xml-parser/7.1.15/styled-xml-parser-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/svg/7.1.15/svg-7.1.15.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.6.1/cats-kernel_2.13-2.6.1.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.1.2/jawn-parser_2.13-1.1.2.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/connect-api/2.8.0/connect-api-2.8.0.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5.jar",
-            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.12.5/jackson-module-jaxb-annotations-2.12.5.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.2.4/woodstox-core-6.2.4.jar",
@@ -186,6 +201,8 @@
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.12.1/parquet-encoding-1.12.1.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-format-structures/1.12.1/parquet-format-structures-1.12.1.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.12.1/parquet-jackson-1.12.1.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar",
+            "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar",
             "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.182/third-party-jackson-core-2.17.182.jar",
@@ -337,6 +354,10 @@
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/s3/2.17.182/s3-2.17.182.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.2.0/spark-core_2.13-3.2.0.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.2.0/spark-sql_2.13-3.2.0.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.2.0/hadoop-aws-3.2.0.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.903/aws-java-sdk-bundle-1.11.903.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.14.1/circe-numbers_2.13-0.14.1.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.7/shapeless_2.13-2.3.7.jar",
@@ -435,12 +456,23 @@
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hive/hive-storage-api/2.7.2/hive-storage-api-2.7.2.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.12.1/parquet-column-1.12.1.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.12.1/parquet-hadoop-1.12.1.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/barcodes/7.1.15/barcodes-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/font-asian/7.1.15/font-asian-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/forms/7.1.15/forms-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/hyph/7.1.15/hyph-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/io/7.1.15/io-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/kernel/7.1.15/kernel-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/layout/7.1.15/layout-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/pdfa/7.1.15/pdfa-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/sign/7.1.15/sign-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/styled-xml-parser/7.1.15/styled-xml-parser-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/svg/7.1.15/svg-7.1.15.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.6.1/cats-kernel_2.13-2.6.1.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.1.2/jawn-parser_2.13-1.1.2.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/connect-api/2.8.0/connect-api-2.8.0.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5.jar",
-                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.12.5/jackson-module-jaxb-annotations-2.12.5.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.2.4/woodstox-core-6.2.4.jar",
@@ -493,6 +525,8 @@
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.12.1/parquet-encoding-1.12.1.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-format-structures/1.12.1/parquet-format-structures-1.12.1.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.12.1/parquet-jackson-1.12.1.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar",
+                "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar",
                 "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.182/third-party-jackson-core-2.17.182.jar",
@@ -772,6 +806,74 @@
                             "name": "spark-sql_2.13",
                             "classifier": "sources",
                             "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.2.0/spark-sql_2.13-3.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.pdfbox",
+                    "name": "pdfbox",
+                    "version": "2.0.24",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pdfbox",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar"
+                        },
+                        {
+                            "name": "pdfbox",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.pdfbox",
+                    "name": "fontbox",
+                    "version": "2.0.24",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fontbox",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar"
+                        },
+                        {
+                            "name": "fontbox",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.hadoop",
+                    "name": "hadoop-aws",
+                    "version": "3.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hadoop-aws",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.2.0/hadoop-aws-3.2.0.jar"
+                        },
+                        {
+                            "name": "hadoop-aws",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.2.0/hadoop-aws-3.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.amazonaws",
+                    "name": "aws-java-sdk-bundle",
+                    "version": "1.11.903",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "aws-java-sdk-bundle",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.903/aws-java-sdk-bundle-1.11.903.jar"
+                        },
+                        {
+                            "name": "aws-java-sdk-bundle",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.903/aws-java-sdk-bundle-1.11.903-sources.jar"
                         }
                     ]
                 },
@@ -2437,6 +2539,200 @@
                     ]
                 },
                 {
+                    "organization": "com.itextpdf",
+                    "name": "barcodes",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "barcodes",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/barcodes/7.1.15/barcodes-7.1.15.jar"
+                        },
+                        {
+                            "name": "barcodes",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/barcodes/7.1.15/barcodes-7.1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.itextpdf",
+                    "name": "font-asian",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "font-asian",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/font-asian/7.1.15/font-asian-7.1.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.itextpdf",
+                    "name": "forms",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "forms",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/forms/7.1.15/forms-7.1.15.jar"
+                        },
+                        {
+                            "name": "forms",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/forms/7.1.15/forms-7.1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.itextpdf",
+                    "name": "hyph",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hyph",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/hyph/7.1.15/hyph-7.1.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.itextpdf",
+                    "name": "io",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "io",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/io/7.1.15/io-7.1.15.jar"
+                        },
+                        {
+                            "name": "io",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/io/7.1.15/io-7.1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.itextpdf",
+                    "name": "kernel",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kernel",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/kernel/7.1.15/kernel-7.1.15.jar"
+                        },
+                        {
+                            "name": "kernel",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/kernel/7.1.15/kernel-7.1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.itextpdf",
+                    "name": "layout",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "layout",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/layout/7.1.15/layout-7.1.15.jar"
+                        },
+                        {
+                            "name": "layout",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/layout/7.1.15/layout-7.1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.itextpdf",
+                    "name": "pdfa",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pdfa",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/pdfa/7.1.15/pdfa-7.1.15.jar"
+                        },
+                        {
+                            "name": "pdfa",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/pdfa/7.1.15/pdfa-7.1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.itextpdf",
+                    "name": "sign",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sign",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/sign/7.1.15/sign-7.1.15.jar"
+                        },
+                        {
+                            "name": "sign",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/sign/7.1.15/sign-7.1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.itextpdf",
+                    "name": "styled-xml-parser",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "styled-xml-parser",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/styled-xml-parser/7.1.15/styled-xml-parser-7.1.15.jar"
+                        },
+                        {
+                            "name": "styled-xml-parser",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/styled-xml-parser/7.1.15/styled-xml-parser-7.1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.itextpdf",
+                    "name": "svg",
+                    "version": "7.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "svg",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/svg/7.1.15/svg-7.1.15.jar"
+                        },
+                        {
+                            "name": "svg",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/itextpdf/svg/7.1.15/svg-7.1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.typelevel",
                     "name": "cats-kernel_2.13",
                     "version": "2.6.1",
@@ -2518,23 +2814,6 @@
                             "name": "jackson-datatype-jdk8",
                             "classifier": "sources",
                             "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "commons-logging",
-                    "name": "commons-logging",
-                    "version": "1.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "commons-logging",
-                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
-                        },
-                        {
-                            "name": "commons-logging",
-                            "classifier": "sources",
-                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
                         }
                     ]
                 },
@@ -3419,6 +3698,40 @@
                             "name": "parquet-jackson",
                             "classifier": "sources",
                             "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.12.1/parquet-jackson-1.12.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcpkix-jdk15on",
+                    "version": "1.68",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcpkix-jdk15on",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar"
+                        },
+                        {
+                            "name": "bcpkix-jdk15on",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcprov-jdk15on",
+                    "version": "1.68",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcprov-jdk15on",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar"
+                        },
+                        {
+                            "name": "bcprov-jdk15on",
+                            "classifier": "sources",
+                            "path": "/Users/jules/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68-sources.jar"
                         }
                     ]
                 },

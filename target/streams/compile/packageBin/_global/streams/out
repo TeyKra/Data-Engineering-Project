@@ -34,8 +34,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/Capitales$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	KafkaAlert$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/KafkaAlert$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	S3ToData$anon$importedDecoder$macro$33$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/S3ToData$anon$importedDecoder$macro$33$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	IoTDataJson$anon$lazy$macro$9$1$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/IoTDataJson$anon$lazy$macro$9$1$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	IoTDataJson.class[0m
@@ -46,8 +44,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/IoTDataJson$anon$lazy$macro$9$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	IoTDataJson$anon$lazy$macro$19$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/IoTDataJson$anon$lazy$macro$19$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	S3ToData$$typecreator5$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/S3ToData$$typecreator5$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MyKafkaProducer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/MyKafkaProducer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	KafkaSmsSender.class[0m
@@ -58,16 +54,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/IoTData.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	IoTDataCsv$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/IoTDataCsv$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	S3ToData$anon$importedDecoder$macro$33$1$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/S3ToData$anon$importedDecoder$macro$33$1$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	IoTDataCsv.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/IoTDataCsv.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	IoTDataJson$anon$lazy$macro$27$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/IoTDataJson$anon$lazy$macro$27$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	DataToS3$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/DataToS3$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	S3ToData$anon$importedDecoder$macro$33$1$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/S3ToData$anon$importedDecoder$macro$33$1$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	IoTDataJson$anon$lazy$macro$55$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/IoTDataJson$anon$lazy$macro$55$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	S3ToData$.class[0m
@@ -94,6 +86,4 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/Main$$typecreator5$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	IoTDataJson$anon$lazy$macro$75$1$$anon$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/IoTDataJson$anon$lazy$macro$75$1$$anon$6.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	S3ToData$anon$importedDecoder$macro$33$1$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jules/Desktop/Data_Engineering_M1_Project/target/scala-2.13/classes/S3ToData$anon$importedDecoder$macro$33$1$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

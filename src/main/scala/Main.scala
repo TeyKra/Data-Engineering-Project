@@ -8,10 +8,13 @@ object Main extends App {
   println("Rapports des données IoT :")
   println("=" * 75)  // Affiche une ligne de séparation
 
-  // Initialiser une session Spark
+  // Initialiser une session Spark avec la configuration S3
   val spark = SparkSession.builder
     .appName("S3ToData")
     .master("local[*]")
+    .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")
+    .config("spark.hadoop.fs.s3a.aws.credentials.provider", "com.amazonaws.auth.DefaultAWSCredentialsProviderChain")
+    .config("spark.hadoop.fs.s3a.endpoint", "s3.amazonaws.com")
     .getOrCreate()
 
   import spark.implicits._

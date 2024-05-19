@@ -1,7 +1,7 @@
 [0m[[0m[31merror[0m] [0m[0morg.apache.spark.sql.AnalysisException: Union can only be performed on tables with the compatible column types. double <> struct<capital:string,latitude:double,longitude:double> at the third column of the second table;[0m
 [0m[[0m[31merror[0m] [0m[0m'Union false, false[0m
-[0m[[0m[31merror[0m] [0m[0m:- LogicalRDD [timestamp#8, deviceId#9, location#10, qualiteAir#11, niveauxSonores#12, temperature#13, humidite#14, alerte#15], false[0m
-[0m[[0m[31merror[0m] [0m[0m+- LogicalRDD [alerte#62, deviceId#63, humidite#64, location#65, niveauxSonores#66, qualiteAir#67, temperature#68, timestamp#69], false[0m
+[0m[[0m[31merror[0m] [0m[0m:- LocalRelation <empty>, [timestamp#8, deviceId#9, location#10, qualiteAir#11, niveauxSonores#12, temperature#13, humidite#14, alerte#15][0m
+[0m[[0m[31merror[0m] [0m[0m+- Relation [alerte#31,deviceId#32,humidite#33,location#34,niveauxSonores#35,qualiteAir#36,temperature#37,timestamp#38] json[0m
 [0m[[0m[31merror[0m] [0m[0m[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.failAnalysis(CheckAnalysis.scala:51)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.failAnalysis$(CheckAnalysis.scala:50)[0m
@@ -34,9 +34,9 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:88)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.withSetOperator(Dataset.scala:3746)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.union(Dataset.scala:1985)[0m
-[0m[[0m[31merror[0m] [0m[0m	at S3ToDataframe.getNewDataFrame(S3ToDataframe.scala:61)[0m
-[0m[[0m[31merror[0m] [0m[0m	at Main$.delayedEndpoint$Main$1(Main.scala:129)[0m
-[0m[[0m[31merror[0m] [0m[0m	at Main$delayedInit$body.apply(Main.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at S3ToData$.loadNewDataToDataFrame(S3ToData.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Main$.delayedEndpoint$Main$1(Main.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Main$delayedInit$body.apply(Main.scala:7)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
@@ -47,7 +47,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.App.main(App.scala:76)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.App.main$(App.scala:74)[0m
-[0m[[0m[31merror[0m] [0m[0m	at Main$.main(Main.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Main$.main(Main.scala:7)[0m
 [0m[[0m[31merror[0m] [0m[0m	at Main.main(Main.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -68,5 +68,5 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:834)[0m
 [0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) org.apache.spark.sql.AnalysisException: Union can only be performed on tables with the compatible column types. double <> struct<capital:string,latitude:double,longitude:double> at the third column of the second table;[0m
 [0m[[0m[31merror[0m] [0m[0m'Union false, false[0m
-[0m[[0m[31merror[0m] [0m[0m:- LogicalRDD [timestamp#8, deviceId#9, location#10, qualiteAir#11, niveauxSonores#12, temperature#13, humidite#14, alerte#15], false[0m
-[0m[[0m[31merror[0m] [0m[0m+- LogicalRDD [alerte#62, deviceId#63, humidite#64, location#65, niveauxSonores#66, qualiteAir#67, temperature#68, timestamp#69], false[0m
+[0m[[0m[31merror[0m] [0m[0m:- LocalRelation <empty>, [timestamp#8, deviceId#9, location#10, qualiteAir#11, niveauxSonores#12, temperature#13, humidite#14, alerte#15][0m
+[0m[[0m[31merror[0m] [0m[0m+- Relation [alerte#31,deviceId#32,humidite#33,location#34,niveauxSonores#35,qualiteAir#36,temperature#37,timestamp#38] json[0m

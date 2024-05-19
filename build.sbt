@@ -21,6 +21,11 @@ lazy val root = (project in file("."))
       "com.twilio.sdk" % "twilio" % "8.25.0",
       "software.amazon.awssdk" % "s3" % "2.17.182",
       "org.apache.spark" %% "spark-core" % "3.2.0",
-      "org.apache.spark" %% "spark-sql" % "3.2.0"
+      "org.apache.spark" %% "spark-sql" % "3.2.0",
+      "com.itextpdf" % "itext7-core" % "7.1.15",
+      "org.apache.pdfbox" % "pdfbox" % "2.0.24",
+      "org.apache.pdfbox" % "fontbox" % "2.0.24",
+      "org.apache.hadoop" % "hadoop-aws" % "3.2.0",
+      "com.amazonaws" % "aws-java-sdk-bundle" % "1.11.903"
     )
   )

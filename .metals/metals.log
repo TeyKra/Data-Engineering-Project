@@ -5271,3 +5271,290 @@ java.nio.file.NoSuchFileException: /Users/jules/Desktop/Data_Engineering_M1_Proj
 2024.05.19 20:38:54 INFO  time: compiled root in 36ms
 2024.05.19 20:38:58 INFO  compiling root (10 scala sources)
 2024.05.19 20:38:58 INFO  time: compiled root in 37ms
+2024.05.19 20:50:03 INFO  compiling root (10 scala sources)
+2024.05.19 20:50:03 INFO  time: compiled root in 34ms
+2024.05.19 20:50:07 INFO  compiling root (10 scala sources)
+2024.05.19 20:50:07 INFO  time: compiled root in 31ms
+2024.05.19 20:50:49 INFO  compiling root (10 scala sources)
+2024.05.19 20:50:49 INFO  time: compiled root in 34ms
+2024.05.19 20:51:23 INFO  running '/Users/jules/.sdkman/candidates/sbt/current/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.19 20:51:25 INFO  [info] welcome to sbt 1.9.9 (Homebrew Java 11.0.23)
+2024.05.19 20:51:26 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.19 20:51:26 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project/project
+2024.05.19 20:51:28 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.19 20:51:28 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project
+2024.05.19 20:51:29 INFO  compiling root (10 scala sources)
+2024.05.19 20:51:29 INFO  time: compiled root in 71ms
+2024.05.19 20:51:31 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.19 20:51:31 INFO  [success] Total time: 3 s, completed 19 mai 2024 à 20:51:31
+2024.05.19 20:51:31 INFO  compiling root (10 scala sources)
+2024.05.19 20:51:31 INFO  time: compiled root in 44ms
+2024.05.19 20:51:34 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.19 20:51:34 INFO  [info] set current project to projet_data-engineer (in build file:/Users/jules/Desktop/Data_Engineering_M1_Project/)
+2024.05.19 20:51:35 INFO  compiling root (10 scala sources)
+2024.05.19 20:51:35 INFO  time: compiled root in 39ms
+2024.05.19 20:51:49 INFO  [success] Generated .bloop/root.json
+2024.05.19 20:51:49 INFO  [success] Generated .bloop/root-test.json
+2024.05.19 20:51:49 INFO  [success] Total time: 14 s, completed 19 mai 2024 à 20:51:49
+2024.05.19 20:51:49 INFO  time: ran 'sbt bloopInstall' in 25s
+2024.05.19 20:51:49 INFO  Disconnecting from Bloop session...
+2024.05.19 20:51:49 INFO  Shut down connection with build server.
+2024.05.19 20:51:49 INFO  Shut down connection with build server.
+2024.05.19 20:51:49 INFO  Attempting to connect to the build server...
+2024.05.19 20:51:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.19 20:51:49 INFO  Attempting to connect to the build server...
+2024.05.19 20:51:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.19 20:51:49 INFO  time: Connected to build server in 0.6s
+2024.05.19 20:51:49 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.19 20:51:49 INFO  time: Imported build in 0.1s
+2024.05.19 20:52:10 INFO  time: indexed workspace in 20s
+2024.05.19 20:52:10 INFO  compiling root (10 scala sources)
+2024.05.19 20:52:10 INFO  time: compiled root in 39ms
+2024.05.19 20:54:10 INFO  compiling root (10 scala sources)
+2024.05.19 20:54:10 INFO  time: compiled root in 37ms
+2024.05.19 20:54:13 INFO  compiling root (10 scala sources)
+2024.05.19 20:54:13 INFO  time: compiled root in 38ms
+2024.05.19 20:54:17 INFO  compiling root (10 scala sources)
+2024.05.19 20:54:17 INFO  time: compiled root in 31ms
+2024.05.19 20:57:40 INFO  compiling root (10 scala sources)
+2024.05.19 20:57:40 INFO  time: compiled root in 84ms
+2024.05.19 20:57:42 INFO  compiling root (10 scala sources)
+2024.05.19 20:57:42 INFO  time: compiled root in 31ms
+mai 19, 2024 8:58:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+mai 19, 2024 8:58:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2024.05.19 21:04:31 INFO  compiling root (10 scala sources)
+2024.05.19 21:04:31 INFO  time: compiled root in 52ms
+2024.05.19 21:10:41 INFO  compiling root (10 scala sources)
+2024.05.19 21:10:41 INFO  time: compiled root in 49ms
+2024.05.19 21:10:46 INFO  compiling root (10 scala sources)
+2024.05.19 21:10:46 INFO  time: compiled root in 40ms
+2024.05.19 21:13:34 INFO  running '/Users/jules/.sdkman/candidates/sbt/current/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.19 21:13:37 INFO  [info] welcome to sbt 1.9.9 (Homebrew Java 11.0.23)
+2024.05.19 21:13:37 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.19 21:13:39 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project/project
+2024.05.19 21:13:39 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.19 21:13:40 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project
+2024.05.19 21:13:42 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.19 21:13:42 INFO  [success] Total time: 2 s, completed 19 mai 2024 à 21:13:42
+2024.05.19 21:13:45 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.19 21:13:45 INFO  [info] set current project to projet_data-engineer (in build file:/Users/jules/Desktop/Data_Engineering_M1_Project/)
+2024.05.19 21:13:46 INFO  compiling root (10 scala sources)
+2024.05.19 21:13:46 INFO  time: compiled root in 88ms
+2024.05.19 21:13:58 INFO  [success] Generated .bloop/root-test.json
+2024.05.19 21:13:58 INFO  [success] Generated .bloop/root.json
+2024.05.19 21:13:58 INFO  [success] Total time: 13 s, completed 19 mai 2024 à 21:13:58
+2024.05.19 21:13:58 INFO  time: ran 'sbt bloopInstall' in 23s
+2024.05.19 21:13:58 INFO  Disconnecting from Bloop session...
+2024.05.19 21:13:58 INFO  Shut down connection with build server.
+2024.05.19 21:13:58 INFO  Shut down connection with build server.
+2024.05.19 21:13:58 INFO  Attempting to connect to the build server...
+2024.05.19 21:13:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.19 21:13:58 INFO  Attempting to connect to the build server...
+2024.05.19 21:13:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.19 21:13:58 INFO  time: Connected to build server in 0.49s
+2024.05.19 21:13:58 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.19 21:13:59 INFO  time: Imported build in 0.23s
+2024.05.19 21:14:06 INFO  compiling root (10 scala sources)
+2024.05.19 21:14:06 INFO  time: compiled root in 43ms
+2024.05.19 21:14:10 INFO  compiling root (10 scala sources)
+2024.05.19 21:14:10 INFO  time: compiled root in 37ms
+2024.05.19 21:14:17 INFO  time: indexed workspace in 18s
+2024.05.19 21:14:17 INFO  compiling root (10 scala sources)
+2024.05.19 21:14:17 INFO  time: compiled root in 47ms
+2024.05.19 21:14:40 INFO  compiling root (10 scala sources)
+2024.05.19 21:14:40 INFO  time: compiled root in 31ms
+2024.05.19 21:14:47 INFO  compiling root (10 scala sources)
+2024.05.19 21:14:47 INFO  time: compiled root in 69ms
+2024.05.19 21:14:49 INFO  compiling root (10 scala sources)
+2024.05.19 21:14:49 INFO  time: compiled root in 30ms
+2024.05.19 21:16:22 INFO  compiling root (10 scala sources)
+2024.05.19 21:16:22 INFO  time: compiled root in 35ms
+2024.05.19 21:16:26 INFO  compiling root (10 scala sources)
+2024.05.19 21:16:26 INFO  time: compiled root in 30ms
+2024.05.19 21:19:02 INFO  compiling root (10 scala sources)
+2024.05.19 21:19:02 INFO  time: compiled root in 38ms
+2024.05.19 21:19:05 INFO  compiling root (10 scala sources)
+2024.05.19 21:19:05 INFO  time: compiled root in 30ms
+2024.05.19 21:19:51 INFO  compiling root (10 scala sources)
+2024.05.19 21:19:51 INFO  time: compiled root in 44ms
+2024.05.19 21:19:53 INFO  compiling root (10 scala sources)
+2024.05.19 21:19:53 INFO  time: compiled root in 31ms
+2024.05.19 21:20:33 INFO  running '/Users/jules/.sdkman/candidates/sbt/current/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.19 21:20:36 INFO  [info] welcome to sbt 1.9.9 (Homebrew Java 11.0.23)
+2024.05.19 21:20:36 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.19 21:20:38 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project/project
+2024.05.19 21:20:38 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.19 21:20:39 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project
+2024.05.19 21:20:41 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.19 21:20:41 INFO  [success] Total time: 2 s, completed 19 mai 2024 à 21:20:41
+2024.05.19 21:20:44 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.19 21:20:44 INFO  [info] set current project to projet_data-engineer (in build file:/Users/jules/Desktop/Data_Engineering_M1_Project/)
+2024.05.19 21:20:49 INFO  [success] Generated .bloop/root-test.json
+2024.05.19 21:20:49 INFO  [success] Generated .bloop/root.json
+2024.05.19 21:20:49 INFO  [success] Total time: 4 s, completed 19 mai 2024 à 21:20:49
+2024.05.19 21:20:49 INFO  time: ran 'sbt bloopInstall' in 16s
+2024.05.19 21:20:49 INFO  Disconnecting from Bloop session...
+2024.05.19 21:20:49 INFO  Shut down connection with build server.
+2024.05.19 21:20:49 INFO  Shut down connection with build server.
+2024.05.19 21:20:49 INFO  Attempting to connect to the build server...
+2024.05.19 21:20:49 INFO  no build target found for /Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt. Using presentation compiler with project's scala-library version: 2.13.8
+mai 19, 2024 9:20:49 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFOS: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.05.19 21:20:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.19 21:20:49 INFO  Attempting to connect to the build server...
+mai 19, 2024 9:20:50 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/.reports/metals-full/2024-05-19/r_compiler-error_21-20-50-092.md
+2024.05.19 21:20:49 WARN  Could not find semantic tokens for: file:///Users/jules/Desktop/Data_Engineering_M1_Project/build.sbt
+2024.05.19 21:20:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.19 21:20:49 INFO  time: Connected to build server in 0.47s
+2024.05.19 21:20:49 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.19 21:21:11 INFO  time: indexed workspace in 21s
+2024.05.19 21:21:11 INFO  compiling root (10 scala sources)
+2024.05.19 21:21:11 INFO  time: compiled root in 51ms
+2024.05.19 21:23:24 INFO  compiling root (10 scala sources)
+2024.05.19 21:23:24 INFO  time: compiled root in 93ms
+2024.05.19 21:23:29 INFO  compiling root (10 scala sources)
+2024.05.19 21:23:29 INFO  time: compiled root in 34ms
+2024.05.19 21:23:31 INFO  compiling root (10 scala sources)
+2024.05.19 21:23:31 INFO  time: compiled root in 30ms
+2024.05.19 21:23:54 INFO  compiling root (10 scala sources)
+2024.05.19 21:23:54 INFO  time: compiled root in 38ms
+2024.05.19 21:26:29 INFO  compiling root (10 scala sources)
+2024.05.19 21:26:29 INFO  time: compiled root in 40ms
+2024.05.19 21:26:50 INFO  compiling root (10 scala sources)
+2024.05.19 21:26:50 INFO  time: compiled root in 31ms
+2024.05.19 21:29:40 INFO  running '/Users/jules/.sdkman/candidates/sbt/current/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.19 21:29:43 INFO  [info] welcome to sbt 1.9.9 (Homebrew Java 11.0.23)
+2024.05.19 21:29:43 INFO  [info] loading settings for project data_engineering_m1_project-build-build from metals.sbt ...
+2024.05.19 21:29:45 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project/project
+2024.05.19 21:29:45 INFO  [info] loading settings for project data_engineering_m1_project-build from metals.sbt ...
+2024.05.19 21:29:46 INFO  [info] loading project definition from /Users/jules/Desktop/Data_Engineering_M1_Project/project
+2024.05.19 21:29:48 INFO  [success] Generated .bloop/data_engineering_m1_project-build.json
+2024.05.19 21:29:48 INFO  [success] Total time: 2 s, completed 19 mai 2024 à 21:29:48
+2024.05.19 21:29:51 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.19 21:29:51 INFO  [info] set current project to projet_data-engineer (in build file:/Users/jules/Desktop/Data_Engineering_M1_Project/)
+2024.05.19 21:30:03 INFO  compiling root (10 scala sources)
+2024.05.19 21:30:03 INFO  time: compiled root in 89ms
+2024.05.19 21:30:11 INFO  compiling root (10 scala sources)
+2024.05.19 21:30:11 INFO  time: compiled root in 38ms
+2024.05.19 21:30:15 INFO  compiling root (10 scala sources)
+2024.05.19 21:30:15 INFO  time: compiled root in 34ms
+2024.05.19 21:32:38 INFO  [success] Generated .bloop/root.json
+2024.05.19 21:32:38 INFO  [success] Generated .bloop/root-test.json
+2024.05.19 21:32:38 INFO  [success] Total time: 166 s (02:46), completed 19 mai 2024 à 21:32:38
+2024.05.19 21:32:38 INFO  time: ran 'sbt bloopInstall' in 2m57s
+2024.05.19 21:32:38 INFO  Disconnecting from Bloop session...
+2024.05.19 21:32:38 INFO  Shut down connection with build server.
+2024.05.19 21:32:38 INFO  Shut down connection with build server.
+2024.05.19 21:32:38 INFO  Attempting to connect to the build server...
+2024.05.19 21:32:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.19 21:32:38 INFO  Attempting to connect to the build server...
+2024.05.19 21:32:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.19 21:32:38 INFO  time: Connected to build server in 0.49s
+2024.05.19 21:32:38 INFO  Connected to Build server: Bloop v1.5.17
+mai 19, 2024 9:33:28 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+AVERTISSEMENT: Error indexing /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+java.nio.file.NoSuchFileException: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:250)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:155)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:342)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+mai 19, 2024 9:33:28 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+AVERTISSEMENT: Error indexing /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+java.nio.file.NoSuchFileException: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:301)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:250)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:155)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:342)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024.05.19 21:33:31 INFO  time: indexed workspace in 52s
+2024.05.19 21:33:31 INFO  compiling root (10 scala sources)
+2024.05.19 21:33:31 INFO  time: compiled root in 52ms
+mai 19, 2024 9:34:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5283
+2024.05.19 21:37:37 INFO  compiling root (10 scala sources)
+2024.05.19 21:37:37 INFO  time: compiled root in 48ms
+2024.05.19 21:37:39 INFO  compiling root (10 scala sources)
+2024.05.19 21:37:39 INFO  time: compiled root in 31ms
+2024.05.19 21:41:09 INFO  compiling root (10 scala sources)
+2024.05.19 21:41:09 INFO  time: compiled root in 43ms
+2024.05.19 21:41:13 INFO  compiling root (10 scala sources)
+2024.05.19 21:41:13 INFO  time: compiled root in 32ms
+2024.05.19 21:43:12 INFO  compiling root (10 scala sources)
+2024.05.19 21:43:12 INFO  time: compiled root in 45ms
+2024.05.19 21:43:19 INFO  compiling root (10 scala sources)
+2024.05.19 21:43:19 INFO  time: compiled root in 34ms

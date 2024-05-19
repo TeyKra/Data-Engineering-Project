@@ -19,6 +19,8 @@ lazy val root = (project in file("."))
       "org.apache.logging.log4j" % "log4j-core" % "2.14.1",
       "javax.activation" % "activation" % "1.1.1",
       "com.twilio.sdk" % "twilio" % "8.25.0",
-      "software.amazon.awssdk" % "s3" % "2.17.182"
+      "software.amazon.awssdk" % "s3" % "2.17.182",
+      "org.apache.spark" %% "spark-core" % "3.2.0",
+      "org.apache.spark" %% "spark-sql" % "3.2.0"
     )
   )

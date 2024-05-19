@@ -1,0 +1,72 @@
+[0m[[0m[31merror[0m] [0m[0morg.apache.spark.sql.AnalysisException: Union can only be performed on tables with the compatible column types. double <> struct<capital:string,latitude:double,longitude:double> at the third column of the second table;[0m
+[0m[[0m[31merror[0m] [0m[0m'Union false, false[0m
+[0m[[0m[31merror[0m] [0m[0m:- LogicalRDD [timestamp#8, deviceId#9, location#10, qualiteAir#11, niveauxSonores#12, temperature#13, humidite#14, alerte#15], false[0m
+[0m[[0m[31merror[0m] [0m[0m+- LogicalRDD [alerte#62, deviceId#63, humidite#64, location#65, niveauxSonores#66, qualiteAir#67, temperature#68, timestamp#69], false[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.failAnalysis(CheckAnalysis.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.failAnalysis$(CheckAnalysis.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.failAnalysis(Analyzer.scala:172)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$23(CheckAnalysis.scala:420)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$23$adapted(CheckAnalysis.scala:412)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:333)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$22(CheckAnalysis.scala:412)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$22$adapted(CheckAnalysis.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:333)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:94)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:263)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:94)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:91)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:172)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:195)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:192)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:88)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:196)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:196)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:88)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:86)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:78)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$1(Dataset.scala:90)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:88)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.withSetOperator(Dataset.scala:3746)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.union(Dataset.scala:1985)[0m
+[0m[[0m[31merror[0m] [0m[0m	at S3ToDataframe.getNewDataFrame(S3ToDataframe.scala:61)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Main$.delayedEndpoint$Main$1(Main.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Main$delayedInit$body.apply(Main.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.App.$anonfun$main$1(App.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.App.$anonfun$main$1$adapted(App.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.App.main(App.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.App.main$(App.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Main$.main(Main.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Main.main(Main.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:566)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:144)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:94)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:121)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:187)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:121)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1988)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1927)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:367)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:834)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) org.apache.spark.sql.AnalysisException: Union can only be performed on tables with the compatible column types. double <> struct<capital:string,latitude:double,longitude:double> at the third column of the second table;[0m
+[0m[[0m[31merror[0m] [0m[0m'Union false, false[0m
+[0m[[0m[31merror[0m] [0m[0m:- LogicalRDD [timestamp#8, deviceId#9, location#10, qualiteAir#11, niveauxSonores#12, temperature#13, humidite#14, alerte#15], false[0m
+[0m[[0m[31merror[0m] [0m[0m+- LogicalRDD [alerte#62, deviceId#63, humidite#64, location#65, niveauxSonores#66, qualiteAir#67, temperature#68, timestamp#69], false[0m

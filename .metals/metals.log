@@ -5558,3 +5558,608 @@ AVERTISSEMENT: Unmatched cancel notification for request id 5283
 2024.05.19 21:43:12 INFO  time: compiled root in 45ms
 2024.05.19 21:43:19 INFO  compiling root (10 scala sources)
 2024.05.19 21:43:19 INFO  time: compiled root in 34ms
+2024.05.20 19:44:05 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:44:20 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:44:24 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:44:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.20 19:44:26 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.20 19:44:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jules/Desktop/Data_Engineering_M1_Project/project/.metals/bsp.trace.json or /Users/jules/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.20 19:44:34 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:44:48 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:46:02 INFO  compiling root (10 scala sources)
+2024.05.20 19:46:02 INFO  time: compiled root in 0.14s
+2024.05.20 19:46:02 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:49:20 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:49:32 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:49:35 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:49:36 INFO  compiling root (10 scala sources)
+2024.05.20 19:49:36 INFO  time: compiled root in 51ms
+2024.05.20 19:49:36 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:49:38 INFO  compiling root (10 scala sources)
+2024.05.20 19:49:38 INFO  time: compiled root in 47ms
+2024.05.20 19:49:39 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:56:47 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:56:49 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:56:51 INFO  compiling root (10 scala sources)
+2024.05.20 19:56:51 INFO  time: compiled root in 36ms
+2024.05.20 19:56:51 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:56:52 INFO  compiling root (10 scala sources)
+2024.05.20 19:56:52 INFO  time: compiled root in 42ms
+2024.05.20 19:56:52 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:58:10 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:58:11 INFO  compiling root (10 scala sources)
+2024.05.20 19:58:11 INFO  time: compiled root in 36ms
+2024.05.20 19:58:11 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:59:41 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:59:48 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:59:51 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 19:59:51 INFO  compiling root (10 scala sources)
+2024.05.20 19:59:51 INFO  time: compiled root in 38ms
+2024.05.20 19:59:52 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:00:09 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:00:12 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:00:13 INFO  compiling root (10 scala sources)
+2024.05.20 20:00:13 INFO  time: compiled root in 32ms
+2024.05.20 20:00:14 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:03:08 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:03:09 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:03:12 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:03:13 INFO  compiling root (10 scala sources)
+2024.05.20 20:03:13 INFO  time: compiled root in 38ms
+2024.05.20 20:03:13 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:03:27 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:03:29 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:03:30 INFO  compiling root (10 scala sources)
+2024.05.20 20:03:30 INFO  time: compiled root in 37ms
+2024.05.20 20:03:30 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:04:46 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:05:22 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:05:23 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:05:22 ERROR Failed to tokenize input for semantic tokens for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:95: error: Non-zero integral values may not have a leading zero.
+    Thread.sleep(0000) // Pause pour 2'30 minutes
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.20 20:05:25 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:05:28 INFO  compiling root (10 scala sources)
+2024.05.20 20:05:28 INFO  time: compiled root in 41ms
+2024.05.20 20:05:28 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:08:11 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:08:32 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:10:41 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:11:38 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:11:39 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:11:46 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:11:47 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:12:30 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:31:49 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:31:53 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:31:59 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:32:08 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:32:16 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:32:22 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:32:26 INFO  compiling root (10 scala sources)
+2024.05.20 20:32:26 INFO  time: compiled root in 46ms
+2024.05.20 20:32:27 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:33:17 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:34:04 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:34:16 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:34:19 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:34:20 INFO  compiling root (10 scala sources)
+2024.05.20 20:34:20 INFO  time: compiled root in 59ms
+2024.05.20 20:34:21 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:34:23 INFO  compiling root (10 scala sources)
+2024.05.20 20:34:23 INFO  time: compiled root in 80ms
+2024.05.20 20:34:23 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:49:07 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:49:08 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:49:13 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:49:15 INFO  compiling root (10 scala sources)
+2024.05.20 20:49:15 INFO  time: compiled root in 45ms
+2024.05.20 20:49:15 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:50:24 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:51:42 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:51:44 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:51:44 INFO  compiling root (10 scala sources)
+2024.05.20 20:51:44 INFO  time: compiled root in 36ms
+2024.05.20 20:51:45 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:54:22 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:57:40 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:57:42 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:57:43 INFO  compiling root (10 scala sources)
+2024.05.20 20:57:43 INFO  time: compiled root in 40ms
+2024.05.20 20:57:44 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 20:57:45 INFO  compiling root (10 scala sources)
+2024.05.20 20:57:45 INFO  time: compiled root in 34ms
+2024.05.20 20:57:45 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:03:34 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:10:57 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:11:00 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:11:02 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:11:02 INFO  compiling root (10 scala sources)
+2024.05.20 21:11:02 INFO  time: compiled root in 49ms
+2024.05.20 21:11:03 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:11:35 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:11:36 INFO  compiling root (10 scala sources)
+2024.05.20 21:11:36 INFO  time: compiled root in 39ms
+2024.05.20 21:11:36 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:14:21 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:14:34 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:14:35 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:14:43 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:18:04 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:18:06 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:18:07 INFO  compiling root (10 scala sources)
+2024.05.20 21:18:07 INFO  time: compiled root in 48ms
+2024.05.20 21:18:08 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:18:09 INFO  compiling root (10 scala sources)
+2024.05.20 21:18:09 INFO  time: compiled root in 40ms
+2024.05.20 21:18:09 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:19:04 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:19:07 ERROR Failed to tokenize input for semantic tokens for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:101: error: Non-zero integral values may not have a leading zero.
+    Thread.sleep(0000) // Pause pour 2'30 minutes
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.20 21:19:07 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:19:08 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:19:10 INFO  compiling root (10 scala sources)
+2024.05.20 21:19:10 INFO  time: compiled root in 39ms
+2024.05.20 21:19:10 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:23:51 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:23:56 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:23:56 ERROR Failed to tokenize input for semantic tokens for /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:101: error: Non-zero integral values may not have a leading zero.
+    Thread.sleep(0000) // Pause pour 2'30 minutes
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.20 21:23:57 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:23:58 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:23:59 INFO  compiling root (10 scala sources)
+2024.05.20 21:23:59 INFO  time: compiled root in 39ms
+2024.05.20 21:23:59 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:27:16 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:27:53 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:32:26 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:32:29 INFO  compiling root (10 scala sources)
+2024.05.20 21:32:29 INFO  time: compiled root in 42ms
+2024.05.20 21:32:29 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:35:47 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:35:48 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:35:50 INFO  compiling root (10 scala sources)
+2024.05.20 21:35:50 INFO  time: compiled root in 39ms
+2024.05.20 21:35:50 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:35:53 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:36:05 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:36:08 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:36:09 INFO  compiling root (10 scala sources)
+2024.05.20 21:36:09 INFO  time: compiled root in 32ms
+2024.05.20 21:36:09 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:39:16 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:40:46 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:40:49 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:40:50 INFO  compiling root (10 scala sources)
+2024.05.20 21:40:50 INFO  time: compiled root in 41ms
+2024.05.20 21:40:51 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:42:37 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:42:39 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:42:40 INFO  compiling root (10 scala sources)
+2024.05.20 21:42:40 INFO  time: compiled root in 65ms
+2024.05.20 21:42:40 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:48:19 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:48:21 INFO  compiling root (10 scala sources)
+2024.05.20 21:48:21 INFO  time: compiled root in 34ms
+2024.05.20 21:48:21 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:48:22 INFO  compiling root (10 scala sources)
+2024.05.20 21:48:22 INFO  time: compiled root in 30ms
+2024.05.20 21:48:22 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:48:35 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:48:39 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:48:39 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:48:41 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:48:43 INFO  compiling root (10 scala sources)
+2024.05.20 21:48:43 INFO  time: compiled root in 34ms
+2024.05.20 21:48:43 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:48:47 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:48:49 INFO  compiling root (10 scala sources)
+2024.05.20 21:48:49 INFO  time: compiled root in 30ms
+2024.05.20 21:48:49 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:49:01 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:50:36 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:50:39 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:50:39 INFO  compiling root (10 scala sources)
+2024.05.20 21:50:39 INFO  time: compiled root in 33ms
+2024.05.20 21:50:40 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:50:39 INFO  compiling root (10 scala sources)
+2024.05.20 21:50:39 INFO  time: compiled root in 30ms
+2024.05.20 21:50:40 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:52:43 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:52:46 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:52:48 INFO  compiling root (10 scala sources)
+2024.05.20 21:52:48 INFO  time: compiled root in 41ms
+2024.05.20 21:52:48 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:52:49 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:52:51 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:52:54 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:52:56 INFO  compiling root (10 scala sources)
+2024.05.20 21:52:56 INFO  time: compiled root in 34ms
+2024.05.20 21:52:56 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:53:01 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:53:02 INFO  compiling root (10 scala sources)
+2024.05.20 21:53:02 INFO  time: compiled root in 29ms
+2024.05.20 21:53:02 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:14 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:15 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:15 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:16 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:18 INFO  compiling root (10 scala sources)
+2024.05.20 21:58:18 INFO  time: compiled root in 38ms
+2024.05.20 21:58:18 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:31 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:36 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:37 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:39 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:39 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:40 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:40 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:41 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:41 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:48 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:58:54 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:12 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:13 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:19 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:24 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:25 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:26 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:28 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+mai 20, 2024 9:59:28 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+AVERTISSEMENT: Error indexing /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+java.nio.file.NoSuchFileException: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:250)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:109)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:342)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+mai 20, 2024 9:59:28 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+AVERTISSEMENT: Error indexing /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+java.nio.file.NoSuchFileException: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:301)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:250)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:109)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:342)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+mai 20, 2024 9:59:28 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+AVERTISSEMENT: Error indexing /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+java.nio.file.NoSuchFileException: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:228)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:228)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:250)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:109)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:342)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+mai 20, 2024 9:59:28 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+AVERTISSEMENT: Error indexing /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+java.nio.file.NoSuchFileException: /Users/jules/Desktop/Data_Engineering_M1_Project/src/main/scala/Storage/S3ToDataframe.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:301)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:228)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:228)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:250)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:109)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:342)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024.05.20 21:59:28 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:30 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:31 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:33 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:35 INFO  compiling root (10 scala sources)
+2024.05.20 21:59:35 INFO  time: compiled root in 36ms
+2024.05.20 21:59:36 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:49 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 21:59:57 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:09 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:12 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:13 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:19 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:20 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:24 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:27 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:30 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:30 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:31 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:00:54 INFO  compiling root (10 scala sources)
+2024.05.20 22:00:54 INFO  time: compiled root in 39ms
+2024.05.20 22:00:54 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:01:02 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:02:02 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:02:04 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:02:05 INFO  compiling root (10 scala sources)
+2024.05.20 22:02:05 INFO  time: compiled root in 32ms
+2024.05.20 22:02:06 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:02:12 INFO  compiling root (10 scala sources)
+2024.05.20 22:02:12 INFO  time: compiled root in 29ms
+2024.05.20 22:02:12 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:03:41 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:03:48 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:05:42 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:05:44 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:05:44 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:05:46 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:05:48 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:05:49 INFO  compiling root (10 scala sources)
+2024.05.20 22:05:49 INFO  time: compiled root in 38ms
+2024.05.20 22:05:49 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:10:18 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:10:20 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:10:22 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:10:23 INFO  compiling root (10 scala sources)
+2024.05.20 22:10:23 INFO  time: compiled root in 33ms
+2024.05.20 22:10:24 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:10:25 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:11:09 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:11:15 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:11:16 INFO  compiling root (10 scala sources)
+2024.05.20 22:11:16 INFO  time: compiled root in 30ms
+2024.05.20 22:11:16 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:11:20 INFO  compiling root (10 scala sources)
+2024.05.20 22:11:20 INFO  time: compiled root in 33ms
+2024.05.20 22:11:20 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:14:26 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:14:29 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:14:31 INFO  compiling root (10 scala sources)
+2024.05.20 22:14:31 INFO  time: compiled root in 36ms
+2024.05.20 22:14:32 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:21:20 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:21:21 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:21:23 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:21:24 INFO  compiling root (10 scala sources)
+2024.05.20 22:21:24 INFO  time: compiled root in 32ms
+2024.05.20 22:21:24 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:21:27 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:21:44 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:21:46 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:21:49 INFO  compiling root (10 scala sources)
+2024.05.20 22:21:49 INFO  time: compiled root in 32ms
+2024.05.20 22:21:49 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:23:42 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:27:25 INFO  compiling root (10 scala sources)
+2024.05.20 22:27:25 INFO  time: compiled root in 33ms
+2024.05.20 22:27:25 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:27:28 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:27:29 INFO  compiling root (10 scala sources)
+2024.05.20 22:27:29 INFO  time: compiled root in 32ms
+2024.05.20 22:27:30 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:27:59 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:28:00 INFO  compiling root (10 scala sources)
+2024.05.20 22:28:00 INFO  time: compiled root in 29ms
+2024.05.20 22:28:01 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:28:02 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist
+2024.05.20 22:28:03 INFO  compiling root (10 scala sources)
+2024.05.20 22:28:03 INFO  time: compiled root in 29ms
+2024.05.20 22:28:04 WARN  Target root /Users/jules/Desktop/Data_Engineering_M1_Project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-OifRImvGT4SSvuUPGhPGGw== does not exist

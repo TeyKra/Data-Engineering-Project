@@ -89,9 +89,23 @@ object Main extends App {
     }
 
     // Charger les nouvelles données depuis S3 et les ajouter au DataFrame
+    waitForNewDataInS3()
     iotDataFrame = S3ToData.loadNewDataToDataFrame(spark, iotDataFrame)
     iotDataFrame.show(false) // Afficher les données pour vérifier
 
-    Thread.sleep(150000) // Pause pour 2'30 minutes
+    Thread.sleep(60000) // Pause pour 1 minute
+  }
+
+  def waitForNewDataInS3(): Unit = {
+    val initialFiles = S3ToData.listNewFiles().toSet
+    var newFiles = Set[String]()
+
+    // Attendre jusqu'à ce que de nouveaux fichiers apparaissent dans S3
+    while (newFiles.isEmpty) {
+      Thread.sleep(10000) // Attendre 10 secondes avant de vérifier à nouveau
+      newFiles = S3ToData.listNewFiles().toSet.diff(initialFiles)
+    }
+
+    println(s"New files detected in S3: ${newFiles.mkString(", ")}")
   }
 }

@@ -18,10 +18,10 @@ object KafkaAlert {
 
     val alertStream = inputStream
       .mapValues(value => IoTDataJson.deserialize(value))
-      .filter((_, data) => data.isRight && data.right.get.alerte == "Yes")
+      .filter((_, data) => data.fold(_ => false, _.alerte == "Yes"))
 
     // Envoyer les alertes à the_third_stream
-    alertStream.mapValues(data => IoTDataJson.serialize(data.right.get))
+    alertStream.mapValues(_.fold(error => "", data => IoTDataJson.serialize(data)))
       .to("the_third_stream")(Produced.`with`(Serdes.String, Serdes.String))
 
     val streams = new KafkaStreams(builder.build(), props)

@@ -1,37 +1,25 @@
-import org.apache.kafka.streams.scala.StreamsBuilder
-import org.apache.kafka.streams.scala.kstream.{KStream, Consumed}
-import org.apache.kafka.streams.{KafkaStreams, StreamsConfig}
-import org.apache.kafka.common.serialization.Serdes
-import software.amazon.awssdk.auth.credentials.DefaultCredentialsProvider
-import software.amazon.awssdk.regions.Region
-import software.amazon.awssdk.services.s3.S3Client
-import software.amazon.awssdk.services.s3.model.PutObjectRequest
-import software.amazon.awssdk.core.sync.RequestBody
 import org.apache.spark.sql.{SparkSession, DataFrame}
 import org.apache.spark.sql.functions._
+import org.apache.spark.sql.types._
+import software.amazon.awssdk.services.s3.S3Client
+import software.amazon.awssdk.services.s3.model.ListObjectsV2Request
+import software.amazon.awssdk.regions.Region
+import software.amazon.awssdk.auth.credentials.DefaultCredentialsProvider
+
+import scala.jdk.CollectionConverters._
+import java.nio.file.{Files, Paths}
 import org.apache.pdfbox.pdmodel.{PDDocument, PDPage}
 import org.apache.pdfbox.pdmodel.PDPageContentStream
 import org.apache.pdfbox.pdmodel.font.PDType1Font
-import org.apache.spark.sql.types._
-
-import java.io.File
-import java.nio.file.{Files, Paths}
-import java.util.Properties
 
 object S3ToData {
-  val props = new Properties()
-  props.put(StreamsConfig.APPLICATION_ID_CONFIG, "iot-data-s3-uploader")
-  props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092")
-  props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName)
-  props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName)
-
   val s3Client: S3Client = S3Client.builder()
     .region(Region.EU_NORTH_1)
     .credentialsProvider(DefaultCredentialsProvider.create())
     .build()
 
   val bucketName = "efreidataengineering"
-  val reportPath = "src/main/scala/Report"
+  var processedFiles = Set[String]()  // Set to keep track of processed files
 
   val iotDataSchema = StructType(Seq(
     StructField("timestamp", StringType, true),
@@ -51,50 +39,41 @@ object S3ToData {
     StructField("alerte", StringType, true)
   ))
 
-  def startStream(): KafkaStreams = {
-    val builder = new StreamsBuilder()
-    val inputStream: KStream[String, String] = builder.stream[String, String]("the_second_stream")(Consumed.`with`(Serdes.String, Serdes.String))
-
-    // Traiter chaque message individuellement
-    inputStream.foreach { (_, value) =>
-      uploadToS3(value)
-    }
-
-    val streams = new KafkaStreams(builder.build(), props)
-    streams.start()
-    sys.ShutdownHookThread {
-      streams.close()
-      s3Client.close()
-    }
-    streams
-  }
-
-  def uploadToS3(data: String): Unit = {
-    val putObjectRequest = PutObjectRequest.builder()
-      .bucket(bucketName)
-      .key(s"iot-data-${System.currentTimeMillis()}.json")
-      .build()
-
-    val requestBody = RequestBody.fromString(data)
-    try {
-      s3Client.putObject(putObjectRequest, requestBody)
-      println("Data uploaded to S3 successfully.")
-    } catch {
-      case e: Exception => println(s"Failed to upload data to S3: ${e.getMessage}")
-    }
-  }
-
   def loadNewDataToDataFrame(spark: SparkSession, iotDataFrame: DataFrame): DataFrame = {
     import spark.implicits._
 
-    val s3Path = "s3a://efreidataengineering/" // Change this to your actual S3 path
-    val newDF = spark.read.schema(iotDataSchema).json(s3Path)
-    val updatedDF = iotDataFrame.union(newDF)
+    val newFiles = listNewFiles()
 
-    // Perform analysis and generate PDF report
-    generateReport(spark, updatedDF)
+    if (newFiles.nonEmpty) {
+      val newDF = spark.read.schema(iotDataSchema).json(newFiles: _*)
 
-    updatedDF
+      // Filter out rows that already exist in the existing DataFrame
+      val existingData = iotDataFrame.select("deviceId", "timestamp").as[(String, String)].collect().toSet
+      val newUniqueDF = newDF.filter(row => !existingData.contains((row.getAs[String]("deviceId"), row.getAs[String]("timestamp"))))
+
+      val updatedDF = iotDataFrame.union(newUniqueDF)
+        .dropDuplicates("deviceId", "timestamp")
+        .orderBy("timestamp", "deviceId")
+
+      processedFiles ++= newFiles.toSet
+
+      generateReport(spark, updatedDF)
+
+      updatedDF
+    } else {
+      iotDataFrame
+    }
+  }
+
+  def listNewFiles(): Seq[String] = {
+    val listObjectsRequest = ListObjectsV2Request.builder()
+      .bucket(bucketName)
+      .build()
+
+    val listObjectsResponse = s3Client.listObjectsV2(listObjectsRequest)
+    val allFiles = listObjectsResponse.contents().asScala.map(_.key()).filter(_.endsWith(".json")).toSeq
+
+    allFiles.filterNot(processedFiles.contains).map(file => s"s3a://$bucketName/$file")
   }
 
   def generateReport(spark: SparkSession, df: DataFrame): Unit = {
@@ -107,8 +86,9 @@ object S3ToData {
       .limit(3)
     val alertsByTimestamp = df.filter(col("alerte") === "Yes").select("timestamp", "location.capital", "qualiteAir.CO2", "qualiteAir.particulesFines")
 
-    val latestTimestamp = df.agg(max("timestamp")).as[String].head()
+    val latestTimestamp = df.agg(max("timestamp")).as[String].take(1).headOption.getOrElse("unknown")
 
+    val reportPath = "src/main/scala/Report"
     val reportFile = Paths.get(s"$reportPath/report_$latestTimestamp.pdf")
     if (!Files.exists(reportFile.getParent)) {
       Files.createDirectories(reportFile.getParent)

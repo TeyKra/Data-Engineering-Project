@@ -1,6 +1,6 @@
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
-import scala.util.Random
+import scala.util.{Random, Try, Success, Failure}
 import scala.concurrent.duration._
 import org.apache.spark.sql.{SparkSession, DataFrame} // Ajout de l'import pour DataFrame
 
@@ -11,7 +11,7 @@ object Main extends App {
   // Initialiser une session Spark avec la configuration S3
   val spark = SparkSession.builder
     .appName("S3ToData")
-    .master("local[*]")
+    .master("local[*]") // Utilisation de tous les cœurs disponibles localement
     .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")
     .config("spark.hadoop.fs.s3a.aws.credentials.provider", "com.amazonaws.auth.DefaultAWSCredentialsProviderChain")
     .config("spark.hadoop.fs.s3a.endpoint", "s3.amazonaws.com")
@@ -19,13 +19,14 @@ object Main extends App {
 
   import spark.implicits._
   // Initialiser un DataFrame vide pour IoTData
-  var iotDataFrame: DataFrame = spark.emptyDataset[IoTData].toDF()
+  val initialIoTDataFrame: DataFrame = spark.emptyDataset[IoTData].toDF()
+  val initialProcessedFiles = Set[String]()  // Set pour garder une trace des fichiers traités
 
   // Démarrer les traitements de streams Kafka
   KafkaStreamProcessing.startStream() // Démarrer le traitement du stream Kafka
   KafkaAlert.startAlertStream()       // Démarrer le stream des alertes
-  KafkaSmsSender.startSmsSenderStream()
-  DataToS3.startStream()
+  KafkaSmsSender.startSmsSenderStream() // Démarrer le stream pour l'envoi de SMS
+  DataToS3.startStream()              // Démarrer le stream pour l'upload vers S3
 
   // Ajouter un hook pour fermer les ressources lors de la fermeture de l'application
   sys.addShutdownHook {
@@ -37,24 +38,27 @@ object Main extends App {
   // Lancement de la simulation en continu
   val start = LocalDateTime.now() // Heure de début
 
-  while (true) {  // Boucle infinie pour une exécution continue
-    val currentTime = LocalDateTime.now()
+  // Fonction pour lancer la simulation en continu
+  def runSimulation(currentIoTDataFrame: DataFrame, currentProcessedFiles: Set[String]): Unit = {
+    val currentTime = LocalDateTime.now() // Heure actuelle
+    // Pour chaque localisation et son index
     Capitales.localisations.zipWithIndex.foreach { case (loc, index) =>
       val deviceId = s"device${100 + index}" // ID unique pour chaque dispositif
-      val alerte = "No"
-      val rapport = SimulateurIoT.simulerRapportIoT(deviceId, currentTime, loc, alerte)
+      val alerte = "No" // Initialisation de l'alerte à "No"
+      val rapport = SimulateurIoT.simulerRapportIoT(deviceId, currentTime, loc, alerte) // Génération du rapport
 
       println("------------Serialisation JSON------------")
       val json = IoTDataJson.serialize(rapport)
       println(s"\nJSON:\n$json")
 
-      try {
-        MyKafkaProducer.sendIoTData("the_stream", rapport.deviceId, json)
-      } catch {
-        case e: Exception => println(s"Erreur lors de l'envoi à Kafka: ${e.getMessage}")
+      Try {
+        MyKafkaProducer.sendIoTData("the_stream", rapport.deviceId, json) // Envoi des données IoT à Kafka
+      } match {
+        case Success(_) => // Do nothing or log success
+        case Failure(e) => println(s"Erreur lors de l'envoi à Kafka: ${e.getMessage}")
       }
 
-      val deserializedData = IoTDataJson.deserialize(json)
+      val deserializedData = IoTDataJson.deserialize(json) // Désérialisation des données JSON
       deserializedData match {
         case Right(data) =>
           println("\n------------Désérialisation JSON------------")
@@ -89,23 +93,15 @@ object Main extends App {
     }
 
     // Charger les nouvelles données depuis S3 et les ajouter au DataFrame
-    waitForNewDataInS3()
-    iotDataFrame = S3ToData.loadNewDataToDataFrame(spark, iotDataFrame)
-    iotDataFrame.show(false) // Afficher les données pour vérifier
+    val (updatedDataFrame, updatedProcessedFiles) = S3ToData.loadNewDataToDataFrame(spark, currentIoTDataFrame, currentProcessedFiles)
 
-    Thread.sleep(60000) // Pause pour 1 minute
+    updatedDataFrame.show(false) // Afficher les données pour vérifier
+
+    Thread.sleep(6000) // Pause pour 1 minute
+
+    runSimulation(updatedDataFrame, updatedProcessedFiles) // Appel récursif avec les nouvelles valeurs
   }
 
-  def waitForNewDataInS3(): Unit = {
-    val initialFiles = S3ToData.listNewFiles().toSet
-    var newFiles = Set[String]()
-
-    // Attendre jusqu'à ce que de nouveaux fichiers apparaissent dans S3
-    while (newFiles.isEmpty) {
-      Thread.sleep(10000) // Attendre 10 secondes avant de vérifier à nouveau
-      newFiles = S3ToData.listNewFiles().toSet.diff(initialFiles)
-    }
-
-    println(s"New files detected in S3: ${newFiles.mkString(", ")}")
-  }
+  // Démarrer la simulation
+  runSimulation(initialIoTDataFrame, initialProcessedFiles)
 }

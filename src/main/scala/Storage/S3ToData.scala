@@ -13,15 +13,15 @@ import org.apache.pdfbox.pdmodel.PDPageContentStream
 import org.apache.pdfbox.pdmodel.font.PDType1Font
 
 object S3ToData {
-  // Création d'un client S3 avec les paramètres de région et les informations d'identification par défaut
+  // Creating an S3 client with default region settings and credentials
   val s3Client: S3Client = S3Client.builder()
     .region(Region.EU_NORTH_1)
     .credentialsProvider(DefaultCredentialsProvider.create())
     .build()
 
-  val bucketName = "efreidataengineering" // Nom du bucket S3
+  val bucketName = "Your Bucket Name" // S3 bucket name
 
-  // Définition du schéma des données IoT
+  // Definition of the IoT data schema
   val iotDataSchema = StructType(Seq(
     StructField("timestamp", StringType, true),
     StructField("deviceId", StringType, true),
@@ -40,34 +40,34 @@ object S3ToData {
     StructField("alerte", StringType, true)
   ))
 
-  // Fonction pour charger les nouvelles données dans un DataFrame Spark et mettre à jour les fichiers traités
+  // Function to load new data into a Spark DataFrame and update the processed files
   def loadNewDataToDataFrame(spark: SparkSession, iotDataFrame: DataFrame, processedFiles: Set[String]): (DataFrame, Set[String]) = {
     import spark.implicits._
 
-    val (newFiles, updatedProcessedFiles) = listNewFiles(processedFiles) // Liste des nouveaux fichiers
+    val (newFiles, updatedProcessedFiles) = listNewFiles(processedFiles) // List of new files
 
     if (newFiles.nonEmpty) {
-      // Lecture des nouveaux fichiers JSON avec le schéma défini
+      // Reading new JSON files with the defined schema
       val newDF = spark.read.schema(iotDataSchema).json(newFiles: _*)
 
-      // Filtrer les lignes déjà présentes dans le DataFrame existant
+      // Filter rows already present in the existing DataFrame
       val existingData = iotDataFrame.select("deviceId", "timestamp").as[(String, String)].collect().toSet
       val newUniqueDF = newDF.filter(row => !existingData.contains((row.getAs[String]("deviceId"), row.getAs[String]("timestamp"))))
 
-      // Union du DataFrame existant avec les nouvelles données uniques
+      // Union of the existing DataFrame with the new unique data
       val updatedDF = iotDataFrame.union(newUniqueDF)
         .dropDuplicates("deviceId", "timestamp")
         .orderBy("timestamp", "deviceId")
 
-      generateReport(spark, updatedDF) // Génération du rapport
+      generateReport(spark, updatedDF) // Generation of the report
 
       (updatedDF, updatedProcessedFiles)
     } else {
-      (iotDataFrame, processedFiles) // Retourner le DataFrame inchangé et les fichiers traités
+      (iotDataFrame, processedFiles) // Return the unchanged DataFrame and processed files
     }
   }
 
-  // Fonction pour lister les nouveaux fichiers dans le bucket S3
+  // Function to list new files in the S3 bucket
   def listNewFiles(processedFiles: Set[String]): (Seq[String], Set[String]) = {
     val listObjectsRequest = ListObjectsV2Request.builder()
       .bucket(bucketName)
@@ -82,31 +82,31 @@ object S3ToData {
     (newFiles, updatedProcessedFiles)
   }
 
-  // Fonction pour générer un rapport PDF à partir des données IoT
+  // Function to generate a PDF report from IoT data
   def generateReport(spark: SparkSession, df: DataFrame): Unit = {
     import spark.implicits._
 
-    // Compter les alertes par capitale et type d'alerte
+    // Count alerts by capital and alert type
     val alertCount = df.groupBy("location.capital", "alerte").count()
-    // Obtenir les 3 capitales avec les niveaux de CO2 les plus élevés
+    // Obtain the 3 capitals with the highest CO2 levels
     val topCO2Capitals = df.groupBy("location.capital")
       .agg(max("qualiteAir.CO2").alias("max_CO2"))
       .orderBy(desc("max_CO2"))
       .limit(3)
-    // Filtrer les alertes par horodatage
+    // Filter alerts by timestamp
     val alertsByTimestamp = df.filter(col("alerte") === "Yes").select("timestamp", "location.capital", "qualiteAir.CO2", "qualiteAir.particulesFines")
 
-    // Obtenir le dernier horodatage des données
+    // Get the latest timestamp of the data
     val latestTimestamp = df.agg(max("timestamp")).as[String].take(1).headOption.getOrElse("unknown")
 
-    // Chemin et nom du fichier de rapport PDF
+    // Path and name of the PDF report file
     val reportPath = "src/main/scala/Report"
     val reportFile = Paths.get(s"$reportPath/report_$latestTimestamp.pdf")
     if (!Files.exists(reportFile.getParent)) {
       Files.createDirectories(reportFile.getParent)
     }
 
-    // Création d'un document PDF avec PDFBox
+    // Creating a PDF document with PDFBox
     val document = new PDDocument()
     val page = new PDPage()
     document.addPage(page)
@@ -114,7 +114,7 @@ object S3ToData {
     val contentStream = new PDPageContentStream(document, page)
     contentStream.setFont(PDType1Font.HELVETICA, 12)
 
-    // Écriture du contenu du rapport PDF
+    // Writing the content of the PDF report
     contentStream.beginText()
     contentStream.newLineAtOffset(50, 750)
     contentStream.showText(s"Report generated at: $latestTimestamp")
@@ -141,14 +141,14 @@ object S3ToData {
     contentStream.newLineAtOffset(0, -20)
 
     alertsByTimestamp.collect().foreach { row =>
-      contentStream.showText(s"${row.getString(0)} - ${row.getString(1)}: CO2 ${row.getDouble(2)} ppm, Particules Fines ${row.getDouble(3)} µg/m³")
+      contentStream.showText(s"${row.getString(0)} - ${row.getString(1)}: CO2 ${row.getDouble(2)} ppm, Fine particles ${row.getDouble(3)} µg/m³")
       contentStream.newLineAtOffset(0, -20)
     }
 
     contentStream.endText()
     contentStream.close()
 
-    // Sauvegarde du document PDF
+    // Save the PDF document
     document.save(reportFile.toFile)
     document.close()
 

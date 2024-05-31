@@ -1,36 +1,36 @@
 object IoTDataCsv {
-  // Définition de l'en-tête pour les données CSV
+  // Setting the header for CSV data
   val header = "timestamp,deviceId,capital,latitude,longitude,CO2,particulesFines,niveauxSonores,temperature,humidite,alerte"
 
-  // Fonction pour sérialiser une séquence de données IoT en format CSV
+  // Function to serialize a sequence of IoT data in CSV format
   def serializeToCsv(data: Seq[IoTData]): String = {
-    // Transformation de chaque objet IoTData en une ligne CSV
+    // Transformation of each IoTData object into a CSV line
     val rows = data.map { d =>
       s"${d.timestamp},${d.deviceId},${d.location.capital},${d.location.latitude},${d.location.longitude},${d.qualiteAir.CO2},${d.qualiteAir.particulesFines},${d.niveauxSonores},${d.temperature},${d.humidite},${d.alerte}"
-    }.mkString("\n")  // Jointure des lignes avec des sauts de ligne
+    }.mkString("\n")  // Join lines with line breaks
 
-    // Retourne l'en-tête suivi des lignes de données
+    // Return the header followed by the data lines
     header + "\n" + rows
   }
 
-  // Fonction pour désérialiser des données CSV en une séquence d'objets IoTData
+  // Function to deserialize CSV data into a sequence of IoTData objects
   def deserializeFromCsv(csv: String): Seq[IoTData] = {
-    // Séparation des lignes CSV, en ignorant l'en-tête
+    // Separate CSV lines, ignoring the header
     val rows = csv.split("\n").tail
-    // Transformation de chaque ligne CSV en un objet IoTData
+    // Transform each CSV line into an IoTData object
     rows.map { row =>
-      val cols = row.split(",")  // Séparation des colonnes par des virgules
+      val cols = row.split(",")  // Separating columns with commas
       IoTData(
-        timestamp = cols(0),  // Premier élément : timestamp
-        deviceId = cols(1),   // Deuxième élément : deviceId
-        // Troisième, quatrième et cinquième éléments : informations de localisation
+        timestamp = cols(0),  // First element: timestamp
+        deviceId = cols(1),   // Second element: deviceId
+        // Third, fourth and fifth elements: location information
         location = Location(cols(2), cols(3).toDouble, cols(4).toDouble),
-        // Sixième et septième éléments : qualité de l'air
+        // Sixth and seventh elements: air quality
         qualiteAir = AirQuality(cols(5).toDouble, cols(6).toDouble),
-        niveauxSonores = cols(7).toDouble,  // Huitième élément : niveaux sonores
-        temperature = cols(8).toDouble,     // Neuvième élément : température
-        humidite = cols(9).toDouble,        // Dixième élément : humidité
-        // Onzième élément (optionnel) : alerte, avec une valeur par défaut si non présent
+        niveauxSonores = cols(7).toDouble,  // Eighth element: sound levels
+        temperature = cols(8).toDouble,     // Ninth element: temperature
+        humidite = cols(9).toDouble,        // Tenth element: humidity
+        // Eleventh element (optional): alert, with a default value if not present
         alerte = if (cols.length > 10) cols(10) else "No"
       )
     }

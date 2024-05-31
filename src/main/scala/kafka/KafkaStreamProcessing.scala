@@ -6,53 +6,53 @@ import org.apache.kafka.streams.{KafkaStreams, StreamsConfig}
 import java.util.Properties
 
 object KafkaStreamProcessing {
-  // Fonction pour démarrer le traitement du flux Kafka
+  // Function to start Kafka stream processing
   def startStream(): KafkaStreams = {
-    // Configuration des propriétés pour Kafka Streams
+    // Configuring properties for Kafka Streams
     val props = new Properties()
-    props.put(StreamsConfig.APPLICATION_ID_CONFIG, "iot-data-processor") // Identifiant de l'application
-    props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092") // Adresse du serveur Kafka
-    props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName) // Sérialiseur pour les clés
-    props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName) // Sérialiseur pour les valeurs
+    props.put(StreamsConfig.APPLICATION_ID_CONFIG, "iot-data-processor") // Application identifier
+    props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092") // Kafka server address
+    props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName) // Serializer for keys
+    props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName) // Serializer for values
 
-    // Création d'un StreamsBuilder pour construire le topologie de traitement de flux
+    // Creation of a StreamsBuilder to build the stream processing topology
     val builder = new StreamsBuilder()
-    // Création d'un flux (stream) à partir du topic "the_stream"
+    // Creation of a stream from the topic "the_stream"
     val stream: KStream[String, String] = builder.stream[String, String]("the_stream")(Consumed.`with`(Serdes.String, Serdes.String))
 
-    // Transformation du flux en mettant à jour les valeurs
+    // Transform the flow by updating the values
     val updatedStream = stream.mapValues { value =>
-      // Désérialisation des données IoT et mise à jour de l'alerte si nécessaire
+      // Deserialization of IoT data and update of the alert if necessary
       IoTDataJson.deserialize(value) match {
-        case Right(data) => IoTDataJson.serialize(updateAlerte(data)) // Sérialisation des données mises à jour
+        case Right(data) => IoTDataJson.serialize(updateAlerte(data)) // Serialization of updated data
         case Left(error) =>
-          println(s"Deserialization error: ${error.getMessage}") // Affichage de l'erreur de désérialisation
-          value // Retourne la valeur d'origine en cas d'erreur
+          println(s"Deserialization error: ${error.getMessage}") // Display deserialization error
+          value // Return the original value on error
       }
     }
 
-    // Écriture du flux transformé vers un nouveau topic "the_second_stream"
+    // Writing the transformed stream to a new topic "the_second_stream"
     updatedStream.to("the_second_stream")(Produced.`with`(Serdes.String, Serdes.String))
 
-    // Création et démarrage de l'instance KafkaStreams
+    // Creating and starting the KafkaStreams instance
     val streams = new KafkaStreams(builder.build(), props)
     streams.start()
-    // Ajout d'un hook pour fermer proprement le flux lors de l'arrêt de l'application
+    // Added a hook to cleanly close the flow when stopping the application
     sys.ShutdownHookThread {
       streams.close()
     }
     streams
   }
 
-  // Fonction pour mettre à jour le statut d'alerte dans les données IoT
+  // Function to update alert status in IoT data
   def updateAlerte(iotData: IoTData): IoTData = {
-    val co2Alert = iotData.qualiteAir.CO2 >= 300000000 // Vérification du seuil de CO2
-    val particulesFinesAlert = iotData.qualiteAir.particulesFines >= 100 // Vérification du seuil de particules fines
-    // Mise à jour du statut d'alerte si l'un des seuils est dépassé
+    val co2Alert = iotData.qualiteAir.CO2 >= 300000000 // Checking the CO2 threshold
+    val particulesFinesAlert = iotData.qualiteAir.particulesFines >= 100 // Checking the fine particle threshold
+    // Update alert status if one of the thresholds is exceeded
     if (co2Alert || particulesFinesAlert) {
-      iotData.copy(alerte = "Yes") // Copier l'objet IoTData avec le statut d'alerte mis à jour
+      iotData.copy(alerte = "Yes") // Copy the IoTData object with updated alert status
     } else {
-      iotData // Retourner l'objet IoTData sans modification
+      iotData // Return the IoTData object without modification
     }
   }
 }

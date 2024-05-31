@@ -1,28 +1,28 @@
-// Import des modules nécessaires de la bibliothèque Circe pour le traitement JSON
+// Import the necessary modules from the Circe library for JSON processing
 import io.circe.{Encoder, Decoder}
 import io.circe.generic.semiauto.{deriveEncoder, deriveDecoder}
 import io.circe.parser._
 import io.circe.syntax._
 
-// Définition de l'objet singleton `IoTDataJson`
+// Definition of the `IoTDataJson` singleton object
 object IoTDataJson {
-  // Définition implicite de l'encodeur pour la classe `Location` utilisant la méthode `deriveEncoder` qui génère un encodeur automatiquement
+  // Implicit definition of the encoder for the `Location` class using the `deriveEncoder` method which generates an encoder automatically
   implicit val locationEncoder: Encoder[Location] = deriveEncoder
-  // Définition implicite du décodeur pour la classe `Location` utilisant la méthode `deriveDecoder` pour générer un décodeur
+  // Implicit decoder definition for the `Location` class using the `deriveDecoder` method to generate a decoder
   implicit val locationDecoder: Decoder[Location] = deriveDecoder
 
-  // Définition implicite de l'encodeur pour la classe `AirQuality`
+  // Implicit definition of the encoder for the `AirQuality` class
   implicit val airQualityEncoder: Encoder[AirQuality] = deriveEncoder
-  // Définition implicite du décodeur pour la classe `AirQuality`
+  // Implicit definition of the decoder for the `AirQuality` class
   implicit val airQualityDecoder: Decoder[AirQuality] = deriveDecoder
 
-  // Définition implicite de l'encodeur pour la classe `IoTData`
+  // Implicit definition of the encoder for the `IoTData` class
   implicit val ioTDataEncoder: Encoder[IoTData] = deriveEncoder
-  // Définition implicite du décodeur pour la classe `IoTData`
+  // Implicit definition of the decoder for the `IoTData` class
   implicit val ioTDataDecoder: Decoder[IoTData] = deriveDecoder
 
-  // Méthode pour sérialiser une instance de `IoTData` en chaîne JSON
+  // Method to serialize an instance of `IoTData` into a JSON string
   def serialize(iotData: IoTData): String = iotData.asJson.noSpaces
-  // Méthode pour désérialiser une chaîne JSON en une instance de `IoTData`, renvoie un Either contenant une erreur ou l'objet désérialisé
+  // Method to deserialize a JSON string into an instance of `IoTData`, returns an Either containing an error or the object deserialized
   def deserialize(jsonString: String): Either[io.circe.Error, IoTData] = decode[IoTData](jsonString)
 }

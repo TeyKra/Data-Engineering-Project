@@ -2,38 +2,38 @@ import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord, Produce
 import java.util.Properties
 import org.apache.kafka.clients.producer.{Callback, RecordMetadata}
 
-// Objet MyKafkaProducer pour produire des messages Kafka
+// MyKafkaProducer object to produce Kafka messages
 object MyKafkaProducer {
-  // Configuration des propriétés du producteur Kafka
+  // Configuring Kafka producer properties
   val props = new Properties()
-  props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092") // Adresse du serveur Kafka
-  props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer") // Sérialiseur pour les clés
-  props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer") // Sérialiseur pour les valeurs
-  props.put(ProducerConfig.ACKS_CONFIG, "all") // Nécessite une confirmation complète de tous les réplicas avant de considérer un message comme envoyé
-  props.put(ProducerConfig.DELIVERY_TIMEOUT_MS_CONFIG, "15000") // Timeout de livraison de 15 secondes
-  props.put(ProducerConfig.LINGER_MS_CONFIG, "100") // Temps d'attente avant envoi des messages pour grouper les envois (100 millisecondes)
-  props.put(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG, "5000") // Timeout de requête de 5 secondes
+  props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092") // Kafka server address
+  props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer") // Serializer for keys
+  props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer") // Serializer for values
+  props.put(ProducerConfig.ACKS_CONFIG, "all") // Requires full confirmation of all replicas before considering a message sent
+  props.put(ProducerConfig.DELIVERY_TIMEOUT_MS_CONFIG, "15000") // Delivery timeout of 15 seconds
+  props.put(ProducerConfig.LINGER_MS_CONFIG, "100") // Waiting time before sending messages to group sendings (100 milliseconds)
+  props.put(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG, "5000") // Query timeout of 5 seconds
 
-  // Création d'une instance de KafkaProducer avec les propriétés définies
+  // Create a KafkaProducer instance with defined properties
   val producer = new KafkaProducer[String, String](props)
 
-  // Méthode pour envoyer des données IoT à un topic Kafka
+  // Method to send IoT data to a Kafka topic
   def sendIoTData(topic: String, key: String, value: String): Unit = {
-    // Création d'un enregistrement Kafka avec le topic, la clé et la valeur
+    // Create a Kafka record with topic, key and value
     val record = new ProducerRecord[String, String](topic, key, value)
-    // Envoi de l'enregistrement avec un callback pour gérer la réponse
+    // Send the recording with a callback to handle the response
     producer.send(record, new Callback {
       override def onCompletion(metadata: RecordMetadata, exception: Exception): Unit = {
-        // Gestion des erreurs ou confirmation de succès
+        // Error handling or confirmation of success
         Option(exception) match {
-          case Some(ex) => println(s"Erreur lors de l'envoi à Kafka: ${ex.getMessage}") // Affiche l'erreur si elle existe
-          case None => println(s"Message envoyé avec succès au topic ${metadata.topic()} partition ${metadata.partition()} offset ${metadata.offset()}") // Confirmation de l'envoi avec les détails du message
+          case Some(ex) => println(s"Error sending to Kafka: ${ex.getMessage}") // Show the error if it exists
+          case None => println(s"Message successfully sent to topic ${metadata.topic()} partition ${metadata.partition()} offset ${metadata.offset()}") // Confirmation of sending with message details
         }
       }
     })
   }
 
-  // Méthode pour fermer le producteur Kafka
+  // Method to close the Kafka producer
   def close(): Unit = {
     producer.close()
   }

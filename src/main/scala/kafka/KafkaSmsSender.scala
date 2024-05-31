@@ -10,60 +10,60 @@ import com.twilio.`type`.PhoneNumber
 import org.slf4j.LoggerFactory
 import scala.util.{Try, Success, Failure}
 
-// Objet KafkaSmsSender pour envoyer des SMS en cas d'alerte détectée dans un flux Kafka
+// KafkaSmsSender object to send SMS in case of alert detected in a Kafka flow
 object KafkaSmsSender {
   private val logger = LoggerFactory.getLogger(KafkaSmsSender.getClass)
 
-  // Identifiants Twilio pour l'envoi de SMS
-  val accountSid = "AC44ff6c4f5f8aa4d339178fbf3e140bcd"
-  val authToken = "d34b425f6cc2b50ae5cb9a2815779061"
-  val fromNumber = "+12099201132" // Numéro de téléphone Twilio pour l'envoi des SMS
+  // Twilio identifiers for sending SMS
+  val accountSid = "..."
+  val authToken = "..."
+  val fromNumber = "+..." // Twilio phone number for sending SMS
 
-  // Initialisation de Twilio avec les identifiants
+  // Initializing Twilio with identifiers
   Twilio.init(accountSid, authToken)
 
-  // Fonction pour démarrer le flux Kafka pour l'envoi de SMS
+  // Function to start Kafka flow for sending SMS
   def startSmsSenderStream(): KafkaStreams = {
     val props = new Properties()
-    props.put(StreamsConfig.APPLICATION_ID_CONFIG, "iot-sms-sender") // Identifiant de l'application
-    props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092") // Adresse du serveur Kafka
-    props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName) // Sérialiseur pour les clés
-    props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName) // Sérialiseur pour les valeurs
+    props.put(StreamsConfig.APPLICATION_ID_CONFIG, "iot-sms-sender") // Application identifier
+    props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092") // Kafka server address
+    props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName) // Serializer for keys
+    props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String.getClass.getName) // Serializer for values
 
     val builder = new StreamsBuilder()
-    // Création d'un flux (stream) à partir du topic "the_third_stream"
+    // Creation of a stream from the topic "the_third_stream"
     val inputStream: KStream[String, String] = builder.stream[String, String]("the_third_stream")(Consumed.`with`(Serdes.String, Serdes.String))
 
-    // Traitement des messages du flux pour détecter les alertes et envoyer des SMS
+    // Processing flow messages to detect alerts and send SMS
     inputStream.foreach { (_, value) =>
       IoTDataJson.deserialize(value) match {
         case Right(alertData) =>
-          logger.info(s"Alert detected for device: ${alertData.deviceId}. Sending SMS...") // Log d'alerte détectée
+          logger.info(s"Alert detected for device: ${alertData.deviceId}. Sending SMS...") // Alert log detected
           sendSms(alertData) match {
-            case Success(sid) => logger.info(s"SMS sent successfully. SID: $sid") // Log de succès d'envoi de SMS
-            case Failure(ex) => logger.error(s"Failed to send SMS: ${ex.getMessage}") // Log d'échec d'envoi de SMS
+            case Success(sid) => logger.info(s"SMS sent successfully. SID: $sid") // SMS sending success log
+            case Failure(ex) => logger.error(s"Failed to send SMS: ${ex.getMessage}") // SMS sending failure log
           }
         case Left(error) =>
-          logger.error(s"Failed to deserialize IoTData: ${error.getMessage}") // Log d'erreur de désérialisation
+          logger.error(s"Failed to deserialize IoTData: ${error.getMessage}") // Deserialization error log
       }
     }
 
-    // Création et démarrage de l'instance KafkaStreams
+    // Creating and starting the KafkaStreams instance
     val streams = new KafkaStreams(builder.build(), props)
     streams.start()
-    // Ajout d'un hook pour fermer proprement le flux lors de l'arrêt de l'application
+    // Added a hook to cleanly close the flow when stopping the application
     sys.ShutdownHookThread {
       streams.close()
     }
     streams
   }
 
-  // Fonction pour envoyer un SMS avec les données d'alerte IoT
+  // Function to send an SMS with IoT alert data
   def sendSms(alertData: IoTData): Try[String] = {
-    val toNumber = "+33669627003" // Numéro de téléphone de destination
+    val toNumber = "+..." // Destination phone number
     val messageBody = s"Alerte in: ${alertData.location.capital}: " +
-      s"Qualité de l'air - CO2: ${alertData.qualiteAir.CO2}, Particules fines: ${alertData.qualiteAir.particulesFines}. " +
-      s"Device ID: ${alertData.deviceId}" // Corps du message SMS avec les détails de l'alerte
+      s"Air quality - CO2: ${alertData.qualiteAir.CO2}, Fine particles: ${alertData.qualiteAir.particulesFines}. " +
+      s"Device ID: ${alertData.deviceId}" // Body of the SMS message with alert details
 
     Try {
       val message = Message.creator(
@@ -72,7 +72,7 @@ object KafkaSmsSender {
         messageBody
       ).create()
 
-      message.getSid // Retourne le SID du message en cas de succès
+      message.getSid // Return the SID of the message on success
     }
   }
 }

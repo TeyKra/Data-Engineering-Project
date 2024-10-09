@@ -63,5 +63,5 @@ Creation of an innovative environmental monitoring service. The goal is to deplo
 
 ### System Architecture
 
-![Architecture](images/Architecture.png)
+![Architecture](images/Architecture.png) 
 
